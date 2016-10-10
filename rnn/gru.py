@@ -1,23 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-import chainer.links as L
+import chainer.links as linear
 import chainer.functions as F
 from chainer import link, Variable
 import numpy as np
 
 
-
 class GRU(link.Chain):
     def __init__(self, n_vocab, n_units):
         super(GRU, self).__init__(
-            embed=L.EmbedID(n_vocab, 4 * n_units),
-            l1=L.StatefulGRU(n_vocab, 4 * n_units),
-            l2=L.StatefulGRU(n_vocab, 4 * n_units),
-            l3=L.Linear(n_units, n_vocab),
+            embed=linear.EmbedID(n_vocab, n_units),
+            l1=linear.StatefulGRU(n_units, n_units),
+            l2=linear.StatefulGRU(n_units, n_units),
+            l3=linear.Linear(n_units, n_vocab),
         )
-        #for param in self.parameter:
-        #    param[:] = np.random.uniform(-0.08, 0.08, param.shape)
 
     def __call__(self, x):
 
