@@ -4,7 +4,7 @@
 import codecs, copy, sys, time
 import cPickle as pickle
 from chainer import Variable, FunctionSet, optimizers
-import chainer.links as L
+import chainer.links as linear
 import numpy as np
 import gru
 
@@ -30,16 +30,13 @@ def load_date():
 
 def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=1,
           epochs=10, grad_clip=5, learning_rate_decay_after=2):
-
     # モデルの構築、初期化
-    model = gru.GRU(len(vocab), n_units)
-    model = L.Classifier(model)
-    model.compute_accuracy = False
+    model = linear.Classifier(gru.GRU(len(vocab), n_units))
     for param in model.params():
         data = param.data
         data[:] = np.random.uniform(-0.08, 0.08, data.shape)
     # optimizerの設定
-    optimizer = optimizers.RMSprop()
+    optimizer = optimizers.Adam()
     optimizer.setup(model)
 
     whole_len = train_data.shape[0]
@@ -48,19 +45,20 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
     start_at = time.time()
     cur_at = start_at
     state = gru.make_initial_state(n_units, batch_size)
-    accum_loss = Variable(np.zeros(()))
+    accum_loss = Variable(np.zeros((), dtype=np.float32))
 
     print 'going to train {} iterations'.format(jump * epochs)
     for seq in xrange(jump * epochs):
 
         input_batch = np.array([train_data[(jump * j + seq) % whole_len]
-                            for j in xrange(batch_size)])
+                                for j in xrange(batch_size)])
         teach_batch = np.array([train_data[(jump * j + seq + 1) % whole_len]
-                            for j in xrange(batch_size)])
+                                for j in xrange(batch_size)])
         input = Variable(input_batch.astype(np.int32), volatile=False)
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
         # 誤差計算
+        model.zerograds()
         loss_seq = model(input, teach)
         accum_loss += loss_seq.data
 
@@ -72,10 +70,10 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
             open('loss', 'w').write('{}\n'.format(accum_loss.data / seq_length))
             cur_at = now
 
-            model.zerograds()
+            # optimizer.zero_grads()
             accum_loss.backward()
             accum_loss.unchain_backward()
-            accum_loss = Variable(np.zeros(()))
+            accum_loss = Variable(np.zeros((), dtype=np.float32))
 
             optimizer.clip_grads(grad_clip)
             optimizer.update()
@@ -86,7 +84,7 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
         if (seq + 1) % jump == 0:
             epoch += 1
             if epoch >= learning_rate_decay_after:
-                optimizer.lr *= learning_rate_decay
+                # optimizer.lr *= learning_rate_decay
                 print 'decayed learning rate by a factor {} to {}'.format(learning_rate_decay, optimizer.lr)
 
         sys.stdout.flush()
