@@ -32,12 +32,14 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
           epochs=10, grad_clip=5, learning_rate_decay_after=2):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
+    model.compute_accuracy = False
     for param in model.params():
         data = param.data
         data[:] = np.random.uniform(-0.08, 0.08, data.shape)
     # optimizerの設定
     optimizer = optimizers.Adam()
     optimizer.setup(model)
+    # optimizer.add_hook(optimizer.GradientCliping(grad_clip))
 
     whole_len = train_data.shape[0]
     jump = whole_len / batch_size
@@ -45,7 +47,7 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
     start_at = time.time()
     cur_at = start_at
     state = gru.make_initial_state(n_units, batch_size)
-    accum_loss = Variable(np.zeros((), dtype=np.float32))
+    accum_loss = 0
 
     print 'going to train {} iterations'.format(jump * epochs)
     for seq in xrange(jump * epochs):
@@ -58,9 +60,8 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
         # 誤差計算
-        model.zerograds()
         loss_seq = model(input, teach)
-        accum_loss += loss_seq.data
+        accum_loss += loss_seq
 
         # 最適化の実行
         if (seq + 1) % seq_length == 0:
@@ -70,12 +71,11 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
             open('loss', 'w').write('{}\n'.format(accum_loss.data / seq_length))
             cur_at = now
 
-            # optimizer.zero_grads()
+            model.zerograds()
             accum_loss.backward()
             accum_loss.unchain_backward()
-            accum_loss = Variable(np.zeros((), dtype=np.float32))
-
-            optimizer.clip_grads(grad_clip)
+            accum_loss = 0
+            # optimizer.clip_grads(grad_clip)
             optimizer.update()
 
         # if (seq + 1) % 1000 == 0:
