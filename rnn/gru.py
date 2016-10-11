@@ -27,6 +27,7 @@ class GRU(link.Chain):
 
     def reset_state(self):
         self.l1.reset_state()
+        self.l2.reset_state()
 
 
 def make_initial_state(n_units, batchsize=50, train=True):
