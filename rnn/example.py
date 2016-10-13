@@ -11,7 +11,8 @@ import gru
 
 def load_date():
     vocab = {}  # Word ID
-    words = codecs.open('train_data.txt', 'r', 'utf-8').read()  # textの読み込み
+    words = codecs.open('train_data.txt', 'r', 'utf-8').read().replace('\n', '<eos>')  # textの読み込み
+    print words
     words = list(words)
     dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
 
@@ -28,7 +29,7 @@ def load_date():
     return dataset, words, vocab
 
 
-def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=1,
+def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=5,
           epochs=10, grad_clip=5, learning_rate_decay_after=2):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
