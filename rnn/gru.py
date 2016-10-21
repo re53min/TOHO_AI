@@ -2,19 +2,21 @@
 # -*- coding: utf_8 -*-
 
 import chainer.links as linear
-import chainer.functions as F
-from chainer import link, Variable
+from chainer import link
 import numpy as np
 
 
 class GRU(link.Chain):
-    def __init__(self, n_vocab, n_units):
+    def __init__(self, n_vocab, n_units, train=True):
         super(GRU, self).__init__(
             embed=linear.EmbedID(n_vocab, n_units),
             l1=linear.StatefulGRU(n_units, n_units),
             l2=linear.StatefulGRU(n_units, n_units),
             l3=linear.Linear(n_units, n_vocab),
         )
+        for param in self.params():
+            param.data[...] = np.random.uniform(-0.08, 0.08, param.data.shape)
+        self.train = train
 
     def __call__(self, x):
 
@@ -29,8 +31,3 @@ class GRU(link.Chain):
         self.l1.reset_state()
         self.l2.reset_state()
 
-
-def make_initial_state(n_units, batchsize=50, train=True):
-    return {name: Variable(np.zeros((batchsize, n_units), dtype=np.float32),
-                           volatile=not train)
-            for name in ('c1', 'h1', 'c2', 'h2')}

@@ -12,8 +12,9 @@ import gru
 def load_date():
     vocab = {}  # Word ID
     words = codecs.open('train_data.txt', 'r', 'utf-8').read().replace('\n', '<eos>')  # textの読み込み
-    print words
+    # print words
     words = list(words)
+    # print (x for x in words)
     dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
 
     for i, word in enumerate(words):
@@ -30,13 +31,11 @@ def load_date():
 
 
 def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=5,
-          epochs=10, grad_clip=5, learning_rate_decay_after=2):
+          epochs=15, learning_rate_decay_after=2):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
     model.compute_accuracy = False
-    for param in model.params():
-        data = param.data
-        data[:] = np.random.uniform(-0.08, 0.08, data.shape)
+
     # optimizerの設定
     optimizer = optimizers.Adam()
     optimizer.setup(model)
@@ -47,7 +46,6 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
     epoch = 0
     start_at = time.time()
     cur_at = start_at
-    state = gru.make_initial_state(n_units, batch_size)
     accum_loss = 0
 
     print 'going to train {} iterations'.format(jump * epochs)
@@ -90,7 +88,7 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
 
         sys.stdout.flush()
 
-    pickle.dump(copy.deepcopy(model).to_cpu(), open('finalmodel', 'wb'))
+    pickle.dump(copy.deepcopy(model).to_cpu(), open('model', 'wb'))
 
 
 if __name__ == "__main__":
