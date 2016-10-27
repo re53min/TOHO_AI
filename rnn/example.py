@@ -1,17 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-import codecs, copy, sys, time
 import cPickle as pickle
-from chainer import Variable, FunctionSet, optimizers
+import codecs
+import copy
+import sys
+import time
+
 import chainer.links as linear
 import numpy as np
+from chainer import Variable, optimizers
+
 import gru
 
 
 def load_date():
     vocab = {}  # Word ID
-    words = codecs.open('train_data.txt', 'r', 'utf-8').read().replace('\n', '<eos>')  # textの読み込み
+    words = codecs.open('train_data.txt', 'r', 'utf-8').read()  # .replace('\r\n', '<eos>')  # textの読み込み
     # print words
     words = list(words)
     # print (x for x in words)
@@ -30,7 +35,7 @@ def load_date():
     return dataset, words, vocab
 
 
-def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=5,
+def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=5,
           epochs=15, learning_rate_decay_after=2):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
@@ -55,11 +60,11 @@ def train(train_data, words, vocab, n_units=128, learning_rate_decay=0.97, seq_l
                                 for j in xrange(batch_size)])
         teach_batch = np.array([train_data[(jump * j + seq + 1) % whole_len]
                                 for j in xrange(batch_size)])
-        input = Variable(input_batch.astype(np.int32), volatile=False)
+        x = Variable(input_batch.astype(np.int32), volatile=False)
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
         # 誤差計算
-        loss_seq = model(input, teach)
+        loss_seq = model(x, teach)
         accum_loss += loss_seq
 
         # 最適化の実行
@@ -96,6 +101,5 @@ if __name__ == "__main__":
     train_date, words, vocab = load_date()
     # vocabの保存
     pickle.dump(vocab, open('vocab.bin', 'wb'))
-
     # 学習開始
     train(train_date, words, vocab)
