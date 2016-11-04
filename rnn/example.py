@@ -32,11 +32,11 @@ def load_date():
     print "corpus size: ", len(words)
     print "vocabulary size: ", len(vocab)
 
-    return dataset, words, vocab
+    return dataset, vocab
 
 
-def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1, batch_size=5,
-          epochs=15, learning_rate_decay_after=2):
+def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
+          epochs=20, learning_rate_decay_after=5):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
     model.compute_accuracy = False
@@ -82,7 +82,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1
             # optimizer.clip_grads(grad_clip)
             optimizer.update()
 
-        # if (seq + 1) % 1000 == 0:
+        # if (seq + 1) % 10000 == 0:
         #    pickle.dump(copy.deepcopy(model).to_cpu(), open('charmodel', 'wb'))
 
         if (seq + 1) % jump == 0:
@@ -98,8 +98,8 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=1
 
 if __name__ == "__main__":
     # 学習データの読み込み
-    train_date, words, vocab = load_date()
+    train_date, vocab = load_date()
     # vocabの保存
     pickle.dump(vocab, open('vocab.bin', 'wb'))
     # 学習開始
-    train(train_date, words, vocab)
+    train(train_date, vocab)
