@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
+from __future__ import print_function
 import cPickle as pickle
 import codecs
 import sys
 
 import chainer
-import chainer.links as linear
-from chainer import serializers
 from chainer import cuda
 import chainer.functions as function
 import numpy as np
 import six
-
-import gru
 
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
@@ -31,33 +28,28 @@ def load(model, vocab):
     return vocab, ivocab, model
 
 
-def predict(model="model", vocab="vocab.bin", length=2000, sample=1):
+def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
     # ロード
     vocab, ivocab, model = load(model, vocab)
     xp = np
-    # n_units = model.embed.W.data.shape[1]
-    # lm = gru.GRU(len(vocab), n_units, train=False)
-    # lm = linear.Classifier(lm)
-    # serializers.load_npz(model, lm)
-
     model.predictor.reset_state()
 
     # 標準入力
-    print 'Please your typing!!'
-    input_text = "あ"
+    # print 'Please your typing!!'
+    input_text = "蓮"
     if isinstance(input_text, six.binary_type):
         input_text = input_text.decode('utf-8')
     # 入力された文字がvocabの中に含まれていたらprev_wordの生成
     if input_text in vocab:
-        prev_word = chainer.Variable(np.array([vocab[input_text]], np.int32))
+        prev_word = chainer.Variable(xp.array([vocab[input_text]], xp.int32))
     else:
-        print 'Error: Unfortunately ' + input_text + ' is unknown'
+        print('Error: Unfortunately ' + input_text + ' is unknown')
         exit()
-
-    # prob = function.softmax(model.predictor(prev_word))
+    # 初めの一文字の出力
     sys.stdout.write(input_text + ' ')
 
-    for i in six.moves.range(length):
+    for i in xrange(length):
+        # 次の単語の予測
         prob = function.softmax(model.predictor(prev_word))
 
         if sample > 0:
@@ -67,11 +59,12 @@ def predict(model="model", vocab="vocab.bin", length=2000, sample=1):
         else:
             index = np.argmax(cuda.to_cpu(prob.data))
 
+        # eosタグが予測された場合に読点に置換
         if ivocab[index] == '<eos>':
             sys.stdout.write('。')
         else:
             sys.stdout.write(ivocab[index] + ' ')
-
+        # 次の文字へ
         prev_word = chainer.Variable(xp.array([index], dtype=xp.int32))
 
     sys.stdout.write('\n')

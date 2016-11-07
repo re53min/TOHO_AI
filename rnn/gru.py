@@ -2,6 +2,7 @@
 # -*- coding: utf_8 -*-
 
 import chainer.links as linear
+import chainer.functions as function
 from chainer import link
 import numpy as np
 
@@ -21,9 +22,9 @@ class GRU(link.Chain):
     def __call__(self, x):
 
         h0 = self.embed(x)
-        h1 = self.l1(h0)
-        h2 = self.l2(h1)
-        y = self.l3(h2)
+        h1 = self.l1(function.dropout(h0, train=self.train))
+        h2 = self.l2(function.dropout(h1, train=self.train))
+        y = self.l3(function.dropout(h2, train=self.train))
 
         return y
 
