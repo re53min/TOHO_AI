@@ -36,7 +36,7 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
 
     # 標準入力
     # print 'Please your typing!!'
-    input_text = "蓮"
+    input_text = "メリー"
     if isinstance(input_text, six.binary_type):
         input_text = input_text.decode('utf-8')
     # 入力された文字がvocabの中に含まれていたらprev_wordの生成
@@ -60,8 +60,8 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
             index = np.argmax(cuda.to_cpu(prob.data))
 
         # eosタグが予測された場合に読点に置換
-        if ivocab[index] == '<eos>':
-            sys.stdout.write('。')
+        if ivocab[index] == u'eos':
+            sys.stdout.write('\r\n')
         else:
             sys.stdout.write(ivocab[index] + ' ')
         # 次の文字へ

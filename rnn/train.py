@@ -8,6 +8,7 @@ import copy
 import sys
 import time
 
+import chainer
 import chainer.links as linear
 import numpy as np
 from chainer import Variable, optimizers
@@ -22,7 +23,7 @@ def load_date(mecab=True):
         sentences = sentences.read()
         # 分かち書き処理
         if mecab:
-            words = mecab_wakati(sentence=sentences).replace(u'\r', u'\r\n').split(" ")
+            words = mecab_wakati(sentence=sentences).replace(u'\r', u'eos').split(" ")
         else:
             words = list(sentences)
     dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
@@ -32,6 +33,7 @@ def load_date(mecab=True):
         # wordがvocabの中に登録されていなかったら新たに追加
         if word not in vocab:
             vocab[word] = len(vocab)
+            # print(str(word))
         # デーアセットにwordを登録
         dataset[i] = vocab[word]
 
@@ -41,8 +43,8 @@ def load_date(mecab=True):
     return dataset, vocab
 
 
-def train(train_data, vocab, n_units=50, learning_rate_decay=0.97, seq_length=20, batch_size=20,
-          epochs=50, learning_rate_decay_after=5):
+def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
+          epochs=20, learning_rate_decay_after=5):
     # モデルの構築、初期化
     model = linear.Classifier(gru.GRU(len(vocab), n_units))
     model.compute_accuracy = False
@@ -50,14 +52,14 @@ def train(train_data, vocab, n_units=50, learning_rate_decay=0.97, seq_length=20
     # optimizerの設定
     optimizer = optimizers.Adam()
     optimizer.setup(model)
-    # optimizer.add_hook(optimizer.GradientCliping(grad_clip))
+    optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
     whole_len = train_data.shape[0]
     jump = whole_len / batch_size
     epoch = 0
     start_at = time.time()
     cur_at = start_at
-    accum_loss = 0
+    loss_seq = 0
 
     print('going to train {} iterations'.format(jump * epochs))
     for seq in xrange(jump * epochs):
@@ -70,27 +72,25 @@ def train(train_data, vocab, n_units=50, learning_rate_decay=0.97, seq_length=20
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
         # 誤差計算
-        loss_seq = optimizer.target(x, teach)
-        accum_loss += loss_seq
+        loss_seq += optimizer.target(x, teach)
 
         # 最適化の実行
         if (seq + 1) % seq_length == 0:
             now = time.time()
             print('{}/{}, train_loss = {}, time = {:.2f}'.format((seq + 1) / seq_length, jump,
-                                                                 accum_loss.data / seq_length, now - cur_at))
-            open('loss', 'w').write('{}\n'.format(accum_loss.data / seq_length))
+                                                                 loss_seq.data / seq_length, now - cur_at))
+            open('loss', 'w').write('{}\n'.format(loss_seq.data / seq_length))
             cur_at = now
 
             optimizer.target.cleargrads()
-            accum_loss.backward()
-            accum_loss.unchain_backward()
-            accum_loss = 0
-            # optimizer.clip_grads(grad_clip)
+            loss_seq.backward()
+            loss_seq.unchain_backward()
             optimizer.update()
+            loss_seq = 0
 
         # check point
-        if (seq + 1) % 10000 == 0:
-           pickle.dump(copy.deepcopy(model).to_cpu(), open('charmodel', 'wb'))
+        # if (seq + 1) % 10000 == 0:
+        #   pickle.dump(copy.deepcopy(model).to_cpu(), open('charmodel', 'wb'))
 
         if (seq + 1) % jump == 0:
             epoch += 1

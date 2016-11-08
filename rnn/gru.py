@@ -10,13 +10,13 @@ import numpy as np
 class GRU(link.Chain):
     def __init__(self, n_vocab, n_units, train=True):
         super(GRU, self).__init__(
-            embed=linear.EmbedID(n_vocab, n_units),
+            embed=linear.EmbedID(n_vocab, n_units, ignore_label=-1),
             l1=linear.StatefulGRU(n_units, n_units),
             l2=linear.StatefulGRU(n_units, n_units),
             l3=linear.Linear(n_units, n_vocab),
         )
         for param in self.params():
-            param.data[...] = np.random.uniform(-0.08, 0.08, param.data.shape)
+            param.data[...] = np.random.uniform(-0.1, 0.1, param.data.shape)
         self.train = train
 
     def __call__(self, x):
