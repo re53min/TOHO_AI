@@ -36,7 +36,7 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
 
     # 標準入力
     # print 'Please your typing!!'
-    input_text = "メリー"
+    input_text = u"秋風"
     if isinstance(input_text, six.binary_type):
         input_text = input_text.decode('utf-8')
     # 入力された文字がvocabの中に含まれていたらprev_wordの生成
@@ -47,6 +47,7 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
         exit()
     # 初めの一文字の出力
     sys.stdout.write(input_text + ' ')
+    prob = function.softmax(model.predictor(prev_word))
 
     for i in xrange(length):
         # 次の単語の予測

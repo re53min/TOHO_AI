@@ -59,7 +59,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
     epoch = 0
     start_at = time.time()
     cur_at = start_at
-    loss_seq = 0
+    loss = 0
 
     print('going to train {} iterations'.format(jump * epochs))
     for seq in xrange(jump * epochs):
@@ -72,21 +72,21 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
         # 誤差計算
-        loss_seq += optimizer.target(x, teach)
+        loss += model(x, teach)
 
         # 最適化の実行
         if (seq + 1) % seq_length == 0:
             now = time.time()
             print('{}/{}, train_loss = {}, time = {:.2f}'.format((seq + 1) / seq_length, jump,
-                                                                 loss_seq.data / seq_length, now - cur_at))
-            open('loss', 'w').write('{}\n'.format(loss_seq.data / seq_length))
+                                                                 loss.data / seq_length, now - cur_at))
+            open('loss', 'w').write('{}\n'.format(loss.data / seq_length))
             cur_at = now
 
-            optimizer.target.cleargrads()
-            loss_seq.backward()
-            loss_seq.unchain_backward()
+            model.cleargrads()
+            loss.backward()
+            loss.unchain_backward()
             optimizer.update()
-            loss_seq = 0
+            loss = 0
 
         # check point
         # if (seq + 1) % 10000 == 0:
