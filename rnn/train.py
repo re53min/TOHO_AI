@@ -9,7 +9,7 @@ import sys
 import time
 
 import chainer
-import chainer.links as linear
+import chainer.links as L
 import numpy as np
 from chainer import Variable, optimizers
 
@@ -46,7 +46,7 @@ def load_date(mecab=True):
 def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
           epochs=20, learning_rate_decay_after=5):
     # モデルの構築、初期化
-    model = linear.Classifier(gru.GRU(len(vocab), n_units))
+    model = L.Classifier(gru.GRU(len(vocab), n_units))
     model.compute_accuracy = False
 
     # optimizerの設定

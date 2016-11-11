@@ -8,7 +8,7 @@ import sys
 
 import chainer
 from chainer import cuda
-import chainer.functions as function
+import chainer.functions as F
 import numpy as np
 import six
 
@@ -47,11 +47,11 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
         exit()
     # 初めの一文字の出力
     sys.stdout.write(input_text + ' ')
-    prob = function.softmax(model.predictor(prev_word))
+    prob = F.softmax(model.predictor(prev_word))
 
     for i in xrange(length):
         # 次の単語の予測
-        prob = function.softmax(model.predictor(prev_word))
+        prob = F.softmax(model.predictor(prev_word))
 
         if sample > 0:
             probability = cuda.to_cpu(prob.data)[0].astype(np.float64)
