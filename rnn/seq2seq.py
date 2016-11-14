@@ -14,10 +14,8 @@ class Seq2Seq(link.Chain):
             input=L.EmbedID(n_input, n_feat, ignore_label=-1),
             encode1=L.StatefulGRU(n_feat, h_encode),
             encode2=L.StatefulGRU(h_encode, h_encode),
-            # connection layer
-            connection=L.StatefulGRU(h_encode, h_decode),
             # decoder layer
-            decode1=L.StatefulGRU(h_decode, h_decode),
+            decode1=L.StatefulGRU(h_encode, h_decode),
             decode2=L.StatefulGRU(h_decode, h_decode),
             output=L.Linear(h_decode, n_output),
         )
@@ -25,3 +23,4 @@ class Seq2Seq(link.Chain):
             param.data[...] = np.random.uniform(-0.1, 0.1, param.data.shape)
         self.train = train
 
+    
