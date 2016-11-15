@@ -37,10 +37,15 @@ class Seq2Seq(link.Chain):
             input_embed = F.tanh(self.input_embed(word))
             enc1 = self.encode1(input_embed)
             enc2 = self.encode2(enc1)
-            context = self.decode1(enc2)
 
-        return context
+        return enc2
 
-    def decode(self, context, output_sentence, train):
+    def decode(self, enc):
+
+        decode0 = self.decode1(enc)
+        decode1 = self.decode2(decode0)
+        ouput_embded = F.tanh(self.output_embed(decode1))
+        output = self.output(ouput_embded)
         
-        
+        return output
+
