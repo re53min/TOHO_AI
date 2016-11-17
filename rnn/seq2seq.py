@@ -13,7 +13,7 @@ from chainer import Variable, optimizers
 
 def make_vocab_dict(words):
     vocab = {}  # Word ID
-    dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
+    # dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
 
     # 単語辞書登録
     for i, word in enumerate(words):
@@ -22,12 +22,12 @@ def make_vocab_dict(words):
             vocab[word] = len(vocab)
             # print(str(word))
         # デーアセットにwordを登録
-        dataset[i] = vocab[word]
+        # dataset[i] = vocab[word]
 
     print("corpus size: ", len(words))
     print("vocabulary size: ", len(vocab))
 
-    return dataset, vocab
+    return vocab  # dataset, vocab
 
 
 class Seq2Seq(link.Chain):
@@ -57,34 +57,45 @@ class Seq2Seq(link.Chain):
     def encode(self, input_sentence):
 
         for word in input_sentence:
+            word = chainer.Variable(np.array([[word]], dtype=np.int32))
             input_embed = F.tanh(self.input_embed(word))
             enc1 = self.encode1(input_embed)
             enc2 = self.encode2(enc1)
 
         return enc2
 
-    def decode(self, context):
+    def decode(self, context, teach_id):
 
         decode0 = self.decode1(context)
         decode1 = self.decode2(decode0)
         ouput_embded = F.tanh(self.output_embed(decode1))
         output = self.output(ouput_embded)
 
-        return output
+        if self.train:
+            t = np.array([teach_id], dtype=np.int32)
+            t = Variable(t)
+            return F.softmax_cross_entropy(output, t), output
+        else:
+            return output
 
+    #def __call__(self, x, t):
+    #    self.reset_state()
+    #    context = self.encode(x)
+    #    loss = self.decode(context=context, teach_id=t)
+    #
+    #    return loss
 
 if __name__ == "__main__":
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
     # output_vocab = [u"オッケー蓮子！！"]
 
-    input_sentence = [u"メリー", u"！", u"ボブスレー", u"しよ", u"う", u"！", u"！"]
-    output_sentence = [u"オッケー", u"蓮子", u"！", u"！"]
+    input_sentence = ["<start>", u"メリー", u"！", u"ボブスレー", u"しよ", u"う", u"！", u"！"]
+    output_sentence = [u"オッケー", u"蓮子", u"！", u"！", "<eos>"]
 
-    input, input_vocab = make_vocab_dict(input_sentence)
-    output, output_vocab = make_vocab_dict(output_sentence)
+    input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
+    output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
 
-    model = L.classifier(
-        Seq2Seq(n_input=len(input_vocab), n_feat=4, h_encode=10, h_decode=10, n_output=len(output_vocab)))
+    model = Seq2Seq(n_input=len(input_vocab), n_feat=4, h_encode=10, h_decode=10, n_output=len(output_vocab))
     model.compute_accuracy = False
 
     # optimizerの設定
@@ -92,4 +103,27 @@ if __name__ == "__main__":
     optimizer.setup(model)
     optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
-    # for i in xrange(20000):
+    for i in xrange(5):
+
+        model.reset_state()
+        inputs = [input_vocab[word] for word in input_sentence]
+
+        context = model.encode(inputs)
+        loss = 0
+
+        for word in output_sentence:
+            output_id = output_vocab[word]
+            loss, output = model.decode(context, word)
+            loss += loss
+
+        model.zerograds()
+        loss.backword()
+        loss.unchain_backward()
+        optimizer.update()
+
+        start = model.word2id_input["<start>"]
+        sentence = model.generate(start, 7)
+
+        print("teacher : ", "".join(input_sentence[1:6]))
+        print("-> ", sentence)
+        print()
