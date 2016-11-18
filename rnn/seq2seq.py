@@ -40,8 +40,8 @@ class Seq2Seq(link.Chain):
             # connection layer
             decode1=L.StatefulGRU(h_encode, h_decode),
             # decoder layer
-            decode2=L.StatefulGRU(h_decode, h_decode),
-            output_embed=L.EmbedID(h_decode, n_feat),
+            decode2=L.StatefulGRU(h_decode, n_feat),
+            #output_embed=L.EmbedID(h_decode, n_feat),
             output=L.Linear(n_feat, n_output),
         )
         for param in self.params():
@@ -57,7 +57,7 @@ class Seq2Seq(link.Chain):
     def encode(self, input_sentence):
 
         for word in input_sentence:
-            word = chainer.Variable(np.array([[word]], dtype=np.int32))
+            word = Variable(np.array([[word]], dtype=np.int32), volatile=False)
             input_embed = F.tanh(self.input_embed(word))
             enc1 = self.encode1(input_embed)
             enc2 = self.encode2(enc1)
@@ -68,18 +68,16 @@ class Seq2Seq(link.Chain):
 
         decode0 = self.decode1(context)
         decode1 = self.decode2(decode0)
-        ouput_embded = F.tanh(self.output_embed(decode1))
-        output = self.output(ouput_embded)
+        # ouput_embded = F.tanh(self.output_embed(decode1))
+        output = self.output(decode1)
 
         if self.train:
-            t = np.array([teach_id], dtype=np.int32)
-            t = Variable(t)
+            t = Variable(np.array([teach_id], dtype=np.int32), volatile=False)
             return F.softmax_cross_entropy(output, t), output
         else:
             return output
 
-    #def __call__(self, x, t):
-    #    self.reset_state()
+    # def __call__(self, x, t):
     #    context = self.encode(x)
     #    loss = self.decode(context=context, teach_id=t)
     #
@@ -113,17 +111,13 @@ if __name__ == "__main__":
 
         for word in output_sentence:
             output_id = output_vocab[word]
-            loss, output = model.decode(context, word)
+            loss, output = model.decode(context, output_vocab[word])
             loss += loss
 
+        print(loss.data)
         model.zerograds()
-        loss.backword()
+        loss.backward()
         loss.unchain_backward()
         optimizer.update()
 
-        start = model.word2id_input["<start>"]
-        sentence = model.generate(start, 7)
 
-        print("teacher : ", "".join(input_sentence[1:6]))
-        print("-> ", sentence)
-        print()
