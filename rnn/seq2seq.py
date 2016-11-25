@@ -77,6 +77,20 @@ class Seq2Seq(link.Chain):
         else:
             return output
 
+    def predict(self, start_word_id, sentence_limit, vocab):
+
+        context = self.encode([start_word_id])
+        self.train = False
+        sentence = ""
+
+        for i in xrange(sentence_limit):
+            context = self.decode(context, teach_id=None)
+            word = vocab[np.argmax(context.data)]
+            if word == "<eos>":
+                break
+            sentence = sentence + word + " "
+        return sentence
+
     # def __call__(self, x, t):
     #    context = self.encode(x)
     #    loss = self.decode(context=context, teach_id=t)
@@ -101,7 +115,7 @@ if __name__ == "__main__":
     optimizer.setup(model)
     optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
-    for i in xrange(5):
+    for i in xrange(1000):
 
         model.reset_state()
         inputs = [input_vocab[word] for word in input_sentence]
@@ -119,5 +133,3 @@ if __name__ == "__main__":
         loss.backward()
         loss.unchain_backward()
         optimizer.update()
-
-
