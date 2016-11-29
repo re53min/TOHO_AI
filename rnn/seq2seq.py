@@ -64,32 +64,18 @@ class Seq2Seq(link.Chain):
 
         return enc2
 
-    def decode(self, context, teach_id):
+    def decode(self, context, teach_id, train):
 
         decode0 = self.decode1(context)
         decode1 = self.decode2(decode0)
         # ouput_embded = F.tanh(self.output_embed(decode1))
         output = self.output(decode1)
 
-        if self.train:
+        if train:
             t = Variable(np.array([teach_id], dtype=np.int32), volatile=False)
             return F.softmax_cross_entropy(output, t), output
         else:
             return output
-
-    def predict(self, start_word_id, sentence_limit, vocab):
-
-        context = self.encode([start_word_id])
-        self.train = False
-        sentence = ""
-
-        for i in xrange(sentence_limit):
-            context = self.decode(context, teach_id=None)
-            word = vocab[np.argmax(context.data)]
-            if word == "<eos>":
-                break
-            sentence = sentence + word + " "
-        return sentence
 
     # def __call__(self, x, t):
     #    context = self.encode(x)
@@ -98,11 +84,12 @@ class Seq2Seq(link.Chain):
     #    return loss
 
 if __name__ == "__main__":
+
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
     # output_vocab = [u"オッケー蓮子！！"]
 
-    input_sentence = ["<start>", u"メリー", u"！", u"ボブスレー", u"しよ", u"う", u"！", u"！"]
-    output_sentence = [u"オッケー", u"蓮子", u"！", u"！", "<eos>"]
+    input_sentence = ["<start>", "メリー", "！", "ボブスレー", "しよ", "う", "！", "！"]
+    output_sentence = ["オッケー", "蓮子", "！", "！", "<eos>"]
 
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
     output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
@@ -115,7 +102,9 @@ if __name__ == "__main__":
     optimizer.setup(model)
     optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
-    for i in xrange(1000):
+    print('入力文: ' + ''.join(input_sentence[1:6]))
+
+    for i in xrange(100):
 
         model.reset_state()
         inputs = [input_vocab[word] for word in input_sentence]
@@ -125,11 +114,17 @@ if __name__ == "__main__":
 
         for word in output_sentence:
             output_id = output_vocab[word]
-            loss, output = model.decode(context, output_vocab[word])
+            loss, output = model.decode(context, output_vocab[word], model.train)
             loss += loss
 
-        print(loss.data)
-        model.zerograds()
+        print('train_loss = {}'.format(loss.data))
+        model.cleargrads()
         loss.backward()
         loss.unchain_backward()
         optimizer.update()
+
+        if i % 5 == 0:
+            sentence = model.decode(context=context, teach_id=None, train=False)
+            # print('{}: {}'.format(i/5, output_vocab[np.argmax(sentence.data)]))
+            print(output_sentence[np.argmax(sentence.data)])
+
