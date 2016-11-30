@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     print('入力文: ' + ''.join(input_sentence[1:6]))
 
-    for i in xrange(100):
+    for i in xrange(50):
 
         model.reset_state()
         inputs = [input_vocab[word] for word in input_sentence]
@@ -114,7 +114,8 @@ if __name__ == "__main__":
 
         for word in output_sentence:
             output_id = output_vocab[word]
-            loss, output = model.decode(context, output_vocab[word], model.train)
+            loss, output = model.decode(context, output_id, model.train)
+            context = output
             loss += loss
 
         print('train_loss = {}'.format(loss.data))
@@ -123,7 +124,7 @@ if __name__ == "__main__":
         loss.unchain_backward()
         optimizer.update()
 
-        if i % 5 == 0:
+        if i % 2 == 0:
             sentence = model.decode(context=context, teach_id=None, train=False)
             # print('{}: {}'.format(i/5, output_vocab[np.argmax(sentence.data)]))
             print(output_sentence[np.argmax(sentence.data)])
