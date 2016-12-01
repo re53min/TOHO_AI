@@ -21,8 +21,8 @@ def make_vocab_dict(words):
         if word not in vocab:
             vocab[word] = len(vocab)
             # print(str(word))
-        # デーアセットにwordを登録
-        # dataset[i] = vocab[word]
+            # デーアセットにwordを登録
+            # dataset[i] = vocab[word]
 
     print("corpus size: ", len(words))
     print("vocabulary size: ", len(vocab))
@@ -64,11 +64,13 @@ class Seq2Seq(link.Chain):
         return enc2
 
     def decode(self, sentences):
-        sentences = Variable(np.array([sentences], dtype=np.int32), volatile=False)
-        loss = Variable(self.xp.zeros((), dtype=self.xp.float32))
+        # sentences = Variable(np.array([sentences], dtype=np.int32), volatile=False)
+        loss = Variable(np.zeros((), dtype=np.float32))
         n_words = len(sentences)-1
 
         for word, t in zip(sentences, sentences[1:]):
+            word = Variable(np.array([[word]], dtype=np.int32))
+            t = Variable(np.array([t], dtype=np.int32))
             decode0 = F.tanh(self.output_embed(word))
             decode1 = self.decode1(decode0)
             decode2 = self.decode2(decode1)
@@ -103,7 +105,7 @@ if __name__ == "__main__":
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
     output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
 
-    model = Seq2Seq(n_input=len(input_vocab), n_feat=4, n_hidden=10, n_output=len(output_vocab))
+    model = Seq2Seq(n_input=len(input_vocab), n_feat=10, n_hidden=10, n_output=len(output_vocab))
     model.compute_accuracy = False
 
     # optimizerの設定
@@ -116,7 +118,7 @@ if __name__ == "__main__":
 
     print('入力文: ' + ''.join(input_sentence[1:6]))
 
-    for i in xrange(50):
+    for i in xrange(100):
 
         inputs = [input_vocab[word] for word in input_sentence]
         outputs = [output_vocab[word] for word in output_sentence]
@@ -127,6 +129,3 @@ if __name__ == "__main__":
         loss.backward()
         loss.unchain_backward()
         optimizer.update()
-
-
-
