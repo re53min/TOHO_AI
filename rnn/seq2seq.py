@@ -35,10 +35,10 @@ class Seq2Seq(link.Chain):
         super(Seq2Seq, self).__init__(
             # encoder layer
             input_embed=L.EmbedID(n_input, n_feat, ignore_label=-1),
-            encode1=L.StatefulGRU(n_feat, n_hidden),
+            encode1=L.StatefulGRU(n_hidden, n_feat),
             encode2=L.StatefulGRU(n_hidden, n_hidden),
             # decoder layer
-            output_embed=L.EmbedID(n_output, n_feat),
+            output_embed=L.EmbedID(n_output, n_feat, ignore_label=-1),
             decode1=L.StatefulGRU(n_hidden, n_feat),
             decode2=L.StatefulGRU(n_hidden, n_hidden),
             output=L.Linear(n_hidden, n_output),
@@ -80,16 +80,18 @@ class Seq2Seq(link.Chain):
 
         return loss, n_words
 
-    def init_decoder(self, contexts):
-        self.decode1.set_state(contexts)
-        self.decode2.set_state(contexts)
+    def init_decoder(self, h_enc1, h_enc2):
+        self.decode1.set_state(h_enc1)
+        self.decode2.set_state(h_enc2)
 
     def __call__(self, x, t):
         # encode
-        contexts = self.encode(x)
+        self.encode(x)
 
         # decode
-        self.init_decoder(contexts)
+        self.init_decoder(
+            self.encode1.h, self.encode2.h
+        )
         loss, n_word = self.decode(t)
 
         return loss
@@ -100,7 +102,7 @@ if __name__ == "__main__":
     # output_vocab = [u"オッケー蓮子！！"]
 
     input_sentence = ["<start>", "メリー", "！", "ボブスレー", "しよ", "う", "！", "！"]
-    output_sentence = ["オッケー", "蓮子", "！", "！", "<eos>"]
+    output_sentence = ["オッケー", "蓮子", "！", "！"] + ["<eos>"]
 
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
     output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
@@ -120,7 +122,7 @@ if __name__ == "__main__":
 
     for i in xrange(100):
 
-        inputs = [input_vocab[word] for word in input_sentence]
+        inputs = [input_vocab[word] for word in reversed(input_sentence)]
         outputs = [output_vocab[word] for word in output_sentence]
         loss = model(inputs, outputs)
 
