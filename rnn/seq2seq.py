@@ -89,7 +89,7 @@ class Seq2Seq(link.Chain):
         y = chainer.Variable(np.array([start], dtype=np.int32))
 
         for i in xrange(limit):
-            decode0 = F.tanh(self.output_embed())
+            decode0 = F.tanh(self.output_embed(y))
             decode1 = self.decode1(decode0)
             decode2 = self.decode2(decode1)
             z = self.output(decode2)
@@ -102,7 +102,20 @@ class Seq2Seq(link.Chain):
         return output
 
     def predict(self, input_sentence, output_sentence):
+        limit = 20
+        bos_id = 1
+        eos_id = 2
 
+        self.reset_state()
+        self.encode(input_sentence)
+        self.init_decoder(
+            self.encode1.h,
+            self.encode2.h
+        )
+        z = self.decode(bos_id, eos_id, limit)
+        ret = list(map(list, zip(*z)))
+
+        return output_sentence, ret
 
 
     def __call__(self, x, t):
@@ -152,3 +165,5 @@ if __name__ == "__main__":
         loss.backward()
         loss.unchain_backward()
         optimizer.update()
+
+    model.predict(input_vocab, output_vocab)
