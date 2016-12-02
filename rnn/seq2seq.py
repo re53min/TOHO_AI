@@ -84,6 +84,27 @@ class Seq2Seq(link.Chain):
         self.decode1.set_state(h_enc1)
         self.decode2.set_state(h_enc2)
 
+    def test_decode(self, start, eos, limit):
+        output = []
+        y = chainer.Variable(np.array([start], dtype=np.int32))
+
+        for i in xrange(limit):
+            decode0 = F.tanh(self.output_embed())
+            decode1 = self.decode1(decode0)
+            decode2 = self.decode2(decode1)
+            z = self.output(decode2)
+
+            z = [int(w) for w in z.data.argmax(1)]
+            if all(w == eos for w in z):
+                break
+            output.append(z)
+            y = chainer.Variable(np.array(z, dtype=np.int32))
+        return output
+
+    def predict(self, input_sentence, output_sentence):
+
+
+
     def __call__(self, x, t):
         # encode
         self.encode(x)
