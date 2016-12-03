@@ -9,6 +9,7 @@ import chainer.functions as F
 import numpy as np
 from chainer import link
 from chainer import Variable, optimizers
+from chainer import cuda
 
 
 def make_vocab_dict(words):
@@ -44,7 +45,7 @@ class Seq2Seq(link.Chain):
             output=L.Linear(n_hidden, n_output),
         )
         for param in self.params():
-            param.data[...] = np.random.uniform(-0.1, 0.1, param.data.shape)
+            param.data[...] = np.random.uniform(-0.08, 0.08, param.data.shape)
         self.train = train
 
     def reset_state(self):
@@ -57,7 +58,7 @@ class Seq2Seq(link.Chain):
 
         for word in sentences:
             word = Variable(np.array([[word]], dtype=np.int32))
-            input_embed = F.tanh(self.input_embed(word))
+            input_embed = self.input_embed(word)
             enc1 = self.encode1(input_embed)
             enc2 = self.encode2(enc1)
 
@@ -69,9 +70,10 @@ class Seq2Seq(link.Chain):
         n_words = len(sentences)-1
 
         for word, t in zip(sentences, sentences[1:]):
+            # print('入力:{}, 教師:{}'.format(word,t))
             word = Variable(np.array([[word]], dtype=np.int32))
             t = Variable(np.array([t], dtype=np.int32))
-            decode0 = F.tanh(self.output_embed(word))
+            decode0 = self.output_embed(word)
             decode1 = self.decode1(decode0)
             decode2 = self.decode2(decode1)
             z = self.output(decode2)
@@ -86,25 +88,27 @@ class Seq2Seq(link.Chain):
 
     def test_decode(self, start, eos, limit):
         output = []
-        y = chainer.Variable(np.array([start], dtype=np.int32))
+        y = chainer.Variable(np.array([[start]], dtype=np.int32))
 
         for i in xrange(limit):
-            decode0 = F.tanh(self.output_embed(y))
+            decode0 = self.output_embed(y)
             decode1 = self.decode1(decode0)
             decode2 = self.decode2(decode1)
             z = self.output(decode2)
+            prob = F.softmax(z)
 
-            z = [int(w) for w in z.data.argmax(1)]
-            if all(w == eos for w in z):
+            index = np.argmax(cuda.to_cpu(prob.data))
+
+            if index == eos:
                 break
-            output.append(z)
-            y = chainer.Variable(np.array(z, dtype=np.int32))
+            output.append(index)
+            y = chainer.Variable(np.array([index], dtype=np.int32))
         return output
 
     def predict(self, input_sentence, output_sentence):
-        limit = 20
-        bos_id = 1
-        eos_id = 2
+        limit = 5
+        bos_id = 0
+        eos_id = output_sentence[-1]
 
         self.reset_state()
         self.encode(input_sentence)
@@ -112,11 +116,9 @@ class Seq2Seq(link.Chain):
             self.encode1.h,
             self.encode2.h
         )
-        z = self.decode(bos_id, eos_id, limit)
-        ret = list(map(list, zip(*z)))
+        z = self.test_decode(bos_id, eos_id, limit)
 
-        return output_sentence, ret
-
+        return z
 
     def __call__(self, x, t):
         # encode
@@ -135,11 +137,12 @@ if __name__ == "__main__":
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
     # output_vocab = [u"オッケー蓮子！！"]
 
-    input_sentence = ["<start>", "メリー", "！", "ボブスレー", "しよ", "う", "！", "！"]
-    output_sentence = ["オッケー", "蓮子", "！", "！"] + ["<eos>"]
+    input_sentence = ["<start>", "メリー", "！", "ボブスレー", "しよ", "う", "！", "！"] + ["<eos>"]
+    output_sentence = ["<start>", "オッケー", "蓮子", "！", "！"] + ["<eos>"]
 
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
     output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
+    vocab = {}
 
     model = Seq2Seq(n_input=len(input_vocab), n_feat=10, n_hidden=10, n_output=len(output_vocab))
     model.compute_accuracy = False
@@ -150,20 +153,25 @@ if __name__ == "__main__":
     optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
     loss = 0
+    iteration = 500
     model.reset_state()
+    inputs = [input_vocab[word] for word in reversed(input_sentence)]
+    outputs = [output_vocab[word] for word in output_sentence]
 
-    print('入力文: ' + ''.join(input_sentence[1:6]))
+    for c, i in output_vocab.items():
+        vocab[i] = c
 
-    for i in xrange(100):
+    print('入力-> ' + ''.join(input_sentence[1:-2]))
 
-        inputs = [input_vocab[word] for word in reversed(input_sentence)]
-        outputs = [output_vocab[word] for word in output_sentence]
+    for i in xrange(iteration):
+
         loss = model(inputs, outputs)
-
-        print('train_loss = {}'.format(loss.data))
+        # print('{}/{}, train_loss = {}'.format(i, iteration, loss.data))
         model.cleargrads()
         loss.backward()
         loss.unchain_backward()
         optimizer.update()
 
-    model.predict(input_vocab, output_vocab)
+        for index in model.predict(inputs, outputs):
+            print(vocab[index], end='')
+        print()
