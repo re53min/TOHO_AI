@@ -107,7 +107,7 @@ class Seq2Seq(link.Chain):
 
     def predict(self, input_sentence, output_sentence):
         limit = 5
-        bos_id = 0
+        bos_id = output_sentence[0]
         eos_id = output_sentence[-1]
 
         self.reset_state()
@@ -123,7 +123,6 @@ class Seq2Seq(link.Chain):
     def __call__(self, x, t):
         # encode
         self.encode(x)
-
         # decode
         self.init_decoder(
             self.encode1.h, self.encode2.h
@@ -172,6 +171,7 @@ if __name__ == "__main__":
         loss.unchain_backward()
         optimizer.update()
 
+        print('出力->')
         for index in model.predict(inputs, outputs):
             print(vocab[index], end='')
         print()
