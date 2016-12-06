@@ -136,7 +136,7 @@ if __name__ == "__main__":
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
     # output_vocab = [u"オッケー蓮子！！"]
 
-    input_sentence = ["<start>", "メリー", "！", "ボブスレー", "しよ", "う", "！", "！"] + ["<eos>"]
+    input_sentence = ["メリー", "！", "ボブスレー", "しよ", "う", "！", "！"]
     output_sentence = ["<start>", "オッケー", "蓮子", "！", "！"] + ["<eos>"]
 
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     optimizer.add_hook(chainer.optimizer.GradientClipping(5))  # 勾配の上限
 
     loss = 0
-    iteration = 500
+    iteration = 150
     model.reset_state()
     inputs = [input_vocab[word] for word in reversed(input_sentence)]
     outputs = [output_vocab[word] for word in output_sentence]
@@ -171,7 +171,6 @@ if __name__ == "__main__":
         loss.unchain_backward()
         optimizer.update()
 
-        print('出力->')
         for index in model.predict(inputs, outputs):
             print(vocab[index], end='')
         print()
