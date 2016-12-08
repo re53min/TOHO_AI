@@ -3,6 +3,9 @@
 
 from __future__ import print_function
 
+import cPickle as pickle
+import copy
+
 import chainer
 import chainer.links as L
 import chainer.functions as F
@@ -11,24 +14,7 @@ from chainer import link
 from chainer import Variable, optimizers
 from chainer import cuda
 
-
-def make_vocab_dict(words):
-    vocab = {}  # Word ID
-    # dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
-
-    # 単語辞書登録
-    for i, word in enumerate(words):
-        # wordがvocabの中に登録されていなかったら新たに追加
-        if word not in vocab:
-            vocab[word] = len(vocab)
-            # print(str(word))
-            # デーアセットにwordを登録
-            # dataset[i] = vocab[word]
-
-    print("corpus size: ", len(words))
-    print("vocabulary size: ", len(vocab))
-
-    return vocab  # dataset, vocab
+from utils import make_vocab_dict
 
 
 class Seq2Seq(link.Chain):
@@ -131,6 +117,14 @@ class Seq2Seq(link.Chain):
 
         return loss
 
+    def get_sentence_vector(self, sentence):
+
+        self.reset_state()
+        sentence_vector = self.encode(sentences=sentence)
+
+        return sentence_vector
+
+
 if __name__ == "__main__":
 
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
@@ -174,3 +168,5 @@ if __name__ == "__main__":
         for index in model.predict(inputs, outputs):
             print(vocab[index], end='')
         print()
+
+    pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq', 'wb'))

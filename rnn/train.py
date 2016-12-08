@@ -3,7 +3,6 @@
 
 from __future__ import print_function
 import cPickle as pickle
-import codecs
 import copy
 import sys
 import time
@@ -14,33 +13,7 @@ import numpy as np
 from chainer import Variable, optimizers
 
 import gru
-from mecab import mecab_wakati
-
-
-def load_date(mecab=True):
-    vocab = {}  # Word ID
-    with codecs.open('train_data.txt', 'r', 'utf-8') as sentences:  # .replace('\r\n', '<eos>')  # textの読み込み
-        sentences = sentences.read()
-        # 分かち書き処理
-        if mecab:
-            words = mecab_wakati(sentence=sentences).replace(u'\r', u'eos').split(" ")
-        else:
-            words = list(sentences)
-    dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
-
-    # 単語辞書登録
-    for i, word in enumerate(words):
-        # wordがvocabの中に登録されていなかったら新たに追加
-        if word not in vocab:
-            vocab[word] = len(vocab)
-            # print(str(word))
-        # デーアセットにwordを登録
-        dataset[i] = vocab[word]
-
-    print("corpus size: ", len(words))
-    print("vocabulary size: ", len(vocab))
-
-    return dataset, vocab
+from utils import make_vocab_dict
 
 
 def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
@@ -105,7 +78,8 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
 
 if __name__ == "__main__":
     # 学習データの読み込み
-    train_date, vocab = load_date()
+
+    train_date, vocab = make_vocab_dict('train_data\\train_data.txt')
     # vocabの保存
     pickle.dump(vocab, open('vocab.bin', 'wb'))
     # 学習開始
