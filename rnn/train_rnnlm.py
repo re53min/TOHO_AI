@@ -13,7 +13,7 @@ import numpy as np
 from chainer import Variable, optimizers
 
 import gru
-from utils import make_vocab_dict
+from utils import make_vocab_dict, load_file
 
 
 def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
@@ -78,9 +78,9 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
 
 if __name__ == "__main__":
     # 学習データの読み込み
-
-    train_date, vocab = make_vocab_dict('train_data\\train_data.txt')
+    file_path = 'train_data\\train_data.txt'
+    train_date, vocab = make_vocab_dict(load_file(file_path))
     # vocabの保存
-    pickle.dump(vocab, open('vocab.bin', 'wb'))
+    pickle.dump(vocab, open('vocab_rnnlm.bin', 'wb'))
     # 学習開始
     train(train_date, vocab)
