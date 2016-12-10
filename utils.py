@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
+from __future__ import print_function
 import codecs
 import numpy as np
 
 from mecab import mecab_wakati
 
 
-def make_vocab_dict(file_path, mecab=True):
+def load_file(file_path):
+    return codecs.open(file_path, 'r', 'utf-8').read()
+
+
+def make_vocab_dict(sentences, mecab=True):
     vocab = {}  # Word ID
-    with codecs.open(file_path, 'r', 'utf-8') as sentences:  # .replace('\r\n', '<eos>')  # textの読み込み
-        sentences = sentences.read() + ["eos"]
-        # 分かち書き処理
-        if mecab:
-            words = mecab_wakati(sentence=sentences)  # .replace(u'\r', u'eos').split(" ")
-        else:
-            words = list(sentences)
+    # 分かち書き処理
+    words = mecab_wakati(sentence=sentences).split(' ') if mecab else list(sentences)
     dataset = np.ndarray((len(words),), dtype=np.int32)  # 全word分のndarrayの作成
 
     # 単語辞書登録
@@ -23,19 +23,18 @@ def make_vocab_dict(file_path, mecab=True):
         # wordがvocabの中に登録されていなかったら新たに追加
         if word not in vocab:
             vocab[word] = len(vocab)
-            # print(str(word))
         # デーアセットにwordを登録
         dataset[i] = vocab[word]
 
-    print("corpus size: ", len(words))
+    print("corpus size: ", len(sentences))
     print("vocabulary size: ", len(vocab))
 
     return dataset, vocab
 
-if __name__ == "__main__":
 
-    sentences = [u"限りなく小さい世界には妖怪が住んでいた……", u"出だしはこれで決まりね"]
+if __name__ == "__main__":
+    file_path = 'player1.txt'
     keywords = []
 
-    for sentence in sentences:
-        keywords.append(mecab_wakati(sentence=sentence))
+    dataset, vocab = make_vocab_dict(load_file(file_path))
+    print(vocab)
