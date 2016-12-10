@@ -93,7 +93,7 @@ class Seq2Seq(link.Chain):
 
     def predict(self, input_sentence, output_sentence):
         limit = 5
-        bos_id = output_sentence[0]
+        bos_id = output_sentence[-1]
         eos_id = output_sentence[-1]
 
         self.reset_state()
@@ -130,8 +130,8 @@ if __name__ == "__main__":
     # input_vocab = [u"メリー！ボブスレーしよう！！"]
     # output_vocab = [u"オッケー蓮子！！"]
 
-    input_sentence = ["メリー", "！", "ボブスレー", "しよ", "う", "！", "！"]
-    output_sentence = ["<start>", "オッケー", "蓮子", "！", "！"] + ["<eos>"]
+    input_sentence = ["メリー", "！", "ボブスレー", "しよ", "う", "！", "！"] + ["<eos>"]
+    output_sentence = ["オッケー", "蓮子", "！", "！"] + ["<eos>"]
 
     input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
     output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
