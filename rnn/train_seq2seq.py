@@ -9,14 +9,15 @@ import copy
 import chainer
 from chainer import optimizers
 
+from mecab import mecab_wakati
 from seq2seq import Seq2Seq
 from utils import make_vocab_dict, load_file
 
 
 def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=150):
     # vocabularyの作成
-    input_vocab = make_vocab_dict(input_sentence)
-    output_vocab = make_vocab_dict(output_sentence)
+    in_set, input_vocab = make_vocab_dict(input_sentence)
+    out_set, output_vocab = make_vocab_dict(output_sentence)
     input_sentence = input_sentence.split()
     output_sentence = output_sentence.split()
     vocab = {}
@@ -36,10 +37,10 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=1
 
     for i in xrange(iteration):
         for x, y in zip(input_sentence, output_sentence):
-            inputs = [input_vocab[word] for word in reversed(x)]
-            outputs = [output_vocab[word] for word in y]
+            inputs = [input_vocab[word] for word in reversed(mecab_wakati(x).split())]
+            outputs = [output_vocab[word] for word in mecab_wakati(y).split()]
 
-            print('入力-> ' + ''.join(x[1:-2]))
+            # print('入力-> ' + ''.join(x[0:-2]))
             loss = model(inputs, outputs)
             # print('{}/{}, train_loss = {}'.format(i, iteration, loss.data))
             model.cleargrads()
