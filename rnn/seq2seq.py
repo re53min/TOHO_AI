@@ -76,7 +76,7 @@ class Seq2Seq(link.Chain):
         output = []
         y = chainer.Variable(np.array([[start]], dtype=np.int32))
 
-        for i in xrange(limit):
+        for i in range(limit):
             decode0 = self.output_embed(y)
             decode1 = self.decode1(decode0)
             decode2 = self.decode2(decode1)
@@ -91,10 +91,9 @@ class Seq2Seq(link.Chain):
             y = chainer.Variable(np.array([index], dtype=np.int32))
         return output
 
-    def predict(self, input_sentence, output_sentence):
-        limit = 5
-        bos_id = output_sentence[-1]
-        eos_id = output_sentence[-1]
+    def predict(self, input_sentence, output_vocab, limit=5):
+        bos_id = output_vocab['start']
+        eos_id = output_vocab['eos']
 
         self.reset_state()
         self.encode(input_sentence)
@@ -133,8 +132,8 @@ if __name__ == "__main__":
     input_sentence = ["メリー", "！", "ボブスレー", "しよ", "う", "！", "！"] + ["<eos>"]
     output_sentence = ["オッケー", "蓮子", "！", "！"] + ["<eos>"]
 
-    input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
-    output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
+    inset, input_vocab = make_vocab_dict(input_sentence)  # inputs, input_vocab = make_vocab_dict(input_sentence)
+    outset, output_vocab = make_vocab_dict(output_sentence)  # outputs, output_vocab = make_vocab_dict(output_sentence)
     vocab = {}
 
     model = Seq2Seq(n_input=len(input_vocab), n_feat=10, n_hidden=10, n_output=len(output_vocab))
@@ -156,7 +155,7 @@ if __name__ == "__main__":
 
     print('入力-> ' + ''.join(input_sentence[1:-2]))
 
-    for i in xrange(iteration):
+    for i in range(iteration):
 
         loss = model(inputs, outputs)
         # print('{}/{}, train_loss = {}'.format(i, iteration, loss.data))

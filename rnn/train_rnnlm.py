@@ -35,12 +35,12 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
     loss = 0
 
     print('going to train {} iterations'.format(jump * epochs))
-    for seq in xrange(jump * epochs):
+    for seq in range(jump * epochs):
 
         input_batch = np.array([train_data[(jump * j + seq) % whole_len]
-                                for j in xrange(batch_size)])
+                                for j in range(batch_size)])
         teach_batch = np.array([train_data[(jump * j + seq + 1) % whole_len]
-                                for j in xrange(batch_size)])
+                                for j in range(batch_size)])
         x = Variable(input_batch.astype(np.int32), volatile=False)
         teach = Variable(teach_batch.astype(np.int32), volatile=False)
 
@@ -52,7 +52,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
             now = time.time()
             print('{}/{}, train_loss = {}, time = {:.2f}'.format((seq + 1) / seq_length, jump,
                                                                  loss.data / seq_length, now - cur_at))
-            open('loss', 'w').write('{}\n'.format(loss.data / seq_length))
+            # open('loss', 'w').write('{}\n'.format(loss.data / seq_length))
             cur_at = now
 
             model.cleargrads()
