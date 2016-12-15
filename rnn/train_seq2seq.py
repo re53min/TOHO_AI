@@ -12,9 +12,10 @@ from chainer import optimizers
 from mecab import mecab_wakati
 from seq2seq import Seq2Seq
 from utils import make_vocab_dict, load_file
+import matplotlib.pyplot as plt
 
 
-def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=30):
+def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=50):
     # vocabularyの作成
     in_set, input_vocab = make_vocab_dict(input_sentence)
     out_set, output_vocab = make_vocab_dict(output_sentence)
@@ -37,6 +38,7 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=3
 
     # 表示用
     cur_at = time.time()
+    loss_plot = []
     epoch = 1
 
     # train
@@ -47,6 +49,7 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=3
 
             # print('入力-> ' + ''.join(x[0:-2]))
             loss = model(inputs, outputs)
+            loss_plot.append(loss.data)
             now = time.time()
             print('{}/{}, train_loss = {}, time = {:.2f}'.format(
                 epoch, len(input_sentence)*iteration, loss.data, now-cur_at))
@@ -64,11 +67,19 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=3
     for sentence in input_sentence:
         # test = "メリー！ボブスレーしよう！！"
         inputs = [input_vocab[word] for word in reversed(mecab_wakati(sentence).split())]
-        print('入力 -> ' + sentence)
-        print('出力 -> ', end='')
+        print(u'入力 -> ' + sentence)
+        print(u'出力 -> ', end='')
         for index in model.predict(inputs, output_vocab):
             print(vocab[index], end='')
         print()
+
+    plt.figure(figsize=(8,6))
+    plt.plot(range(len(loss_plot)), loss_plot)
+    plt.legend(["train_acc"], loc=4)
+    plt.title("Accuracy of digit recognition.")
+    plt.plot()
+    plt.savefig('loss.png')
+    plt.savefig('loss.pdf')
     pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq', 'wb'))
 
 

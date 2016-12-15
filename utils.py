@@ -9,7 +9,7 @@ from mecab import mecab_wakati
 
 
 def load_file(file_path):
-    return codecs.open(file_path, 'r', 'utf-8').read()
+    return codecs.open(file_path, 'r', 'utf_8_sig').read()
 
 
 def make_vocab_dict(sentences, mecab=True):
