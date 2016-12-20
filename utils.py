@@ -4,6 +4,7 @@
 from __future__ import print_function
 import codecs
 import numpy as np
+import matplotlib.pyplot as plt
 
 from mecab import mecab_wakati
 
@@ -31,6 +32,18 @@ def make_vocab_dict(sentences, mecab=True):
 
     return dataset, vocab
 
+
+def plt_loss(loss_plot):
+
+    plt.figure(figsize=(8, 6))
+    plt.plot(range(len(loss_plot)), loss_plot)
+    plt.legend(["train_acc"], loc=4)
+    plt.title("Accuracy of digit recognition.")
+    plt.plot()
+    plt.savefig('loss.png')
+    plt.savefig('loss.pdf')
+
+    return
 
 if __name__ == "__main__":
     file_path = 'player1.txt'

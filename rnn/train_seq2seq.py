@@ -11,7 +11,7 @@ import chainer
 from chainer import optimizers
 from mecab import mecab_wakati
 from seq2seq import Seq2Seq
-from utils import make_vocab_dict, load_file
+from utils import make_vocab_dict, load_file, plt_loss
 import matplotlib.pyplot as plt
 
 
@@ -73,13 +73,7 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=5
             print(vocab[index], end='')
         print()
 
-    plt.figure(figsize=(8,6))
-    plt.plot(range(len(loss_plot)), loss_plot)
-    plt.legend(["train_acc"], loc=4)
-    plt.title("Accuracy of digit recognition.")
-    plt.plot()
-    plt.savefig('loss.png')
-    plt.savefig('loss.pdf')
+    plt_loss(loss_plot)
     pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq', 'wb'))
 
 
