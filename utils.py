@@ -5,12 +5,26 @@ from __future__ import print_function
 import codecs
 import numpy as np
 import matplotlib.pyplot as plt
+import cPickle as pickle
 
 from mecab import mecab_wakati
 
 
 def load_file(file_path):
     return codecs.open(file_path, 'r', 'utf_8_sig').read()
+
+
+def load_model(model, vocab):
+    # vocabularyの読み込み
+    vocab = pickle.load(open(vocab, "rb"))
+    ivocab = {}
+
+    for c, i in vocab.items():
+        ivocab[i] = c
+    # modelの読み込み
+    model = pickle.load(open(model, "rb"))
+
+    return vocab, ivocab, model
 
 
 def make_vocab_dict(sentences, mecab=True):
@@ -37,13 +51,14 @@ def plt_loss(loss_plot):
 
     plt.figure(figsize=(8, 6))
     plt.plot(range(len(loss_plot)), loss_plot)
-    plt.legend(["train_acc"], loc=4)
-    plt.title("Accuracy of digit recognition.")
+    plt.legend(["train_acc"], loc=1)
+    # plt.title("Prediction accuracy.")
     plt.plot()
     plt.savefig('loss.png')
     plt.savefig('loss.pdf')
 
     return
+
 
 if __name__ == "__main__":
     file_path = 'player1.txt'

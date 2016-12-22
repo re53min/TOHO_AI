@@ -168,4 +168,4 @@ if __name__ == "__main__":
             print(vocab[index], end='')
         print()
 
-    pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq', 'wb'))
+    pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq_model', 'wb'))

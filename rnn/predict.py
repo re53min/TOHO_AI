@@ -2,7 +2,6 @@
 # -*- coding: utf_8 -*-
 
 from __future__ import print_function
-import cPickle as pickle
 import codecs
 import sys
 
@@ -12,25 +11,14 @@ import chainer.functions as F
 import numpy as np
 import six
 
+from utils import load_model, load_file, make_vocab_dict, mecab_wakati
+
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
 
-def load(model, vocab):
-    # Vocablaryの読み込み
-    vocab = pickle.load(open(vocab, "rb"))
-    ivocab = {}
-
-    for c, i in vocab.items():
-        ivocab[i] = c
-    # Modelの読み込み
-    model = pickle.load(open(model, "rb"))
-
-    return vocab, ivocab, model
-
-
-def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
+def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=5000, sample=0):
     # ロード
-    vocab, ivocab, model = load(model, vocab)
+    vocab, ivocab, model = load_model(model, vocab)
     xp = np
     model.predictor.reset_state()
 
@@ -71,5 +59,25 @@ def predict(model="model", vocab="vocab.bin", length=5000, sample=0):
     sys.stdout.write('\n')
 
 
+def test_seq2seq(input_text, model="seq2seq_model", vocab="seq2seq_vocab.bin", length=5000, sample=0):
+    # ロード
+    output_vocab, ivocab, model = load_model(model, vocab)
+    model.reset_state()
+    # 入力
+    in_set, input_vocab = make_vocab_dict(input_text)
+    input_text = input_text.split()
+
+    # テスト用
+    for sentence in input_text:
+        # test = "メリー！ボブスレーしよう！！"
+        inputs = [input_vocab[word] for word in reversed(mecab_wakati(sentence).split())]
+        print(u'入力 -> ' + sentence)
+        print(u'出力 -> ', end='')
+        for index in model.predict(inputs, output_vocab):
+            print(ivocab[index], end='')
+        print()
+
+
 if __name__ == "__main__":
-    predict()
+    # test_rnnlm()
+    test_seq2seq(input_text=load_file('train_data\\test_player.txt'))

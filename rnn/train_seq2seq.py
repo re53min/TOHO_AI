@@ -22,6 +22,8 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=5
     input_sentence = input_sentence.split()
     output_sentence = output_sentence.split()
     vocab = {}
+    # vocabの保存
+    pickle.dump(output_vocab, open('seq2seq_vocab.bin', 'wb'))
     # 出力用
     for c, i in output_vocab.items():
         vocab[i] = c
@@ -63,18 +65,8 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=5
             # for index in model.predict(inputs, output_vocab):
             #    print(vocab[index], end='')
             # print()
-    # テスト用
-    for sentence in input_sentence:
-        # test = "メリー！ボブスレーしよう！！"
-        inputs = [input_vocab[word] for word in reversed(mecab_wakati(sentence).split())]
-        print(u'入力 -> ' + sentence)
-        print(u'出力 -> ', end='')
-        for index in model.predict(inputs, output_vocab):
-            print(vocab[index], end='')
-        print()
-
     plt_loss(loss_plot)
-    pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq', 'wb'))
+    pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq_model', 'wb'))
 
 
 if __name__ == "__main__":

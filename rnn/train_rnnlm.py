@@ -73,7 +73,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
 
         sys.stdout.flush()
 
-    pickle.dump(copy.deepcopy(model).to_cpu(), open('model', 'wb'))
+    pickle.dump(copy.deepcopy(model).to_cpu(), open('rnnlm_model', 'wb'))
 
 
 if __name__ == "__main__":
@@ -81,6 +81,6 @@ if __name__ == "__main__":
     file_path = 'train_data\\train_data.txt'
     train_date, vocab = make_vocab_dict(load_file(file_path))
     # vocabの保存
-    pickle.dump(vocab, open('vocab_rnnlm.bin', 'wb'))
+    pickle.dump(vocab, open('rnnlm_vocab.bin', 'wb'))
     # 学習開始
     train(train_date, vocab)
