@@ -2,7 +2,9 @@
 # -*- coding: utf_8 -*-
 
 from __future__ import print_function
+
 import codecs
+import os
 import sys
 
 import chainer
@@ -11,12 +13,14 @@ import chainer.functions as F
 import numpy as np
 import six
 
-from utils import load_model, load_file, make_vocab_dict, mecab_wakati
+sys.path.append(os.pardir)
+from mecab import mecab_wakati
+from utils import load_model, make_vocab_dict
 
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
 
-def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=5000, sample=0):
+def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=10000, sample=0):
     # ロード
     vocab, ivocab, model = load_model(model, vocab)
     xp = np
@@ -24,7 +28,7 @@ def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=5000, sample
 
     # 標準入力
     # print 'Please your typing!!'
-    input_text = u"秋風"
+    input_text = u"start"
     if isinstance(input_text, six.binary_type):
         input_text = input_text.decode('utf-8')
     # 入力された文字がvocabの中に含まれていたらprev_wordの生成
@@ -34,7 +38,7 @@ def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=5000, sample
         print('Error: Unfortunately ' + input_text + ' is unknown')
         exit()
     # 初めの一文字の出力
-    sys.stdout.write(input_text + ' ')
+    # sys.stdout.write(input_text + ' ')
     prob = F.softmax(model.predictor(prev_word))
 
     for i in xrange(length):
@@ -50,6 +54,7 @@ def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=5000, sample
 
         # eosタグが予測された場合に読点に置換
         if ivocab[index] == u'eos':
+            # break
             sys.stdout.write('\r\n')
         else:
             sys.stdout.write(ivocab[index] + ' ')
@@ -79,5 +84,5 @@ def test_seq2seq(input_text, model="seq2seq_model", vocab="seq2seq_vocab.bin", l
 
 
 if __name__ == "__main__":
-    # test_rnnlm()
-    test_seq2seq(input_text=load_file('train_data\\test_player.txt'))
+    test_rnnlm()
+    # test_seq2seq(input_text=load_file('train_data\\test_player.txt'))

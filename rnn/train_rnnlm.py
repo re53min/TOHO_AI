@@ -13,10 +13,10 @@ import numpy as np
 from chainer import Variable, optimizers
 
 import gru
-from utils import make_vocab_dict, load_file
+from utils import make_vocab_dict, load_file, plot_loss
 
 
-def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=20, batch_size=20,
+def train(train_data, vocab, n_units=300, learning_rate_decay=0.97, seq_length=20, batch_size=20,
           epochs=20, learning_rate_decay_after=5):
     # モデルの構築、初期化
     model = L.Classifier(gru.GRU(len(vocab), n_units))
@@ -33,6 +33,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
     start_at = time.time()
     cur_at = start_at
     loss = 0
+    plt_loss = []
 
     print('going to train {} iterations'.format(jump * epochs))
     for seq in range(jump * epochs):
@@ -50,6 +51,7 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
         # 最適化の実行
         if (seq + 1) % seq_length == 0:
             now = time.time()
+            plt_loss.append(loss.data)
             print('{}/{}, train_loss = {}, time = {:.2f}'.format((seq + 1) / seq_length, jump,
                                                                  loss.data / seq_length, now - cur_at))
             # open('loss', 'w').write('{}\n'.format(loss.data / seq_length))
@@ -62,8 +64,8 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
             loss = 0
 
         # check point
-        # if (seq + 1) % 10000 == 0:
-        #   pickle.dump(copy.deepcopy(model).to_cpu(), open('charmodel', 'wb'))
+        if (seq + 1) % 10000 == 0:
+            pickle.dump(copy.deepcopy(model).to_cpu(), open('check_point', 'wb'))
 
         if (seq + 1) % jump == 0:
             epoch += 1
@@ -74,11 +76,12 @@ def train(train_data, vocab, n_units=128, learning_rate_decay=0.97, seq_length=2
         sys.stdout.flush()
 
     pickle.dump(copy.deepcopy(model).to_cpu(), open('rnnlm_model', 'wb'))
+    plot_loss(plt_loss)
 
 
 if __name__ == "__main__":
     # 学習データの読み込み
-    file_path = 'train_data\\train_data.txt'
+    file_path = 'train_data\\train_renko.txt'
     train_date, vocab = make_vocab_dict(load_file(file_path))
     # vocabの保存
     pickle.dump(vocab, open('rnnlm_vocab.bin', 'wb'))

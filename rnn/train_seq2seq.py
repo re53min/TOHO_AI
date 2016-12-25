@@ -11,8 +11,7 @@ import chainer
 from chainer import optimizers
 from mecab import mecab_wakati
 from seq2seq import Seq2Seq
-from utils import make_vocab_dict, load_file, plt_loss
-import matplotlib.pyplot as plt
+from utils import make_vocab_dict, load_file, plot_loss
 
 
 def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=50):
@@ -65,7 +64,7 @@ def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=5
             # for index in model.predict(inputs, output_vocab):
             #    print(vocab[index], end='')
             # print()
-    plt_loss(loss_plot)
+    plot_loss(loss_plot)
     pickle.dump(copy.deepcopy(model).to_cpu(), open('seq2seq_model', 'wb'))
 
 

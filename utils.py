@@ -47,10 +47,10 @@ def make_vocab_dict(sentences, mecab=True):
     return dataset, vocab
 
 
-def plt_loss(loss_plot):
+def plot_loss(plot_loss):
 
     plt.figure(figsize=(8, 6))
-    plt.plot(range(len(loss_plot)), loss_plot)
+    plt.plot(range(len(plot_loss)), plot_loss)
     plt.legend(["train_acc"], loc=1)
     # plt.title("Prediction accuracy.")
     plt.plot()
