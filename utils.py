@@ -54,8 +54,8 @@ def plot_loss(plot_loss):
     plt.legend(["train_acc"], loc=1)
     # plt.title("Prediction accuracy.")
     plt.plot()
-    plt.savefig('loss.png')
-    plt.savefig('loss.pdf')
+    plt.savefig('plot_image\\loss.png')
+    plt.savefig('plot_image\\loss.pdf')
 
     return
 
