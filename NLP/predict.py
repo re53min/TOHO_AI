@@ -15,7 +15,7 @@ import six
 
 sys.path.append(os.pardir)
 from mecab import mecab_wakati
-from utils import load_model, make_vocab_dict
+from utils import load_model, make_vocab_dict, load_file
 
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
@@ -41,7 +41,7 @@ def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=10000, sampl
     # sys.stdout.write(input_text + ' ')
     prob = F.softmax(model.predictor(prev_word))
 
-    for i in xrange(length):
+    for i in range(length):
         # 次の単語の予測
         prob = F.softmax(model.predictor(prev_word))
 
@@ -84,5 +84,5 @@ def test_seq2seq(input_text, model="seq2seq_model", vocab="seq2seq_vocab.bin", l
 
 
 if __name__ == "__main__":
-    test_rnnlm()
-    # test_seq2seq(input_text=load_file('train_data\\test_player.txt'))
+    # test_rnnlm()
+    test_seq2seq(input_text=load_file('train_data\\test_player.txt'))
