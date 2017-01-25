@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-from __future__ import print_function
-
-import cPickle as pickle
+import pickle
 import copy
 
 import chainer
@@ -14,7 +12,7 @@ from chainer import link
 from chainer import Variable, optimizers
 from chainer import cuda
 
-from utils import make_vocab_dict
+from utils.utils import make_vocab_dict
 
 
 class Seq2Seq(link.Chain):

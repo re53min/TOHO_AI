@@ -6,7 +6,7 @@ from __future__ import print_function
 import copy
 import time
 
-import cPickle as pickle
+import pickle
 import chainer
 from chainer import optimizers
 from NLP.seq2seq import Seq2Seq

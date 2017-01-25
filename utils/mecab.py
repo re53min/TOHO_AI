@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-from __future__ import print_function
 import codecs
 import MeCab
 import sys

@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-from __future__ import print_function
-
+import pickle
 import copy
 import sys
 import time
 
-import pickle
 import chainer
 import chainer.links as L
-
 import numpy as np
 from chainer import Variable, optimizers
 
