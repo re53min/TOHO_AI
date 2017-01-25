@@ -2,24 +2,27 @@
 # -*- coding: utf_8 -*-
 
 from __future__ import print_function
-import cPickle as pickle
+
 import copy
 import sys
 import time
 
+import pickle
 import chainer
 import chainer.links as L
+
 import numpy as np
 from chainer import Variable, optimizers
 
-import gru
-from utils import make_vocab_dict, load_file, plot_loss
+from NLP.gru import GRU
+from utils.utils import make_vocab_dict, load_file
+from utils.visualizer import plot_loss
 
 
 def train(train_data, vocab, n_units=300, learning_rate_decay=0.97, seq_length=20, batch_size=20,
           epochs=20, learning_rate_decay_after=5):
     # モデルの構築、初期化
-    model = L.Classifier(gru.GRU(len(vocab), n_units))
+    model = L.Classifier(GRU(len(vocab), n_units))
     model.compute_accuracy = False
 
     # optimizerの設定

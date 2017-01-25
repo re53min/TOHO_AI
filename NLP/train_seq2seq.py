@@ -3,15 +3,17 @@
 
 from __future__ import print_function
 
-import cPickle as pickle
 import copy
 import time
 
+import cPickle as pickle
 import chainer
 from chainer import optimizers
-from mecab import mecab_wakati
-from seq2seq import Seq2Seq
-from utils import make_vocab_dict, load_file, plot_loss
+from NLP.seq2seq import Seq2Seq
+
+from utils.utils import make_vocab_dict, load_file
+from utils.visualizer import plot_loss
+from utils.mecab import mecab_wakati
 
 
 def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=50):

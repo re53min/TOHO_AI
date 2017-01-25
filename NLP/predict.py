@@ -1,21 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-from __future__ import print_function
-
 import codecs
-import os
 import sys
 
 import chainer
-from chainer import cuda
 import chainer.functions as F
 import numpy as np
 import six
+from chainer import cuda
 
-sys.path.append(os.pardir)
-from mecab import mecab_wakati
-from utils import load_model, make_vocab_dict, load_file
+from utils.mecab import mecab_wakati
+from utils.utils import load_model, make_vocab_dict, load_file
 
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
