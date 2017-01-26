@@ -37,7 +37,7 @@ def plot_tsne(vec):
     vec_tsne = tsne.fit_transform(vec)
     t0 = time()
 
-    # plot_embedding(vec_tsne, "t-SNE embedding of the digits (time %.2fs)" % (time() - t0))
+    plot_embedding(vec_tsne, "t-SNE embedding of the digits (time %.2fs)" % (time() - t0))
 
 
 def plot_embedding(vec, title=None):
