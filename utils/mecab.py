@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-import codecs
 import MeCab
-import sys
-
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout)
 
 
 # 分かち書き処理
@@ -17,8 +13,7 @@ def mecab_wakati(sentence):
     """
     # MeCabの設定
     tagger = MeCab.Tagger('-Owakati')
-    encoded_text = sentence.encode('utf-8', 'ignore')
-    result = tagger.parse(encoded_text).decode('utf-8')
+    result = tagger.parse(sentence)
 
     return result
 

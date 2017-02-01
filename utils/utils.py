@@ -1,16 +1,20 @@
-#!/usr/bin/env python
-# -*- coding: utf_8 -*-
+#!/local/bin/python
+# -*- coding: utf-8 -*-
 
 import codecs
+import io
 import pickle
+import sys
 
 import numpy as np
 
 from utils.mecab import mecab_wakati
 
+#sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 
 def load_file(file_path):
-    return codecs.open(file_path, 'r', 'utf_8_sig').read()
+    return codecs.open(file_path, 'rb', 'utf_8_sig').read()
 
 
 def load_model(model, vocab):

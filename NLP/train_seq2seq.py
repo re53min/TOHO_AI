@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
-from __future__ import print_function
-
 import copy
 import time
+import sys
+import io
 
 import pickle
 import chainer
@@ -14,6 +14,8 @@ from NLP.seq2seq import Seq2Seq
 from utils.utils import make_vocab_dict, load_file
 from utils.visualizer import plot_loss
 from utils.mecab import mecab_wakati
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 
 def train(input_sentence, output_sentence, n_feat=128, n_hidden=128, iteration=50):

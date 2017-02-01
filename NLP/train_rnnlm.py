@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
+import io
 import pickle
 import copy
 import sys
@@ -14,6 +15,8 @@ from chainer import Variable, optimizers
 from NLP.gru import GRU
 from utils.utils import make_vocab_dict, load_file
 from utils.visualizer import plot_loss
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 
 def train(train_data, vocab, n_units=300, learning_rate_decay=0.97, seq_length=20, batch_size=20,
