@@ -17,7 +17,7 @@ sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
 
 def test_rnnlm(model="rnnlm_model", vocab="rnnlm_vocab.bin", length=10000, sample=0):
-    # ロード
+    # データロード
     vocab, ivocab, model = load_model(model, vocab)
     xp = np
     model.predictor.reset_state()
