@@ -4,6 +4,7 @@ import codecs
 import io
 import json
 import sys
+import re
 from time import sleep
 
 from urllib import request
@@ -47,8 +48,11 @@ def get_ss(file):
         try:
             with request.urlopen(ss['link']) as res:  # URLオープン
                 soup = BeautifulSoup(res.read(), 'lxml')
+                for br in soup.find_all("br"):
+                    br.replace_with("\n")
                 ss_text = soup.find('div', {'id': 'contentBody'}).text  # ss本文の取得
-                print(ss_text.replace('。', '。\n'))
+                # ss_text = re.findall(r"「.*」", ss_text)
+                print(ss_text)
                 # ss_body += ss_text
                 # ssの本文データを保存
                 # with codecs.open('ss\\'+ss['title']+'.txt', 'w', 'utf-8') as raw_data:

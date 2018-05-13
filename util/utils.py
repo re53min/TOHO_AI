@@ -1,16 +1,12 @@
-#!/local/bin/python
-# -*- coding: utf-8 -*-
-
 import codecs
 import io
 import pickle
 import sys
 
 import numpy as np
+from util.mecab import mecab_wakati
 
-from utils.mecab import mecab_wakati
-
-#sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 
 def load_file(file_path):
@@ -51,7 +47,7 @@ def make_vocab_dict(sentences, mecab=True):
 
 
 if __name__ == "__main__":
-    file_path = 'player1.txt'
+    file_path = '..\\dataset\\corpus.txt'
     keywords = []
 
     dataset, vocab = make_vocab_dict(load_file(file_path))
