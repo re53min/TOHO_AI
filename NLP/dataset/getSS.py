@@ -4,6 +4,7 @@ import codecs
 import io
 import json
 import sys
+from time import sleep
 
 from urllib import request
 
@@ -41,6 +42,7 @@ def get_ss(file):
     """
 
     ss_body = ''
+    sec = 5  # 停止用
     for ss in get_ss_info(json.load(file)):
         try:
             with request.urlopen(ss['link']) as res:  # URLオープン
@@ -55,6 +57,9 @@ def get_ss(file):
             continue
         except OSError:
             continue
+
+        # 1作品ごとに5秒停止
+        sleep(sec)
 
     return ss_body
 
