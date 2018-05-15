@@ -47,7 +47,6 @@ def plot_embedding(vec, title=None):
 
     # for i in range():
 
-
     if title is not None:
         plt.title(title)
 

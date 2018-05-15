@@ -22,9 +22,13 @@ class GRU(link.Chain):
     def __call__(self, x):
 
         h0 = self.embed(x)
+        print(h0.data.shape)
         h1 = self.l1(F.dropout(h0, train=self.train))
+        print(h1.data.shape)
         h2 = self.l2(F.dropout(h1, train=self.train))
+        print(h2.data.shape)
         y = self.l3(F.dropout(h2, train=self.train))
+        print(y.data.shape)
 
         return y
 
