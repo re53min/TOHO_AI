@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409214354", 
+    "group-id": "subset_c", 
+    "speaker-id": "14_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:19:30", 
+            "turn-index": 0, 
+            "utterance": "こんばんは！気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:20:31", 
+            "turn-index": 1, 
+            "utterance": "こんばんは、高校野球見た？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:20:31", 
+            "turn-index": 2, 
+            "utterance": "スポーツは好きですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:20:37", 
+            "turn-index": 3, 
+            "utterance": "好きだねー"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "お礼を言う場面ではない（Uはスポーツが好きだと言ったのであり、スポーツはSのものではないから）", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:20:37", 
+            "turn-index": 4, 
+            "utterance": "ありがとう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:20:52", 
+            "turn-index": 5, 
+            "utterance": "いや、スポーツが好きなんだよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:20:52", 
+            "turn-index": 6, 
+            "utterance": "スポーツは野球が好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:21:34", 
+            "turn-index": 7, 
+            "utterance": "そうそう、今年はどこの高校が優勝したんだっけ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uの話を受けていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:21:34", 
+            "turn-index": 8, 
+            "utterance": "見るのが好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:22:29", 
+            "turn-index": 9, 
+            "utterance": "地元の高校を応援しちゃうよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "ちょっとずれている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:22:29", 
+            "turn-index": 10, 
+            "utterance": "気持ちがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:23:03", 
+            "turn-index": 11, 
+            "utterance": "プロ野球を見るのかな？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:23:03", 
+            "turn-index": 12, 
+            "utterance": "プロ野球は好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:23:47", 
+            "turn-index": 13, 
+            "utterance": "セ・リーグとパ・リーグどっちが好きなの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:23:47", 
+            "turn-index": 14, 
+            "utterance": "セ・リーグはヤクルトが好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:24:35", 
+            "turn-index": 15, 
+            "utterance": "ヤクルトか、今季はなかなかの順位だよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:24:35", 
+            "turn-index": 16, 
+            "utterance": "ヤクルトは調子がいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:24:48", 
+            "turn-index": 17, 
+            "utterance": "ピッチャーがいいのかな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:24:48", 
+            "turn-index": 18, 
+            "utterance": "コントロールがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 17:25:51", 
+            "turn-index": 19, 
+            "utterance": "だから強いんだね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 17:25:51", 
+            "turn-index": 20, 
+            "utterance": "コントロールは必要ですよねー"
+        }
+    ]
+}

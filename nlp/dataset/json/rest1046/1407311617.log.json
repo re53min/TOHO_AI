@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407311617", 
+    "group-id": "subset_d", 
+    "speaker-id": "13_06", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:50:02", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:50:50", 
+            "turn-index": 1, 
+            "utterance": "こんにちは。なぜですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "なぜかに答えていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:50:50", 
+            "turn-index": 2, 
+            "utterance": "今日はもう夕食はたべましたか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:50:58", 
+            "turn-index": 3, 
+            "utterance": "いいえ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "ユーザ発話のおうむ返し", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "システムが質問したのに，ユーザの答えに対する適切な応答ではない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:50:58", 
+            "turn-index": 4, 
+            "utterance": "いいえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:51:14", 
+            "turn-index": 5, 
+            "utterance": "一緒に夕食を食べに行きますか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:51:14", 
+            "turn-index": 6, 
+            "utterance": "自宅で食べるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:51:24", 
+            "turn-index": 7, 
+            "utterance": "そうですか。私は外で食べます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:51:24", 
+            "turn-index": 8, 
+            "utterance": "実家で食べるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:51:42", 
+            "turn-index": 9, 
+            "utterance": "何を食べますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "何を食べるのか答えていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:51:42", 
+            "turn-index": 10, 
+            "utterance": "晩御飯を食べるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:51:57", 
+            "turn-index": 11, 
+            "utterance": "私は牛丼を食べます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "T", 
+                    "comment": "実家で食べるのでは？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:51:57", 
+            "turn-index": 12, 
+            "utterance": "牛丼は松屋で食べるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:52:15", 
+            "turn-index": 13, 
+            "utterance": "私はすき家が好きですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:52:15", 
+            "turn-index": 14, 
+            "utterance": "すき家はしょうゆ味が強いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:52:50", 
+            "turn-index": 15, 
+            "utterance": "濃い味が好きなんです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:52:50", 
+            "turn-index": 16, 
+            "utterance": "すき家は味が濃いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:53:17", 
+            "turn-index": 17, 
+            "utterance": "詳しいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "何をくわしく？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:53:17", 
+            "turn-index": 18, 
+            "utterance": "くわしく"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:53:35", 
+            "turn-index": 19, 
+            "utterance": "何を？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "話題振っておいて意味不明", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:53:35", 
+            "turn-index": 20, 
+            "utterance": "いやなんでもない"
+        }
+    ]
+}

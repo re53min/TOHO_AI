@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409046290", 
+    "group-id": "subset_a", 
+    "speaker-id": "08_10", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:41:46", 
+            "turn-index": 0, 
+            "utterance": "こんばんは！ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:42:03", 
+            "turn-index": 1, 
+            "utterance": "何かしますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:42:03", 
+            "turn-index": 2, 
+            "utterance": "やるぞ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:42:09", 
+            "turn-index": 3, 
+            "utterance": "何をしましょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:42:09", 
+            "turn-index": 4, 
+            "utterance": "退屈を楽しむ予定です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:42:17", 
+            "turn-index": 5, 
+            "utterance": "斬新ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:42:17", 
+            "turn-index": 6, 
+            "utterance": "退屈は平凡な日々でつぶしてるんですかね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:42:40", 
+            "turn-index": 7, 
+            "utterance": "平凡こそ幸せかもしれないですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:42:40", 
+            "turn-index": 8, 
+            "utterance": "退屈を紛らわしてるんですかね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:43:00", 
+            "turn-index": 9, 
+            "utterance": "忙しいのと退屈なのではどちらがいいですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "発話の意図がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:43:00", 
+            "turn-index": 10, 
+            "utterance": "退屈は心の哲学ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:43:16", 
+            "turn-index": 11, 
+            "utterance": "考え事が捗りますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:43:16", 
+            "turn-index": 12, 
+            "utterance": "考え事はいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:43:51", 
+            "turn-index": 13, 
+            "utterance": "普段は何を考えてるんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:43:51", 
+            "turn-index": 14, 
+            "utterance": "考え事をまとめてますねぇ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:44:00", 
+            "turn-index": 15, 
+            "utterance": "ほう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "発話の意図がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:44:00", 
+            "turn-index": 16, 
+            "utterance": "うほ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:44:08", 
+            "turn-index": 17, 
+            "utterance": "えっ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:44:08", 
+            "turn-index": 18, 
+            "utterance": "ひどい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 18:44:23", 
+            "turn-index": 19, 
+            "utterance": "そんな気はありませんので"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 18:44:23", 
+            "turn-index": 20, 
+            "utterance": "ええ！！それは大変"
+        }
+    ]
+}

@@ -1,0 +1,1749 @@
+{
+    "dialogue-id": "1407294825", 
+    "group-id": "init100", 
+    "speaker-id": "02_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:04:20", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:04:31", 
+            "turn-index": 1, 
+            "utterance": "さびしかった？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "質問返しだけど，これは許せる気がする．なぜかはわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "いきなり質問無視で新しいテーマ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "さびしかった？に応えていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "疑問文に対して疑問文を返している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "質問に質問で返している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "質問には答えていないが、質問をしているので話は続く", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "相手から質問されているのに質問で返すのはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "X", 
+                    "comment": "話が繋がっていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "X", 
+                    "comment": "急に話題が遷移した", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:04:31", 
+            "turn-index": 2, 
+            "utterance": "今日は家事が片付きましたか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:11:12", 
+            "turn-index": 3, 
+            "utterance": "掃除がまだです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「家事は楽」というテーマには、多くの人が賛同しかねる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "掃除について無視している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:11:12", 
+            "turn-index": 4, 
+            "utterance": "家事は楽ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:04", 
+            "turn-index": 5, 
+            "utterance": "僕は無精なのでなかなか手が付けられないです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:04", 
+            "turn-index": 6, 
+            "utterance": "家事は辛いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:08", 
+            "turn-index": 7, 
+            "utterance": "ええ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "T", 
+                    "comment": "04と矛盾する感じ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "返答として不適切", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "楽だと言ったのにおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "相手の返答を繰り返していておかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "発言の意図が分からない ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話が続かない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:08", 
+            "turn-index": 8, 
+            "utterance": "えぇ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:18", 
+            "turn-index": 9, 
+            "utterance": "好きにはなれないですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "T", 
+                    "comment": "わかるようなわからないような", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "誰が？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "発言の意図が分からない ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "X", 
+                    "comment": "文意が不明。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "X", 
+                    "comment": "意味がうまくくみ取れない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:18", 
+            "turn-index": 10, 
+            "utterance": "家事から離れますよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:24", 
+            "turn-index": 11, 
+            "utterance": "ええ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "返答として不適切", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "自分が言ったことに返事をもらってそこにうんはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "発言の意図が分からない ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話が続かない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:24", 
+            "turn-index": 12, 
+            "utterance": "うん"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:50", 
+            "turn-index": 13, 
+            "utterance": "学生時代は自炊していたんですけどね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "テーマは「自炊」「家事」であり「学生時代」ではなかったので、些か違和感", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:50", 
+            "turn-index": 14, 
+            "utterance": "学生時代は懐かしいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:12:58", 
+            "turn-index": 15, 
+            "utterance": "ええ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "T", 
+                    "comment": "同じパターンの繰り返しは違和感がある", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "懐かしいと言ったのは自分なのにうんはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "何に対して頷いているのか分からない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話が続かない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:12:58", 
+            "turn-index": 16, 
+            "utterance": "うん"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:13:30", 
+            "turn-index": 17, 
+            "utterance": "もうあの頃のようには体が動かせないです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "T", 
+                    "comment": "あまり日本人的な聞き方ではない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "質問無視", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:13:30", 
+            "turn-index": 18, 
+            "utterance": "学生時代を懐かしんでますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:13:39", 
+            "turn-index": 19, 
+            "utterance": "はい。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "01_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_A", 
+                    "breakdown": "T", 
+                    "comment": "18と口調があってない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "了解はしない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "発言の意図が分からない ", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話が続かない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:13:39", 
+            "turn-index": 20, 
+            "utterance": "りょーかい"
+        }
+    ]
+}

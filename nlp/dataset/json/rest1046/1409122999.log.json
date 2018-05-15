@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409122999", 
+    "group-id": "subset_g", 
+    "speaker-id": "08_11", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 15:59:08", 
+            "turn-index": 0, 
+            "utterance": "こんにちはー。海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 15:59:26", 
+            "turn-index": 1, 
+            "utterance": "こんにちはー。キャンプしたいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 15:59:26", 
+            "turn-index": 2, 
+            "utterance": "荷物が多いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 15:59:38", 
+            "turn-index": 3, 
+            "utterance": "多いと思います。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 15:59:38", 
+            "turn-index": 4, 
+            "utterance": "荷物が減りますか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:00:44", 
+            "turn-index": 5, 
+            "utterance": "遊ぶものを持っていかないなら減ります"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:00:44", 
+            "turn-index": 6, 
+            "utterance": "荷物は少なめがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:01:12", 
+            "turn-index": 7, 
+            "utterance": "全部持っていくと重いですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:01:12", 
+            "turn-index": 8, 
+            "utterance": "荷物は最低限がいいですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:01:26", 
+            "turn-index": 9, 
+            "utterance": "何を持っていくつもりですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:01:26", 
+            "turn-index": 10, 
+            "utterance": "荷物は無理です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:01:40", 
+            "turn-index": 11, 
+            "utterance": "あなたは荷物ではないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:01:40", 
+            "turn-index": 12, 
+            "utterance": "荷物は辛いです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:02:04", 
+            "turn-index": 13, 
+            "utterance": "あなたは私にとって必要な人です。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:02:04", 
+            "turn-index": 14, 
+            "utterance": "荷物は大丈夫ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:02:12", 
+            "turn-index": 15, 
+            "utterance": "元気になりましたか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:02:12", 
+            "turn-index": 16, 
+            "utterance": "荷物は無理よねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:02:51", 
+            "turn-index": 17, 
+            "utterance": "荷物になる人は無理ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:02:51", 
+            "turn-index": 18, 
+            "utterance": "荷物は必要よねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-27 16:03:10", 
+            "turn-index": 19, 
+            "utterance": "必要な荷物もありますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-27 16:03:10", 
+            "turn-index": 20, 
+            "utterance": "一つがいいですね"
+        }
+    ]
+}

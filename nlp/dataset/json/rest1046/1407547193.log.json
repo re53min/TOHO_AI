@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1407547193", 
+    "group-id": "subset_i", 
+    "speaker-id": "10_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:09:53", 
+            "turn-index": 0, 
+            "utterance": "おはよう。ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:16:23", 
+            "turn-index": 1, 
+            "utterance": "そうなんですね．話しましょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:16:23", 
+            "turn-index": 2, 
+            "utterance": "一人暮らしなんですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:16:33", 
+            "turn-index": 3, 
+            "utterance": "そうですよ．寂しいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:16:33", 
+            "turn-index": 4, 
+            "utterance": "一人暮らしはいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:16:44", 
+            "turn-index": 5, 
+            "utterance": "まぁ楽ではありますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "T", 
+                    "comment": "一人暮らしの感想ではない。何が便利かわからない。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "主語が不明", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:16:44", 
+            "turn-index": 6, 
+            "utterance": "一人暮らしに便利ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:17:14", 
+            "turn-index": 7, 
+            "utterance": "何が便利だと思いますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "質問無視", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:17:14", 
+            "turn-index": 8, 
+            "utterance": "一人暮らしは気楽ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:17:24", 
+            "turn-index": 9, 
+            "utterance": "そうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:17:24", 
+            "turn-index": 10, 
+            "utterance": "うむ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:18:49", 
+            "turn-index": 11, 
+            "utterance": "あなたは一人暮らしですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:18:49", 
+            "turn-index": 12, 
+            "utterance": "コンピュータです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:19:03", 
+            "turn-index": 13, 
+            "utterance": "まぁそうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "主語が不明", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:19:03", 
+            "turn-index": 14, 
+            "utterance": "コンピュータから離れられるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:19:18", 
+            "turn-index": 15, 
+            "utterance": "本当ですか！それはどうゆうふうに？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "質問無視", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:19:18", 
+            "turn-index": 16, 
+            "utterance": "コンピュータから離れますよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:19:42", 
+            "turn-index": 17, 
+            "utterance": "僕はコンピュータではないからわからないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:19:42", 
+            "turn-index": 18, 
+            "utterance": "コンピュータは良いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 10:19:49", 
+            "turn-index": 19, 
+            "utterance": "便利ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 10:19:49", 
+            "turn-index": 20, 
+            "utterance": "コンピュータは進化が早いですね"
+        }
+    ]
+}

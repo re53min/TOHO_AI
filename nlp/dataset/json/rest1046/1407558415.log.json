@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407558415", 
+    "group-id": "subset_e", 
+    "speaker-id": "07_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:24:21", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:24:48", 
+            "turn-index": 1, 
+            "utterance": "今，部屋ではガンガンにエアコンかけてますよ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:24:48", 
+            "turn-index": 2, 
+            "utterance": "家でつけますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:24:58", 
+            "turn-index": 3, 
+            "utterance": "家でもバリバリつけます．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:24:58", 
+            "turn-index": 4, 
+            "utterance": "夏に使います？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:25:16", 
+            "turn-index": 5, 
+            "utterance": "夏と冬に大活躍ですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:25:16", 
+            "turn-index": 6, 
+            "utterance": "エアコンは効率が悪いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:25:30", 
+            "turn-index": 7, 
+            "utterance": "何か他にいい方法があるんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「エアコン」に対して「恋しい」は不適切", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:25:30", 
+            "turn-index": 8, 
+            "utterance": "エアコンは恋しいそうですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:25:48", 
+            "turn-index": 9, 
+            "utterance": "擬人化ですか？何が恋しいんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:25:48", 
+            "turn-index": 10, 
+            "utterance": "擬人化は楽しいとか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:26:01", 
+            "turn-index": 11, 
+            "utterance": "なかなか通ですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:26:01", 
+            "turn-index": 12, 
+            "utterance": "通は芋がいいそうです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:26:15", 
+            "turn-index": 13, 
+            "utterance": "芋の擬人化とは，なかなか深いですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:26:15", 
+            "turn-index": 14, 
+            "utterance": "通は好きです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:26:23", 
+            "turn-index": 15, 
+            "utterance": "へー．知らなかったです．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:26:23", 
+            "turn-index": 16, 
+            "utterance": "通はかっこよいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:26:37", 
+            "turn-index": 17, 
+            "utterance": "なんでも，極めるのはかっこいいですもんね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:26:37", 
+            "turn-index": 18, 
+            "utterance": "通は可愛いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:26:53", 
+            "turn-index": 19, 
+            "utterance": "可愛くて，なおかつ通であれば最強ですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「芋」が突然出てきているので不適切", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:26:53", 
+            "turn-index": 20, 
+            "utterance": "芋がいいですね"
+        }
+    ]
+}

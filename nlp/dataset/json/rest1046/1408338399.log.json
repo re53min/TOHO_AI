@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408338399", 
+    "group-id": "subset_b", 
+    "speaker-id": "10_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:04:19", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:04:31", 
+            "turn-index": 1, 
+            "utterance": "こんにちは。今日も暑いですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:04:31", 
+            "turn-index": 2, 
+            "utterance": "今健康でいらっしゃいますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:04:51", 
+            "turn-index": 3, 
+            "utterance": "ちょっと体の節々が痛いですけど、概ね健康です"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:04:51", 
+            "turn-index": 4, 
+            "utterance": "ごはん派ですか、パン派ですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:05:09", 
+            "turn-index": 5, 
+            "utterance": "常日頃食べるならごはんがいいと思います"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:05:09", 
+            "turn-index": 6, 
+            "utterance": "常日頃は嬉しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:05:26", 
+            "turn-index": 7, 
+            "utterance": "ごはん派なんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:05:26", 
+            "turn-index": 8, 
+            "utterance": "常日頃から気を付けたいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:05:33", 
+            "turn-index": 9, 
+            "utterance": "何にですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:05:33", 
+            "turn-index": 10, 
+            "utterance": "なにがってなにが"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:05:42", 
+            "turn-index": 11, 
+            "utterance": "いや、気をつけたいって言うから"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:05:42", 
+            "turn-index": 12, 
+            "utterance": "常日頃から意識を持ちます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:06:00", 
+            "turn-index": 13, 
+            "utterance": "何に関してですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:06:00", 
+            "turn-index": 14, 
+            "utterance": "常日頃から高い意識を持ちます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:06:08", 
+            "turn-index": 15, 
+            "utterance": "だから何に関してですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:06:08", 
+            "turn-index": 16, 
+            "utterance": "常日頃から高いアンテナを張ります"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:06:21", 
+            "turn-index": 17, 
+            "utterance": "だから、何に関してですか？話噛み合ってないですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:06:21", 
+            "turn-index": 18, 
+            "utterance": "普段からアンテナを張るのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 14:06:36", 
+            "turn-index": 19, 
+            "utterance": "何に関してですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "X"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 14:06:36", 
+            "turn-index": 20, 
+            "utterance": "ところに張ります"
+        }
+    ]
+}

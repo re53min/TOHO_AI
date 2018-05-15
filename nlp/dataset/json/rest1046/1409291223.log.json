@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409291223", 
+    "group-id": "subset_h", 
+    "speaker-id": "07_10", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:45:08", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:45:15", 
+            "turn-index": 1, 
+            "utterance": "こんにちは！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:45:15", 
+            "turn-index": 2, 
+            "utterance": "こんにちはー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:45:25", 
+            "turn-index": 3, 
+            "utterance": "元気ですか?"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:45:25", 
+            "turn-index": 4, 
+            "utterance": "元気ですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:45:38", 
+            "turn-index": 5, 
+            "utterance": "もうすぐ秋ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "ユーザの発話無視", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:45:38", 
+            "turn-index": 6, 
+            "utterance": "元気ですかは元気です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:45:57", 
+            "turn-index": 7, 
+            "utterance": "そうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:45:57", 
+            "turn-index": 8, 
+            "utterance": "ですよね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:46:10", 
+            "turn-index": 9, 
+            "utterance": "喉乾きました"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:46:10", 
+            "turn-index": 10, 
+            "utterance": "喉は欲しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:46:20", 
+            "turn-index": 11, 
+            "utterance": "いらないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:46:20", 
+            "turn-index": 12, 
+            "utterance": "えー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:46:27", 
+            "turn-index": 13, 
+            "utterance": "そんなこといわれても"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:46:27", 
+            "turn-index": 14, 
+            "utterance": "喉は不調です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:46:34", 
+            "turn-index": 15, 
+            "utterance": "お大事に"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:46:34", 
+            "turn-index": 16, 
+            "utterance": "ありがとう?"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:46:43", 
+            "turn-index": 17, 
+            "utterance": "どういたしまして"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:46:43", 
+            "turn-index": 18, 
+            "utterance": "いえいえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:47:01", 
+            "turn-index": 19, 
+            "utterance": "喉を温めてくださいね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "矛盾？", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:47:01", 
+            "turn-index": 20, 
+            "utterance": "喉は不調か"
+        }
+    ]
+}

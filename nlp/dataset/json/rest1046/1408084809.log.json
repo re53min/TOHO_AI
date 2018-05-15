@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408084809", 
+    "group-id": "subset_d", 
+    "speaker-id": "14_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:36:07", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:36:19", 
+            "turn-index": 1, 
+            "utterance": "今日は何してましたか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:36:19", 
+            "turn-index": 2, 
+            "utterance": "お元気ですか。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:36:36", 
+            "turn-index": 3, 
+            "utterance": "はい。元気ですよ。あなたはお元気ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:36:36", 
+            "turn-index": 4, 
+            "utterance": "好きな食べ物はなんですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:36:58", 
+            "turn-index": 5, 
+            "utterance": "きつねうどんが好きです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:36:58", 
+            "turn-index": 6, 
+            "utterance": "きつねうどんは好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:37:28", 
+            "turn-index": 7, 
+            "utterance": "じゃあ、天ぷらうどんはどうですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:37:28", 
+            "turn-index": 8, 
+            "utterance": "天ぷらうどんが大好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:37:58", 
+            "turn-index": 9, 
+            "utterance": "この辺でおすすめのうどん屋さんはありますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "文脈に合わない．繋がらない．", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:37:58", 
+            "turn-index": 10, 
+            "utterance": "この辺は仕方ないですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:38:07", 
+            "turn-index": 11, 
+            "utterance": "仕方ないというのは？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:38:07", 
+            "turn-index": 12, 
+            "utterance": "この辺の事情はどうですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:38:38", 
+            "turn-index": 13, 
+            "utterance": "私が聞いていますよ。この辺の事情はよくわからないの"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "変なキーワードにマッチしている．", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:38:38", 
+            "turn-index": 14, 
+            "utterance": "事情は上司に説明するのでしょうか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:38:59", 
+            "turn-index": 15, 
+            "utterance": "え？なんで上司？関係ないよね？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:38:59", 
+            "turn-index": 16, 
+            "utterance": "事情に詳しくないですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:39:27", 
+            "turn-index": 17, 
+            "utterance": "詳しくないです。あなたはどこに住んでいますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:39:27", 
+            "turn-index": 18, 
+            "utterance": "男性から事情を聞くのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 15:39:52", 
+            "turn-index": 19, 
+            "utterance": "どこに住んでいますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 15:39:52", 
+            "turn-index": 20, 
+            "utterance": "事情は厳しいです"
+        }
+    ]
+}

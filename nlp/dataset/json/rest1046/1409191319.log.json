@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409191319", 
+    "group-id": "subset_d", 
+    "speaker-id": "07_09", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:57:26", 
+            "turn-index": 0, 
+            "utterance": "おはよう！熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 10:57:48", 
+            "turn-index": 1, 
+            "utterance": "ありがとう。熱中症は怖いです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:57:48", 
+            "turn-index": 2, 
+            "utterance": "熱中症に気をつけてたいですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 10:58:11", 
+            "turn-index": 3, 
+            "utterance": "そうですね。死者も出たりしてますから。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:58:11", 
+            "turn-index": 4, 
+            "utterance": "熱中症で死者が出てるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 10:58:44", 
+            "turn-index": 5, 
+            "utterance": "毎年出てますよ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:58:44", 
+            "turn-index": 6, 
+            "utterance": "予防が大切ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 10:59:09", 
+            "turn-index": 7, 
+            "utterance": "何か予防はしていますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:59:09", 
+            "turn-index": 8, 
+            "utterance": "日頃から予防を心掛けるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 10:59:36", 
+            "turn-index": 9, 
+            "utterance": "習慣にするといいかもしれませんね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 10:59:36", 
+            "turn-index": 10, 
+            "utterance": "習慣は多いです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 11:00:13", 
+            "turn-index": 11, 
+            "utterance": "どんな習慣ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 11:00:13", 
+            "turn-index": 12, 
+            "utterance": "習慣は強いです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 11:00:34", 
+            "turn-index": 13, 
+            "utterance": "継続は力なりって言いますからね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 11:00:34", 
+            "turn-index": 14, 
+            "utterance": "継続が力です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 11:01:02", 
+            "turn-index": 15, 
+            "utterance": "継続は難しいです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 11:01:02", 
+            "turn-index": 16, 
+            "utterance": "継続は難しいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 11:01:24", 
+            "turn-index": 17, 
+            "utterance": "私もなかなかできていません。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 11:01:24", 
+            "turn-index": 18, 
+            "utterance": "継続が価格的に難しいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-28 11:01:52", 
+            "turn-index": 19, 
+            "utterance": "お金がかかると続け難いものもありますよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-28 11:01:52", 
+            "turn-index": 20, 
+            "utterance": "生命保険の中で継続が難しいです"
+        }
+    ]
+}

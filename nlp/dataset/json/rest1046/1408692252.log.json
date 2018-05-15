@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408692252", 
+    "group-id": "subset_f", 
+    "speaker-id": "09_11", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:18:31", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:18:43", 
+            "turn-index": 1, 
+            "utterance": "こんにちは。予防が大切ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "予防するよという話をしている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:18:43", 
+            "turn-index": 2, 
+            "utterance": "熱中症に気をつけないんですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:19:06", 
+            "turn-index": 3, 
+            "utterance": "気を付けますよ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "返事が間違い", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:19:06", 
+            "turn-index": 4, 
+            "utterance": "ありがとー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:19:13", 
+            "turn-index": 5, 
+            "utterance": "どういたしまして"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "今までとは関係ない。話題が変わったのだとしたら△", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:19:13", 
+            "turn-index": 6, 
+            "utterance": "大好き"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:19:29", 
+            "turn-index": 7, 
+            "utterance": "ありがとー"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "×でもいいかも。変な相槌", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:19:29", 
+            "turn-index": 8, 
+            "utterance": "いえーい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:19:56", 
+            "turn-index": 9, 
+            "utterance": "何か健康の為に気を付けてることありますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "09の質問に答えていない。急すぎる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:19:56", 
+            "turn-index": 10, 
+            "utterance": "韓国語で教えるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:20:17", 
+            "turn-index": 11, 
+            "utterance": "韓国語の先生ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えていない。同じ話はもうしている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:20:17", 
+            "turn-index": 12, 
+            "utterance": "韓国語を教えるかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:20:42", 
+            "turn-index": 13, 
+            "utterance": "韓国語話せるの凄いですね！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:20:42", 
+            "turn-index": 14, 
+            "utterance": "韓国語は日本で教えるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:21:39", 
+            "turn-index": 15, 
+            "utterance": "私にも韓国語を教えて下さい"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "自分が上手だと言っているなら文が変", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:21:39", 
+            "turn-index": 16, 
+            "utterance": "韓国語は上手ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:22:51", 
+            "turn-index": 17, 
+            "utterance": "韓国語はどこで習ったんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "16でうまいと言っているので「ようです」は変", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:22:51", 
+            "turn-index": 18, 
+            "utterance": "韓国語は上手いようです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 16:23:25", 
+            "turn-index": 19, 
+            "utterance": "韓国にはよく行かれるのですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "だれが？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 16:23:25", 
+            "turn-index": 20, 
+            "utterance": "韓国で活躍したりとかします"
+        }
+    ]
+}

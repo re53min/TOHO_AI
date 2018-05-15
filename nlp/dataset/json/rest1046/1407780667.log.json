@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407780667", 
+    "group-id": "subset_c", 
+    "speaker-id": "08_06", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:08:01", 
+            "turn-index": 0, 
+            "utterance": "こんばんは！熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:08:08", 
+            "turn-index": 1, 
+            "utterance": "ありがとう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "意味がわからないが「どういたしまして」のことか？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:08:08", 
+            "turn-index": 2, 
+            "utterance": "どったま"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:08:28", 
+            "turn-index": 3, 
+            "utterance": "なんかかわいいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:08:28", 
+            "turn-index": 4, 
+            "utterance": "ありがとう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:08:33", 
+            "turn-index": 5, 
+            "utterance": "いえいえ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:08:33", 
+            "turn-index": 6, 
+            "utterance": "ありがと"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:08:48", 
+            "turn-index": 7, 
+            "utterance": "今日は何する予定ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "前とつながらない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:08:48", 
+            "turn-index": 8, 
+            "utterance": "ほんとです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:09:21", 
+            "turn-index": 9, 
+            "utterance": "昨日は何していましたか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "相手の質問を受けていないし、相手の質問自体別に珍しいものでもないので「初めて聞きました」というのはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:09:21", 
+            "turn-index": 10, 
+            "utterance": "初めて聞きました"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:09:35", 
+            "turn-index": 11, 
+            "utterance": "友達いないんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "10の繰り返し", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:09:35", 
+            "turn-index": 12, 
+            "utterance": "初めて聞きました"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:10:00", 
+            "turn-index": 13, 
+            "utterance": "人と話したことありますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "10・12の繰り返し", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:10:00", 
+            "turn-index": 14, 
+            "utterance": "初めて聞きました"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:10:14", 
+            "turn-index": 15, 
+            "utterance": "無礼ですいません"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "10・12・14の繰り返し", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:10:14", 
+            "turn-index": 16, 
+            "utterance": "初耳です。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:10:47", 
+            "turn-index": 17, 
+            "utterance": "猫耳すきです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:10:47", 
+            "turn-index": 18, 
+            "utterance": "猫耳をつけたいですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-12 03:11:04", 
+            "turn-index": 19, 
+            "utterance": "僕はつけたくないですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "ふつう猫耳はついていないので「ついてますよねー」と言われても困る", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-12 03:11:04", 
+            "turn-index": 20, 
+            "utterance": "猫耳がついてますよねー"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407296599", 
+    "group-id": "subset_e", 
+    "speaker-id": "01_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:41:06", 
+            "turn-index": 0, 
+            "utterance": "こんにちはー。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:41:11", 
+            "turn-index": 1, 
+            "utterance": "こんにちは"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "ダジャレのつもりで使っているのかが不明なため、△", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:41:11", 
+            "turn-index": 2, 
+            "utterance": "おはよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:41:25", 
+            "turn-index": 3, 
+            "utterance": "もう昼ですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "突然の話題展開の仕方が厳しい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:41:25", 
+            "turn-index": 4, 
+            "utterance": "スイカは実がなってるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:41:37", 
+            "turn-index": 5, 
+            "utterance": "どうでしょうね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「どうでしょう」という言葉にはまるケースは少ないと考えられるので不適切", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:41:37", 
+            "turn-index": 6, 
+            "utterance": "どうでしょうにハマってますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:41:54", 
+            "turn-index": 7, 
+            "utterance": "いいえ．はまってないです．最近，電子工作にはまっています"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「しょう」が何を示しているのかが不明", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:41:54", 
+            "turn-index": 8, 
+            "utterance": "しょうはいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:42:02", 
+            "turn-index": 9, 
+            "utterance": "Arduinoとか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:42:02", 
+            "turn-index": 10, 
+            "utterance": "Arduinoをはじめるんですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:42:13", 
+            "turn-index": 11, 
+            "utterance": "始めてますよ．面白いです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:42:13", 
+            "turn-index": 12, 
+            "utterance": "Arduinoはシリアル通信ができるのですか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:42:23", 
+            "turn-index": 13, 
+            "utterance": "できるんじゃないですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「いじる」という言葉に違和感がある", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:42:23", 
+            "turn-index": 14, 
+            "utterance": "シリアル通信をいじります"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:42:54", 
+            "turn-index": 15, 
+            "utterance": "簡単に電子工作ができるし，Cプログラムの開発環境もあるし，便利ですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「arduino」を主語にすべき", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:42:54", 
+            "turn-index": 16, 
+            "utterance": "シリアル通信ができるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:43:06", 
+            "turn-index": 17, 
+            "utterance": "割り込み制御も可能です"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「シリアル通信」と「arduino」の関係を認識できていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:43:06", 
+            "turn-index": 18, 
+            "utterance": "シリアル通信を行います"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 12:43:16", 
+            "turn-index": 19, 
+            "utterance": "Raspberry piもやってます"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 12:43:16", 
+            "turn-index": 20, 
+            "utterance": "いいですね！"
+        }
+    ]
+}

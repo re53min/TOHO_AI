@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408248018", 
+    "group-id": "subset_b", 
+    "speaker-id": "01_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:37:18", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:37:44", 
+            "turn-index": 1, 
+            "utterance": "こんにちは。夏といえば？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:37:44", 
+            "turn-index": 2, 
+            "utterance": "スイカで買い物できてるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:37:56", 
+            "turn-index": 3, 
+            "utterance": "はいできます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:37:56", 
+            "turn-index": 4, 
+            "utterance": "買い物が上手にできます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:38:14", 
+            "turn-index": 5, 
+            "utterance": "うまくできません"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:38:14", 
+            "turn-index": 6, 
+            "utterance": "買い物がスムーズに出来ます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:38:51", 
+            "turn-index": 7, 
+            "utterance": "いつも迷ってしまいます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:38:51", 
+            "turn-index": 8, 
+            "utterance": "買い物に寄りますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:39:02", 
+            "turn-index": 9, 
+            "utterance": "いいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "X"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:39:02", 
+            "turn-index": 10, 
+            "utterance": "えいいの"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:39:36", 
+            "turn-index": 11, 
+            "utterance": "何を買うのですか？？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:39:36", 
+            "turn-index": 12, 
+            "utterance": "はい　"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:50:59", 
+            "turn-index": 13, 
+            "utterance": "暇ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:50:59", 
+            "turn-index": 14, 
+            "utterance": "ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:59:33", 
+            "turn-index": 15, 
+            "utterance": "腹が減りました"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:59:33", 
+            "turn-index": 16, 
+            "utterance": "なんか食え"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 12:59:54", 
+            "turn-index": 17, 
+            "utterance": "何か食べ物ありますか？？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 12:59:54", 
+            "turn-index": 18, 
+            "utterance": "お察しいたします"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 13:00:13", 
+            "turn-index": 19, 
+            "utterance": "ガム食べます？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 13:00:13", 
+            "turn-index": 20, 
+            "utterance": "ガムをあげます"
+        }
+    ]
+}

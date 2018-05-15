@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1408220199", 
+    "group-id": "subset_j", 
+    "speaker-id": "02_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 04:59:36", 
+            "turn-index": 0, 
+            "utterance": "こんばんはー。海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 04:59:48", 
+            "turn-index": 1, 
+            "utterance": "ご飯は食べました？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 04:59:48", 
+            "turn-index": 2, 
+            "utterance": "ご飯を食べに行くのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:00:03", 
+            "turn-index": 3, 
+            "utterance": "海の家へ行きますが"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:00:03", 
+            "turn-index": 4, 
+            "utterance": "ご飯を食べに行きたいのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:00:22", 
+            "turn-index": 5, 
+            "utterance": "カレーが食べたいな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:00:22", 
+            "turn-index": 6, 
+            "utterance": "食べたい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:00:37", 
+            "turn-index": 7, 
+            "utterance": "スープカレーあるかな？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:00:37", 
+            "turn-index": 8, 
+            "utterance": "下北で食べるらしいですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:08:52", 
+            "turn-index": 9, 
+            "utterance": "焼きイカも食べたいな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:08:52", 
+            "turn-index": 10, 
+            "utterance": "下北はお店が並ぶそうです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:14:37", 
+            "turn-index": 11, 
+            "utterance": "団子も食べたいな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:14:37", 
+            "turn-index": 12, 
+            "utterance": "団子をつくるらしいんです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:14:51", 
+            "turn-index": 13, 
+            "utterance": "たこ焼きは？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:14:51", 
+            "turn-index": 14, 
+            "utterance": "お家で作るのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:15:11", 
+            "turn-index": 15, 
+            "utterance": "家にもたこ焼きプレートあるよ！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:15:11", 
+            "turn-index": 16, 
+            "utterance": "たこ焼きは目の前で焼きます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:15:40", 
+            "turn-index": 17, 
+            "utterance": "あの金串がないとね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:15:40", 
+            "turn-index": 18, 
+            "utterance": "金串は熱いうちに回します"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-17 05:16:34", 
+            "turn-index": 19, 
+            "utterance": "くるくる回して、丸くたこ焼きを焼き上げないとね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-17 05:16:34", 
+            "turn-index": 20, 
+            "utterance": "たこ焼きは熱々が美味しいですね"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409054495", 
+    "group-id": "subset_c", 
+    "speaker-id": "11_05", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 20:59:06", 
+            "turn-index": 0, 
+            "utterance": "こんばんはー。気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 20:59:15", 
+            "turn-index": 1, 
+            "utterance": "へろー"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 20:59:15", 
+            "turn-index": 2, 
+            "utterance": "へろー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 20:59:25", 
+            "turn-index": 3, 
+            "utterance": "はう、あー、ゆー？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uの質問を無視／口語会話（または雑談）には固すぎる文章", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 20:59:25", 
+            "turn-index": 4, 
+            "utterance": "ところで、産業技術総合研究所は、納豆菌が作る物質が洗剤やシャンプーの洗浄力を高めることを確認し、この物質を加えることで洗剤の使用量を大幅に減らせることができ、環境負荷を減らせると期待されるそうです。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 20:59:48", 
+            "turn-index": 5, 
+            "utterance": "ファッ！？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 20:59:48", 
+            "turn-index": 6, 
+            "utterance": "私もです・・・"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:00:26", 
+            "turn-index": 7, 
+            "utterance": "いやいやどう考えてもこっちがびっくりするだろ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "脈絡がない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:00:26", 
+            "turn-index": 8, 
+            "utterance": "競技が少ないです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:00:33", 
+            "turn-index": 9, 
+            "utterance": "なんの競技だよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:00:33", 
+            "turn-index": 10, 
+            "utterance": "競技は奥が深いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:00:47", 
+            "turn-index": 11, 
+            "utterance": "スポーツマンシップってやつ？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:00:47", 
+            "turn-index": 12, 
+            "utterance": "スポーツマンシップを考えるんです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:01:10", 
+            "turn-index": 13, 
+            "utterance": "何を考えるの"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:01:10", 
+            "turn-index": 14, 
+            "utterance": "スポーツマンシップに反するようですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:01:20", 
+            "turn-index": 15, 
+            "utterance": "なにが？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:01:20", 
+            "turn-index": 16, 
+            "utterance": "色々と"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:01:26", 
+            "turn-index": 17, 
+            "utterance": "色々ね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:01:26", 
+            "turn-index": 18, 
+            "utterance": "いろいろ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 21:01:32", 
+            "turn-index": 19, 
+            "utterance": "そうですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 21:01:32", 
+            "turn-index": 20, 
+            "utterance": "そうです"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408375228", 
+    "group-id": "subset_c", 
+    "speaker-id": "08_05", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 23:42:18", 
+            "turn-index": 0, 
+            "utterance": "ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:14:54", 
+            "turn-index": 1, 
+            "utterance": "何かして遊びますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:14:54", 
+            "turn-index": 2, 
+            "utterance": "退屈に耐えるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:15:32", 
+            "turn-index": 3, 
+            "utterance": "あえて耐えるんですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "直前の自分の発話と矛盾／Uの発話を聞いていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:15:32", 
+            "turn-index": 4, 
+            "utterance": "退屈から逃げるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:16:33", 
+            "turn-index": 5, 
+            "utterance": "やっぱり耐えるのはやめるんですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:16:33", 
+            "turn-index": 6, 
+            "utterance": "退屈は嫌ですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:16:59", 
+            "turn-index": 7, 
+            "utterance": "退屈よりは忙しいほうがましですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "今まで自分の話をしていたと思ったら「らしいです」と知らない人が出てきたのに違和感", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:16:59", 
+            "turn-index": 8, 
+            "utterance": "退屈でしょうがないらしいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:17:29", 
+            "turn-index": 9, 
+            "utterance": "それはかわいそうですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "08と同じく", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:17:29", 
+            "turn-index": 10, 
+            "utterance": "退屈で眠いそうですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:17:46", 
+            "turn-index": 11, 
+            "utterance": "退屈だと眠くなってもしょうがないですよ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:17:46", 
+            "turn-index": 12, 
+            "utterance": "退屈で疲れるんですよねぇ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:18:13", 
+            "turn-index": 13, 
+            "utterance": "何か退屈な仕事でもしてるんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:18:13", 
+            "turn-index": 14, 
+            "utterance": "退屈で寝るかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:18:50", 
+            "turn-index": 15, 
+            "utterance": "それは我慢した方がいいですよ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "意味がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:18:50", 
+            "turn-index": 16, 
+            "utterance": "我慢は暑いです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:19:47", 
+            "turn-index": 17, 
+            "utterance": "たしかに我慢しすぎると体が火照ってくるかもしれないですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:19:47", 
+            "turn-index": 18, 
+            "utterance": "我慢は必要ないですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 00:20:24", 
+            "turn-index": 19, 
+            "utterance": "我慢しすぎるのはよくないと思います。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 00:20:24", 
+            "turn-index": 20, 
+            "utterance": "我慢は必要ないです"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407558748", 
+    "group-id": "subset_k", 
+    "speaker-id": "07_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:29:48", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:30:07", 
+            "turn-index": 1, 
+            "utterance": "そうでしょ．そう思って声をかけてあげたよ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "少し意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:30:07", 
+            "turn-index": 2, 
+            "utterance": "なんか健康ということですが、何か意識されていることはありますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:30:31", 
+            "turn-index": 3, 
+            "utterance": "僕健康じゃないんですよ．週3回病院行ってるんです．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:30:31", 
+            "turn-index": 4, 
+            "utterance": "意識は難しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:30:48", 
+            "turn-index": 5, 
+            "utterance": "いや，毎日めちゃめちゃ意識してますよ．でないと死んじゃうので．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:30:48", 
+            "turn-index": 6, 
+            "utterance": "意識は辛いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:31:02", 
+            "turn-index": 7, 
+            "utterance": "結構辛いですけど，もうそろそろ慣れてきた感があります．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "質問の意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:31:02", 
+            "turn-index": 8, 
+            "utterance": "意識は元気か"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:31:18", 
+            "turn-index": 9, 
+            "utterance": "元気を意識するのはいい方法だと思います．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:31:18", 
+            "turn-index": 10, 
+            "utterance": "意識は辛いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:31:36", 
+            "turn-index": 11, 
+            "utterance": "そう思います．周りのみんなは全然意識してなくて，怒られまくってます．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:31:36", 
+            "turn-index": 12, 
+            "utterance": "意識は大切ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:31:42", 
+            "turn-index": 13, 
+            "utterance": "そう思います．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:31:42", 
+            "turn-index": 14, 
+            "utterance": "ですよね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:31:56", 
+            "turn-index": 15, 
+            "utterance": "病院には通院されてるんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:31:56", 
+            "turn-index": 16, 
+            "utterance": "注射を打ちます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:32:13", 
+            "turn-index": 17, 
+            "utterance": "えー？なんの注射なんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:32:13", 
+            "turn-index": 18, 
+            "utterance": "注射は肩に打ちます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-09 13:32:25", 
+            "turn-index": 19, 
+            "utterance": "予防接種か何かですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "相手の質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-09 13:32:25", 
+            "turn-index": 20, 
+            "utterance": "予防接種が出来ないなぁ"
+        }
+    ]
+}

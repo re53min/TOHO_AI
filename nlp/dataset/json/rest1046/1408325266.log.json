@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1408325266", 
+    "group-id": "subset_i", 
+    "speaker-id": "12_09", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:24:15", 
+            "turn-index": 0, 
+            "utterance": "おはよー。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:24:38", 
+            "turn-index": 1, 
+            "utterance": "私はお話しするの好きなので、話しちゃいますよ！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:24:38", 
+            "turn-index": 2, 
+            "utterance": "あなたは何座ですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:24:48", 
+            "turn-index": 3, 
+            "utterance": "ふたご座です。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:24:48", 
+            "turn-index": 4, 
+            "utterance": "双子座のあなたは、悩みが解決に向かいそうですよ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:25:08", 
+            "turn-index": 5, 
+            "utterance": "おお、それはラッキーですね！最近悩み事多かったので助かります。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "この文脈では「よう」の意味が不明", 
+                    "ungrammatical-sentence": "X"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:25:08", 
+            "turn-index": 6, 
+            "utterance": "双子座に憧れようです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:25:35", 
+            "turn-index": 7, 
+            "utterance": "へええ、なぜですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "X", 
+                    "comment": "質問無視", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:25:35", 
+            "turn-index": 8, 
+            "utterance": "収集するのが得意です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:25:57", 
+            "turn-index": 9, 
+            "utterance": "おっと、話題切り替わりましたね。私も昔はカードとか集めてました。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:25:57", 
+            "turn-index": 10, 
+            "utterance": "カードを使わないかも"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:26:16", 
+            "turn-index": 11, 
+            "utterance": "テレフォンカードとか使わなくなりましたよね。まだたくさん持ってます。。。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:26:16", 
+            "turn-index": 12, 
+            "utterance": "中に入れるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:26:40", 
+            "turn-index": 13, 
+            "utterance": "そうそう、ウィーンって入っていって、入れたり出したり好きでした。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:26:40", 
+            "turn-index": 14, 
+            "utterance": "地下鉄がわかりやすいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:27:02", 
+            "turn-index": 15, 
+            "utterance": "地下鉄はわかりづらいですよ。外が見えないと迷ってしまいます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:27:02", 
+            "turn-index": 16, 
+            "utterance": "地下鉄はややこしいですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:27:23", 
+            "turn-index": 17, 
+            "utterance": "おお、態度が変わりましたね！その通り、ややこしいです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "態度の話ではない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:27:23", 
+            "turn-index": 18, 
+            "utterance": "態度は欲しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 10:27:44", 
+            "turn-index": 19, 
+            "utterance": "たまには図々しい態度も必要かもしれませんね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 10:27:44", 
+            "turn-index": 20, 
+            "utterance": "態度は面白いですね"
+        }
+    ]
+}

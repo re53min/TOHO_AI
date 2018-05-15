@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407214774", 
+    "group-id": "subset_e", 
+    "speaker-id": "01_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:57:59", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:03", 
+            "turn-index": 1, 
+            "utterance": "眠い"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:03", 
+            "turn-index": 2, 
+            "utterance": "寝てないの"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:09", 
+            "turn-index": 3, 
+            "utterance": "6時間くらい"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「眠い」に関する話題を忘れていて、話題が勝手に変わっている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "文脈を無視している", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:09", 
+            "turn-index": 4, 
+            "utterance": "スイカはカブトムシにあげてるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:18", 
+            "turn-index": 5, 
+            "utterance": "カブトムシは見ないな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "返答がかえって来ていないため、再度返答しているがユーザが「カブトムシ」に興味がないことを認識できていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "カブトムシは見ないと言っているのにカブトムシの話を続けようとしている", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:18", 
+            "turn-index": 6, 
+            "utterance": "カブトムシにスイカをあげてます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:31", 
+            "turn-index": 7, 
+            "utterance": "カブトムシは飼ってないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「飼っていない」ため餌をあげていないことを認識できていないが、依然の対話を考慮するとまだ対話はできる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "カブトムシは飼っていないと言っているのにカブトムシの話を続けようとしている", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:31", 
+            "turn-index": 8, 
+            "utterance": "カブトムシにゼリーをあげてますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:41", 
+            "turn-index": 9, 
+            "utterance": "カミキリムシはよく見るな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「発生」という言葉が適切ではない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:41", 
+            "turn-index": 10, 
+            "utterance": "カミキリムシが発生しますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:48", 
+            "turn-index": 11, 
+            "utterance": "でかいのがよくいる"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "「大きさ」についての返答ではない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:48", 
+            "turn-index": 12, 
+            "utterance": "カミキリムシは種類が多いとかですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:58:57", 
+            "turn-index": 13, 
+            "utterance": "多いんじゃないですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "何がやられるのかが分からないため、会話困難", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:58:57", 
+            "turn-index": 14, 
+            "utterance": "カミキリムシにやられますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:59:08", 
+            "turn-index": 15, 
+            "utterance": "うるさいね．カミキリは"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「カミキリ」が虫だということが認識できていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:59:08", 
+            "turn-index": 16, 
+            "utterance": "カミキリに入られてるようですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:59:25", 
+            "turn-index": 17, 
+            "utterance": "つかまえると，キーキー鳴くでしょ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:59:25", 
+            "turn-index": 18, 
+            "utterance": "カミキリは触角が長いらしいですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:59:31", 
+            "turn-index": 19, 
+            "utterance": "長いね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:59:31", 
+            "turn-index": 20, 
+            "utterance": "ご機嫌ナナメですね。"
+        }
+    ]
+}

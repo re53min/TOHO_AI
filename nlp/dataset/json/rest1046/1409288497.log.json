@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409288497", 
+    "group-id": "subset_c", 
+    "speaker-id": "14_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:57:51", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:58:17", 
+            "turn-index": 1, 
+            "utterance": "こんにちは、既に疲れているんですが"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「気をつけてますか」ならわかる。「気をつけ」で止めるのは号令のときのみで、注意しろという意味の命令でも「気をつけて」「気をつけろ」となるため、「『熱中症に気をつけて』という意味か？？」という解釈もできない。", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:58:17", 
+            "turn-index": 2, 
+            "utterance": "熱中症に気をつけか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:58:25", 
+            "turn-index": 3, 
+            "utterance": "帰ってもいいですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "直前の自分の発話ともUの質問とも合わない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:58:25", 
+            "turn-index": 4, 
+            "utterance": "熱中症は大丈夫ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:58:55", 
+            "turn-index": 5, 
+            "utterance": "もうちょっと頑張りますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uは全然熱中症の話をしていない（し「既に疲れている」と言っている）のに、まだ熱中症の話を引っ張っている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:58:55", 
+            "turn-index": 6, 
+            "utterance": "予防が大切ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:59:12", 
+            "turn-index": 7, 
+            "utterance": "予防といえば、花粉症になったことあります？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uの質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:59:12", 
+            "turn-index": 8, 
+            "utterance": "花粉症を和らげましたね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:59:36", 
+            "turn-index": 9, 
+            "utterance": "花粉症ってかかると辛いですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:59:36", 
+            "turn-index": 10, 
+            "utterance": "花粉症で鼻水が出ましたね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 13:59:57", 
+            "turn-index": 11, 
+            "utterance": "やはりスギ花粉ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "Uの質問に答えていないし、その割にはどうでもいい（何の情報価値もない）ことを言っている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 13:59:57", 
+            "turn-index": 12, 
+            "utterance": "花粉症は症状が出るのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:00:36", 
+            "turn-index": 13, 
+            "utterance": "出先で鼻水が出ると困りますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uの発話を無視", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:00:36", 
+            "turn-index": 14, 
+            "utterance": "花粉症で鼻水が出るかもしれない"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:01:16", 
+            "turn-index": 15, 
+            "utterance": "くしゃみすると出ますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "これまでの流れと反対のことを言う", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:01:16", 
+            "turn-index": 16, 
+            "utterance": "花粉症は大丈夫ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:01:23", 
+            "turn-index": 17, 
+            "utterance": "大丈夫じゃないですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:01:23", 
+            "turn-index": 18, 
+            "utterance": "花粉症のお薬必須だね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 14:01:35", 
+            "turn-index": 19, 
+            "utterance": "必須ですね、薬局行きましょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "一般的に言って、薬局は楽しいところではない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 14:01:35", 
+            "turn-index": 20, 
+            "utterance": "薬局は楽しいですね"
+        }
+    ]
+}

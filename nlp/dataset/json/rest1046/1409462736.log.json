@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409462736", 
+    "group-id": "subset_b", 
+    "speaker-id": "14_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:18:11", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:19:26", 
+            "turn-index": 1, 
+            "utterance": "このへんで海というと千葉ですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "Yes／Noの質問が完全に無視されている。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:19:26", 
+            "turn-index": 2, 
+            "utterance": "千葉に着きますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:20:12", 
+            "turn-index": 3, 
+            "utterance": "今移動中ですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:20:12", 
+            "turn-index": 4, 
+            "utterance": "千葉を盛り上げますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:20:50", 
+            "turn-index": 5, 
+            "utterance": "今日はお祭りでもあります？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:20:50", 
+            "turn-index": 6, 
+            "utterance": "お祭りを盛り上げるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:21:08", 
+            "turn-index": 7, 
+            "utterance": "おお、そうなんですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:21:08", 
+            "turn-index": 8, 
+            "utterance": "一緒に盛り上げるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:21:37", 
+            "turn-index": 9, 
+            "utterance": "知り合いの方もたくさん行きますか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:21:37", 
+            "turn-index": 10, 
+            "utterance": "一緒に酒を飲みます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:22:12", 
+            "turn-index": 11, 
+            "utterance": "それは楽しそうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:22:12", 
+            "turn-index": 12, 
+            "utterance": "昼から酒を飲みます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:22:58", 
+            "turn-index": 13, 
+            "utterance": "贅沢ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:22:58", 
+            "turn-index": 14, 
+            "utterance": "飲むのがうまいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:23:52", 
+            "turn-index": 15, 
+            "utterance": "冷したビールなんかうまそうです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:23:52", 
+            "turn-index": 16, 
+            "utterance": "ジョッキがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:24:30", 
+            "turn-index": 17, 
+            "utterance": "つまみもあれば最高ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:24:30", 
+            "turn-index": 18, 
+            "utterance": "つまみは辛いのがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-31 14:25:30", 
+            "turn-index": 19, 
+            "utterance": "枝豆もいいですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-31 14:25:30", 
+            "turn-index": 20, 
+            "utterance": "枝豆がいいですね"
+        }
+    ]
+}

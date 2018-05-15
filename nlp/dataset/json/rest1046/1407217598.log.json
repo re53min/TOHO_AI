@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407217598", 
+    "group-id": "subset_h", 
+    "speaker-id": "01_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:21", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:45:32", 
+            "turn-index": 1, 
+            "utterance": "コーヒーでも飲みますかね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:32", 
+            "turn-index": 2, 
+            "utterance": "コーヒーを味わいます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:45:37", 
+            "turn-index": 3, 
+            "utterance": "お湯を沸かそう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "言っていることが唐突．", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "ユーザの発話は無視もコーヒーの話は継続", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:37", 
+            "turn-index": 4, 
+            "utterance": "コーヒーにはまります"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:45:48", 
+            "turn-index": 5, 
+            "utterance": "あんまり，こだわらないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "相手の発話を聞いていない．独り言のよう．", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:48", 
+            "turn-index": 6, 
+            "utterance": "コーヒーでくつろぎます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:45:51", 
+            "turn-index": 7, 
+            "utterance": "まあね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:51", 
+            "turn-index": 8, 
+            "utterance": "でしょ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:01", 
+            "turn-index": 9, 
+            "utterance": "濃いコーヒーが好きですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えていない．", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えていないがコーヒーの話は継続", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:01", 
+            "turn-index": 10, 
+            "utterance": "コーヒーは温かいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:05", 
+            "turn-index": 11, 
+            "utterance": "まあね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:05", 
+            "turn-index": 12, 
+            "utterance": "うん"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:15", 
+            "turn-index": 13, 
+            "utterance": "飲みすぎはよくないらしいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "発話の内容が意味不明", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "コーヒーの話を継続しているようだが、意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:15", 
+            "turn-index": 14, 
+            "utterance": "コーヒーは寒いですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:20", 
+            "turn-index": 15, 
+            "utterance": "そうなの"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:20", 
+            "turn-index": 16, 
+            "utterance": "そう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:25", 
+            "turn-index": 17, 
+            "utterance": "なぜでしょ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えていない．「コーヒーは○○」と言っても会話にならない．", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "コーヒーの話は継続しているようだが、質問の答えにはなっていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:25", 
+            "turn-index": 18, 
+            "utterance": "コーヒーは熱いです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:46:35", 
+            "turn-index": 19, 
+            "utterance": "こぼすと熱いよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "相手の話を聞いていない．「コーヒーは○○」と言っても会話にならない．", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:46:35", 
+            "turn-index": 20, 
+            "utterance": "コーヒーはホットです"
+        }
+    ]
+}

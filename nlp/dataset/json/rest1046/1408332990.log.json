@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408332990", 
+    "group-id": "subset_b", 
+    "speaker-id": "01_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:34:20", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:34:26", 
+            "turn-index": 1, 
+            "utterance": "しりとり"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:34:26", 
+            "turn-index": 2, 
+            "utterance": "いいですね。それでは、しりとりのリからスタートしましょう。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:34:33", 
+            "turn-index": 3, 
+            "utterance": "リス"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:34:33", 
+            "turn-index": 4, 
+            "utterance": "すいか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:34:47", 
+            "turn-index": 5, 
+            "utterance": "かもめ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:34:47", 
+            "turn-index": 6, 
+            "utterance": "かもめにえびせんをあげようですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:35:01", 
+            "turn-index": 7, 
+            "utterance": "えびせん？？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:35:01", 
+            "turn-index": 8, 
+            "utterance": "えびせんを差し出します"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:35:13", 
+            "turn-index": 9, 
+            "utterance": "えびせん食べたいな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:35:13", 
+            "turn-index": 10, 
+            "utterance": "えびせんを持ちますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:35:26", 
+            "turn-index": 11, 
+            "utterance": "えびせんちょうだい"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:35:26", 
+            "turn-index": 12, 
+            "utterance": "えびせんは好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:35:35", 
+            "turn-index": 13, 
+            "utterance": "えびせんよこせ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:35:35", 
+            "turn-index": 14, 
+            "utterance": "ソースを塗るんですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:35:47", 
+            "turn-index": 15, 
+            "utterance": "塗らないよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:35:47", 
+            "turn-index": 16, 
+            "utterance": "えびせんが美味いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:36:03", 
+            "turn-index": 17, 
+            "utterance": "私は嫌いです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:36:03", 
+            "turn-index": 18, 
+            "utterance": "えびせんは梅味が好き。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-18 12:36:21", 
+            "turn-index": 19, 
+            "utterance": "今度食べてみますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-18 12:36:21", 
+            "turn-index": 20, 
+            "utterance": "かっぱえびせんの袋にチャックあるといいんだよなぁ"
+        }
+    ]
+}

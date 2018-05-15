@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407219074", 
+    "group-id": "subset_c", 
+    "speaker-id": "12_08", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:07:29", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:08:25", 
+            "turn-index": 1, 
+            "utterance": "この間沖縄に行ってきたよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uが「行ってきた」話をしているのに「行きます？」とこれからの話にすり替わっているのが違和感", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:08:25", 
+            "turn-index": 2, 
+            "utterance": "修学旅行で行きます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:08:38", 
+            "turn-index": 3, 
+            "utterance": "行く人もいるんじゃないかな"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "「行ってます」も、「中学生の時には」など経験を表す用法であることがわかる文脈なら良いが、それがないと進行中の話のような気がするのに、ここで誰かが今どこかに行っているという話はしていないので、混乱してしまう", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:08:38", 
+            "turn-index": 4, 
+            "utterance": "修学旅行で広島に行ってますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:08:49", 
+            "turn-index": 5, 
+            "utterance": "私は京都に行きました。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「京都に行きました」に対して「京都で有名」はおかしい。「XはYで有名」の「X」がわからないので。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:08:49", 
+            "turn-index": 6, 
+            "utterance": "京都で有名ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:09:23", 
+            "turn-index": 7, 
+            "utterance": "京都は古いお寺とか、日本特有の文化を味わえる場所として有名です"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:09:23", 
+            "turn-index": 8, 
+            "utterance": "京都は有名ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:09:36", 
+            "turn-index": 9, 
+            "utterance": "うん、外国人もたくさん来ます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "一般的に「外国人は日本語が上手い」というのがおかしい気がした。「最近の外国人」「ここに来る外国人」などの限定があれば良いが、一般的に言って外国人は日本語が上手くないので。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:09:36", 
+            "turn-index": 10, 
+            "utterance": "外国人は日本語が上手いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:09:55", 
+            "turn-index": 11, 
+            "utterance": "そうですね、日本に来る人はうまい人もいますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「日本語は上手」というのが普遍的な事実のように聞こえるが、そんな事実はないので違和感を覚える", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:09:55", 
+            "turn-index": 12, 
+            "utterance": "日本語は上手ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:10:13", 
+            "turn-index": 13, 
+            "utterance": "私は上手ですよ。あなたはどうですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:10:13", 
+            "turn-index": 14, 
+            "utterance": "日本語は達者ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:10:35", 
+            "turn-index": 15, 
+            "utterance": "日本語は敬語が難しいんですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "「言葉が多い」だけでは意味をとりかねる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:10:35", 
+            "turn-index": 16, 
+            "utterance": "言葉が多いですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:10:47", 
+            "turn-index": 17, 
+            "utterance": "そうですね、漢字やカタカナもありますからね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:10:47", 
+            "turn-index": 18, 
+            "utterance": "日本語は表現が豊かですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 15:11:11", 
+            "turn-index": 19, 
+            "utterance": "そうですね、同じ状況を表す言葉がたくさんありますからね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 15:11:11", 
+            "turn-index": 20, 
+            "utterance": "日本語は繊細ですね"
+        }
+    ]
+}

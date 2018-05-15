@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1407309887", 
+    "group-id": "subset_j", 
+    "speaker-id": "12_06", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:20:30", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:20:47", 
+            "turn-index": 1, 
+            "utterance": "どちらにご旅行ですか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:20:47", 
+            "turn-index": 2, 
+            "utterance": "サッカーと野球どっちが好きですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:21:10", 
+            "turn-index": 3, 
+            "utterance": "んー、実はスポーツ苦手で、どちらも好きじゃないんです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:21:10", 
+            "turn-index": 4, 
+            "utterance": "興味が薄いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:21:42", 
+            "turn-index": 5, 
+            "utterance": "そう。スポーツには興味はないです。インドア派なので、手芸とか料理が得意なんです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:21:42", 
+            "turn-index": 6, 
+            "utterance": "スポーツは多いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:22:12", 
+            "turn-index": 7, 
+            "utterance": "いいえ、スポーツはしません。でもまあ、子供と一緒にプールに行ったりはしますね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:22:12", 
+            "turn-index": 8, 
+            "utterance": "プールは水が減るんですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:22:56", 
+            "turn-index": 9, 
+            "utterance": "それはどうでしょうか。わかりませんね。それはそうと、プールで泳いだ後は、ビールがおいしいんですよね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:22:56", 
+            "turn-index": 10, 
+            "utterance": "どうでしょうを見ます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:23:09", 
+            "turn-index": 11, 
+            "utterance": "それ何のことですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:23:09", 
+            "turn-index": 12, 
+            "utterance": "アプリ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:23:27", 
+            "turn-index": 13, 
+            "utterance": "アプリ？　ゲームですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:23:27", 
+            "turn-index": 14, 
+            "utterance": "ゲームは欲しくないですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:23:45", 
+            "turn-index": 15, 
+            "utterance": "私も。ゲームは嫌いです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:23:45", 
+            "turn-index": 16, 
+            "utterance": "ゲームで財布が寂しいですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:24:19", 
+            "turn-index": 17, 
+            "utterance": "そんなことはありませんよ。ゲームは買わないから。その代わり、ジュエリーが好きなので、ジュエリーにお金を使いますけど。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:24:19", 
+            "turn-index": 18, 
+            "utterance": "ゲームは楽しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:24:44", 
+            "turn-index": 19, 
+            "utterance": "ま、楽しいゲームはありますね。うちの子はゲーム好きで、ときどき遊んでます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:24:44", 
+            "turn-index": 20, 
+            "utterance": "ゲームはストーリーが面白いですね"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408088079", 
+    "group-id": "subset_a", 
+    "speaker-id": "14_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:30:15", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:30:51", 
+            "turn-index": 1, 
+            "utterance": "こんにちは！スイカといえば海水浴かな？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "前の質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:30:51", 
+            "turn-index": 2, 
+            "utterance": "海水浴は無理ですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:31:04", 
+            "turn-index": 3, 
+            "utterance": "無理じゃないですよ。大好きです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:31:04", 
+            "turn-index": 4, 
+            "utterance": "一緒にに楽しんでるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:31:16", 
+            "turn-index": 5, 
+            "utterance": "はい。一緒に楽しんでます。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:31:16", 
+            "turn-index": 6, 
+            "utterance": "スイカがうまいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:31:39", 
+            "turn-index": 7, 
+            "utterance": "スイカうまいですね。ブドウもすきですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:31:39", 
+            "turn-index": 8, 
+            "utterance": "ブドウがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:32:00", 
+            "turn-index": 9, 
+            "utterance": "いいですよね。もうすぐぶどう狩りの季節ですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:32:00", 
+            "turn-index": 10, 
+            "utterance": "ブドウはデラウェアが好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:32:37", 
+            "turn-index": 11, 
+            "utterance": "種がなくていいですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:32:37", 
+            "turn-index": 12, 
+            "utterance": "デラウェアが好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:32:53", 
+            "turn-index": 13, 
+            "utterance": "ほかに好きな種類はありますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "前の質問に答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:32:53", 
+            "turn-index": 14, 
+            "utterance": "デラウェアは美味しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:34:03", 
+            "turn-index": 15, 
+            "utterance": "デラウエアのワインもおいしいですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "発話の意図がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:34:03", 
+            "turn-index": 16, 
+            "utterance": "デラウエアをむくです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:34:19", 
+            "turn-index": 17, 
+            "utterance": "皮は食べますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:34:19", 
+            "turn-index": 18, 
+            "utterance": "皮はむくです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-15 16:34:36", 
+            "turn-index": 19, 
+            "utterance": "皮は食べないのですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "自分の前の発話と矛盾している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-15 16:34:36", 
+            "turn-index": 20, 
+            "utterance": "皮をむいてないです"
+        }
+    ]
+}

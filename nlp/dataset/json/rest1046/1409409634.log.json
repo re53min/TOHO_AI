@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409409634", 
+    "group-id": "subset_d", 
+    "speaker-id": "14_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:29:48", 
+            "turn-index": 0, 
+            "utterance": "海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:30:28", 
+            "turn-index": 1, 
+            "utterance": "海で何しますか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "行きたいのでは？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "主張が逆転している", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:30:28", 
+            "turn-index": 2, 
+            "utterance": "海に行きませんねぇ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:30:56", 
+            "turn-index": 3, 
+            "utterance": "今年は行きませんでしたか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:30:56", 
+            "turn-index": 4, 
+            "utterance": "海に行かないんですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:33:37", 
+            "turn-index": 5, 
+            "utterance": "忙しかったですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "忙しいかを聞いている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:33:37", 
+            "turn-index": 6, 
+            "utterance": "海は一人で行くのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:34:29", 
+            "turn-index": 7, 
+            "utterance": "車で行きますか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "海では？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "話題がずれている．海の話なのに，車の話になっている", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:34:29", 
+            "turn-index": 8, 
+            "utterance": "車で会社に行くのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:35:06", 
+            "turn-index": 9, 
+            "utterance": "私は電車で通勤ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "車では？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "主張（通勤手段）が変わっている", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:35:06", 
+            "turn-index": 10, 
+            "utterance": "電車で会社に向かうのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:36:16", 
+            "turn-index": 11, 
+            "utterance": "ラッシュは大変でしょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:36:16", 
+            "turn-index": 12, 
+            "utterance": "ラッシュから逃れるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:36:36", 
+            "turn-index": 13, 
+            "utterance": "だから車で行くこともあるんですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "理由を答えるべき", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:36:36", 
+            "turn-index": 14, 
+            "utterance": "車は一人で乗りますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:37:27", 
+            "turn-index": 15, 
+            "utterance": "通勤だったら1人でしょうね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "X", 
+                    "comment": "1人かどうかを聞いている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:37:27", 
+            "turn-index": 16, 
+            "utterance": "通勤で車に乗るのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:38:42", 
+            "turn-index": 17, 
+            "utterance": "私は買い物やレジャーでしか乗りませんね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:38:42", 
+            "turn-index": 18, 
+            "utterance": "通勤は電車がいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 23:40:05", 
+            "turn-index": 19, 
+            "utterance": "人が多くなければ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "07_A", 
+                    "breakdown": "T", 
+                    "comment": "（～～がいいですね）が連発していて，よくわからない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 23:40:05", 
+            "turn-index": 20, 
+            "utterance": "スクーターがいいですね"
+        }
+    ]
+}

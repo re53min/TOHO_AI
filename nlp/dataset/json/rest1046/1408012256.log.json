@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1408012256", 
+    "group-id": "subset_i", 
+    "speaker-id": "04_06", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:28:35", 
+            "turn-index": 0, 
+            "utterance": "こんばんは。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:28:45", 
+            "turn-index": 1, 
+            "utterance": "スイカは大好きです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:28:45", 
+            "turn-index": 2, 
+            "utterance": "スイカは実が大きいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:28:59", 
+            "turn-index": 3, 
+            "utterance": "小さなものもありますよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:28:59", 
+            "turn-index": 4, 
+            "utterance": "スイカは面白いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:29:16", 
+            "turn-index": 5, 
+            "utterance": "黄色いスイカが好きです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "T", 
+                    "comment": "何が有名か不明", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "T", 
+                    "comment": "主語が不明", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:29:16", 
+            "turn-index": 6, 
+            "utterance": "スイカで有名ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:29:38", 
+            "turn-index": 7, 
+            "utterance": "スイカの名産地？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "T", 
+                    "comment": "何が有名か不明", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "X", 
+                    "comment": "主語が不明、質問無視", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:29:38", 
+            "turn-index": 8, 
+            "utterance": "スイカで有名ですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:29:46", 
+            "turn-index": 9, 
+            "utterance": "そうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:29:46", 
+            "turn-index": 10, 
+            "utterance": "うむ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:30:04", 
+            "turn-index": 11, 
+            "utterance": "メロンも美味しいですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:30:04", 
+            "turn-index": 12, 
+            "utterance": "メロンは大好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:30:15", 
+            "turn-index": 13, 
+            "utterance": "たくさん食べたいです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:30:15", 
+            "turn-index": 14, 
+            "utterance": "メロンは好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:30:40", 
+            "turn-index": 15, 
+            "utterance": "一緒に食べに行きましょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:30:40", 
+            "turn-index": 16, 
+            "utterance": "一緒は嬉しいですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:30:48", 
+            "turn-index": 17, 
+            "utterance": "うれしいですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:30:48", 
+            "turn-index": 18, 
+            "utterance": "一緒は嬉しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 19:30:54", 
+            "turn-index": 19, 
+            "utterance": "そうですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_C", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "11_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "15_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 19:30:54", 
+            "turn-index": 20, 
+            "utterance": "あはい"
+        }
+    ]
+}

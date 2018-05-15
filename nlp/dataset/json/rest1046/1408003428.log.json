@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408003428", 
+    "group-id": "subset_h", 
+    "speaker-id": "04_04", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 16:59:59", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:00:17", 
+            "turn-index": 1, 
+            "utterance": "こんにちは。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:00:17", 
+            "turn-index": 2, 
+            "utterance": "こんちわー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:00:27", 
+            "turn-index": 3, 
+            "utterance": "今日は雨ですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:00:27", 
+            "turn-index": 4, 
+            "utterance": "雨は得意ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:00:47", 
+            "turn-index": 5, 
+            "utterance": "ベランダに洗濯物を干してあります。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "雨なのに？", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:00:47", 
+            "turn-index": 6, 
+            "utterance": "風通しが良いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:01:09", 
+            "turn-index": 7, 
+            "utterance": "そうだと良いです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:01:09", 
+            "turn-index": 8, 
+            "utterance": "風通しに気を付けたい？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:01:39", 
+            "turn-index": 9, 
+            "utterance": "夏は風通しが大切です。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:01:39", 
+            "turn-index": 10, 
+            "utterance": "風通しは良いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:02:12", 
+            "turn-index": 11, 
+            "utterance": "今気温は何度ですかね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:02:12", 
+            "turn-index": 12, 
+            "utterance": "これくらいがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:02:33", 
+            "turn-index": 13, 
+            "utterance": "猛暑はいやですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:02:33", 
+            "turn-index": 14, 
+            "utterance": "猛暑は早いですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:02:56", 
+            "turn-index": 15, 
+            "utterance": "早く涼しくなるといいですねー"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話が噛み合っていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:02:56", 
+            "turn-index": 16, 
+            "utterance": "猛暑から急に寒いですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:03:15", 
+            "turn-index": 17, 
+            "utterance": "本当は夏は好きですが。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:03:15", 
+            "turn-index": 18, 
+            "utterance": "猛暑は嬉しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 17:03:43", 
+            "turn-index": 19, 
+            "utterance": "海水浴には猛暑は良いです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "何が有名なのか？", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 17:03:43", 
+            "turn-index": 20, 
+            "utterance": "海水浴で有名ですね"
+        }
+    ]
+}

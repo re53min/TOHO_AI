@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408141770", 
+    "group-id": "subset_f", 
+    "speaker-id": "01_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:26:25", 
+            "turn-index": 0, 
+            "utterance": "おはよう！ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:26:52", 
+            "turn-index": 1, 
+            "utterance": "趣味はなんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "ちょっと違う", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:26:52", 
+            "turn-index": 2, 
+            "utterance": "趣味は多趣味です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:27:11", 
+            "turn-index": 3, 
+            "utterance": "例えばなんですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "01.03の質問に答えていない。どうして没頭できるのかも急すぎてわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:27:11", 
+            "turn-index": 4, 
+            "utterance": "趣味に没頭できるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:27:30", 
+            "turn-index": 5, 
+            "utterance": "私もそうです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "なにを？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:27:30", 
+            "turn-index": 6, 
+            "utterance": "趣味でやりたいのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:27:50", 
+            "turn-index": 7, 
+            "utterance": "どんなことですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "07の答えになっていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:27:50", 
+            "turn-index": 8, 
+            "utterance": "そういうことだ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:28:12", 
+            "turn-index": 9, 
+            "utterance": "趣味はなんですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "2度聞かれているが答えられていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:28:12", 
+            "turn-index": 10, 
+            "utterance": "趣味が高じます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:28:13", 
+            "turn-index": 11, 
+            "utterance": "趣味はなんですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:28:13", 
+            "turn-index": 12, 
+            "utterance": "趣味は小説を書きます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:28:34", 
+            "turn-index": 13, 
+            "utterance": "どんな小説を書くのですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "12で「書きます」と言っている。他人の話になるのはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:28:34", 
+            "turn-index": 14, 
+            "utterance": "趣味で書くようですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:28:38", 
+            "turn-index": 15, 
+            "utterance": "どんな小説を書くのですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "「どんな」に答えていない。他人の話のままなので×", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:28:38", 
+            "turn-index": 16, 
+            "utterance": "小説は魔法のiらんどで書くらしいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:29:07", 
+            "turn-index": 17, 
+            "utterance": "魔法のiらんどとは何ですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "16で自分が言ったことと矛盾している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:29:07", 
+            "turn-index": 18, 
+            "utterance": "初耳です。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:29:23", 
+            "turn-index": 19, 
+            "utterance": "小説は読みますか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "19の答えになっていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:29:23", 
+            "turn-index": 20, 
+            "utterance": "時間が足りてないかも"
+        }
+    ]
+}

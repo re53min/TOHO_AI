@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408676451", 
+    "group-id": "subset_f", 
+    "speaker-id": "04_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:58:21", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:58:37", 
+            "turn-index": 1, 
+            "utterance": "そろそろ時間かもしれません"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "01で時間かもと言われているのを無視。話が唐突すぎる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:58:37", 
+            "turn-index": 2, 
+            "utterance": "ところで、アジア開発銀行と宇宙航空研究開発機構が人工衛星で集めた降雨データなどから河川の浸水域を予測し、流域住民の携帯電話に警報メールを配信する、雨の多いアジアの途上国での洪水被害防止支援策を始めるそうです。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:59:10", 
+            "turn-index": 3, 
+            "utterance": "ほんとですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:59:10", 
+            "turn-index": 4, 
+            "utterance": "ほんとです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:59:22", 
+            "turn-index": 5, 
+            "utterance": "興味深いニュースですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "経由ですよねとは言わない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:59:22", 
+            "turn-index": 6, 
+            "utterance": "アジア開発銀行を経由ですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:59:36", 
+            "turn-index": 7, 
+            "utterance": "洪水は怖いですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "急にタイが出て来た。ですよねえはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:59:36", 
+            "turn-index": 8, 
+            "utterance": "タイで洪水が発生ですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:59:48", 
+            "turn-index": 9, 
+            "utterance": "目下の話題は日本ですけどね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "大丈夫じゃない話を今までしているはず", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:59:48", 
+            "turn-index": 10, 
+            "utterance": "洪水は大丈夫ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 11:59:54", 
+            "turn-index": 11, 
+            "utterance": "大丈夫じゃないですよ！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 11:59:54", 
+            "turn-index": 12, 
+            "utterance": "洪水被害なければいいね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 12:00:15", 
+            "turn-index": 13, 
+            "utterance": "本当にそう思います。大きな川の近くや山の近くは怖いです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "Sが何かの夢を見た？意味がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 12:00:15", 
+            "turn-index": 14, 
+            "utterance": "何か洪水の被害にあう夢とか、てごしに華麗にスルーされる夢"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 12:00:29", 
+            "turn-index": 15, 
+            "utterance": "え？　よくわかりませんでした。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 12:00:29", 
+            "turn-index": 16, 
+            "utterance": "夢は壮大ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 12:00:35", 
+            "turn-index": 17, 
+            "utterance": "夢判断ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "17の質問無視。めでたい夢を見た？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 12:00:35", 
+            "turn-index": 18, 
+            "utterance": "夢判断でめでたいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-22 12:00:48", 
+            "turn-index": 19, 
+            "utterance": "火事の夢はなんでしたっけ？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "19の質問無視。願うのはだれ？", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-22 12:00:48", 
+            "turn-index": 20, 
+            "utterance": "夢判断を願うらしいです"
+        }
+    ]
+}

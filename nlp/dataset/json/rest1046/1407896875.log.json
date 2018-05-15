@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407896875", 
+    "group-id": "subset_e", 
+    "speaker-id": "05_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:20:12", 
+            "turn-index": 0, 
+            "utterance": "こんにちはー。気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:23:36", 
+            "turn-index": 1, 
+            "utterance": "そろそろおなかすいた。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "ユーザ発話を考慮した質問ではない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:23:36", 
+            "turn-index": 2, 
+            "utterance": "どんな仕事をされているのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:23:48", 
+            "turn-index": 3, 
+            "utterance": "家庭教師をしています。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "生徒を探しているのかどうかを考慮しづらい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:23:48", 
+            "turn-index": 4, 
+            "utterance": "お知り合いの方で探してますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:23:57", 
+            "turn-index": 5, 
+            "utterance": "だいたい知り合いの紹介ですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「スーパースタイル」がよくわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:23:57", 
+            "turn-index": 6, 
+            "utterance": "知り合いはスーパースタイルが欲しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:24:29", 
+            "turn-index": 7, 
+            "utterance": "スーパースタイルってなんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "そのようなことは言っていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:24:29", 
+            "turn-index": 8, 
+            "utterance": "知り合いはスーパースタイルが欲しとか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:24:46", 
+            "turn-index": 9, 
+            "utterance": "スーパースタイルが何かは教えてくれないんですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "ダイエットカフェがほしいとはだれも言っていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:24:46", 
+            "turn-index": 10, 
+            "utterance": "YOOUTHが欲しいらしい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:25:36", 
+            "turn-index": 11, 
+            "utterance": "僕が知らないこといっぱい知ってますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "皮肉を言ってユーザにストレスを与えている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:25:36", 
+            "turn-index": 12, 
+            "utterance": "それはいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:25:48", 
+            "turn-index": 13, 
+            "utterance": "博識なのはいいことです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "T", 
+                    "comment": "感謝を述べるべき", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:25:48", 
+            "turn-index": 14, 
+            "utterance": "楽しそうですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:26:02", 
+            "turn-index": 15, 
+            "utterance": "新しいことを聞けるからね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:26:02", 
+            "turn-index": 16, 
+            "utterance": "楽しみです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:27:45", 
+            "turn-index": 17, 
+            "utterance": "もっといろいろ教えて。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "時期を指す言葉を入れておく必要がある", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:27:45", 
+            "turn-index": 18, 
+            "utterance": "楽しみは早いらしいですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-13 11:27:52", 
+            "turn-index": 19, 
+            "utterance": "速さがあるの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "速さの定義を行っていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-13 11:27:52", 
+            "turn-index": 20, 
+            "utterance": "速さは遅いとか"
+        }
+    ]
+}

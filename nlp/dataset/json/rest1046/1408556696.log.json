@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408556696", 
+    "group-id": "subset_f", 
+    "speaker-id": "13_12", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:41:59", 
+            "turn-index": 0, 
+            "utterance": "こんばんはー。気軽に声かけてね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:42:11", 
+            "turn-index": 1, 
+            "utterance": "最近体調が悪いです．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "何故ピンポイントで喉が出て来たのかちょっと気になる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:42:11", 
+            "turn-index": 2, 
+            "utterance": "体調は喉が痛いですか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:42:24", 
+            "turn-index": 3, 
+            "utterance": "喉も頭も痛いです．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "それは人による。Sの事だとしたら急すぎる", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:42:24", 
+            "turn-index": 4, 
+            "utterance": "痰が出るんですよねぇ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:42:38", 
+            "turn-index": 5, 
+            "utterance": "そうなんですか．薬は飲んでますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "薬や人によりけり", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:42:38", 
+            "turn-index": 6, 
+            "utterance": "薬は副作用が出ますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:42:54", 
+            "turn-index": 7, 
+            "utterance": "たしかにそうですね．人間の力を信じましょう！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:42:54", 
+            "turn-index": 8, 
+            "utterance": "それは、いいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:43:10", 
+            "turn-index": 9, 
+            "utterance": "薬は嫌いですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "09の返事としては少し曖昧", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:43:10", 
+            "turn-index": 10, 
+            "utterance": "薬は大丈夫ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:44:08", 
+            "turn-index": 11, 
+            "utterance": "なるほど．何か嫌いなものはありますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "「量が多い」のは嫌いなもの？薬？はっきりわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:44:08", 
+            "turn-index": 12, 
+            "utterance": "量が多いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:44:19", 
+            "turn-index": 13, 
+            "utterance": "たしかにそうですね．少し多いですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "体調が悪い話をしていたので楽しみはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:44:19", 
+            "turn-index": 14, 
+            "utterance": "楽しみです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:44:27", 
+            "turn-index": 15, 
+            "utterance": "僕も楽しみです！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "薬の効果？一言足りない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:44:27", 
+            "turn-index": 16, 
+            "utterance": "効果が高いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:44:40", 
+            "turn-index": 17, 
+            "utterance": "でも高いんですよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:44:40", 
+            "turn-index": 18, 
+            "utterance": "いくら"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-21 02:44:48", 
+            "turn-index": 19, 
+            "utterance": "１万円くらいしますよね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-21 02:44:48", 
+            "turn-index": 20, 
+            "utterance": "薬は単価が高いんでしょうか"
+        }
+    ]
+}

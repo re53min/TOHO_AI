@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408537604", 
+    "group-id": "subset_g", 
+    "speaker-id": "13_15", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 20:47:11", 
+            "turn-index": 0, 
+            "utterance": "こんばんはー。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:23:29", 
+            "turn-index": 1, 
+            "utterance": "こんばんは。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:23:29", 
+            "turn-index": 2, 
+            "utterance": "こんばんはにこっ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:24:56", 
+            "turn-index": 3, 
+            "utterance": "魚は好きですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:24:56", 
+            "turn-index": 4, 
+            "utterance": "魚は欲しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:25:06", 
+            "turn-index": 5, 
+            "utterance": "どんな魚を？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:25:06", 
+            "turn-index": 6, 
+            "utterance": "魚を買いに行きます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:25:21", 
+            "turn-index": 7, 
+            "utterance": "どこへ買いに行くんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:25:21", 
+            "turn-index": 8, 
+            "utterance": "魚から離れます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:25:33", 
+            "turn-index": 9, 
+            "utterance": "話題を変えましょう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:25:33", 
+            "turn-index": 10, 
+            "utterance": "わかりました。テレビはよく観ますか?"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:26:01", 
+            "turn-index": 11, 
+            "utterance": "テレビは夜中に観ますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:26:01", 
+            "turn-index": 12, 
+            "utterance": "テレビは自宅で観てますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:26:14", 
+            "turn-index": 13, 
+            "utterance": "自宅で観ることがほとんどです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:26:14", 
+            "turn-index": 14, 
+            "utterance": "家でつけてます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:26:20", 
+            "turn-index": 15, 
+            "utterance": "つけてます"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:26:20", 
+            "turn-index": 16, 
+            "utterance": "テレビを切りますか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:26:32", 
+            "turn-index": 17, 
+            "utterance": "自宅にいない時は切りますね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:26:32", 
+            "turn-index": 18, 
+            "utterance": "テレビから遠ざかってますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-20 21:26:41", 
+            "turn-index": 19, 
+            "utterance": "そうですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "12_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-20 21:26:41", 
+            "turn-index": 20, 
+            "utterance": "うん"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407995842", 
+    "group-id": "subset_b", 
+    "speaker-id": "05_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:55:18", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:55:30", 
+            "turn-index": 1, 
+            "utterance": "スイカだね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:55:30", 
+            "turn-index": 2, 
+            "utterance": "かもめ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:55:36", 
+            "turn-index": 3, 
+            "utterance": "かもめ？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:55:36", 
+            "turn-index": 4, 
+            "utterance": "かもめにのりますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:55:44", 
+            "turn-index": 5, 
+            "utterance": "のりません"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:55:44", 
+            "turn-index": 6, 
+            "utterance": "かもめがかわいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:55:51", 
+            "turn-index": 7, 
+            "utterance": "かわいいですね？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:55:51", 
+            "turn-index": 8, 
+            "utterance": "ありがとう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:56:44", 
+            "turn-index": 9, 
+            "utterance": "どういたしまして"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:56:44", 
+            "turn-index": 10, 
+            "utterance": "えっ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:56:49", 
+            "turn-index": 11, 
+            "utterance": "えっ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:56:49", 
+            "turn-index": 12, 
+            "utterance": "ん笑"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:56:56", 
+            "turn-index": 13, 
+            "utterance": "笑"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:56:56", 
+            "turn-index": 14, 
+            "utterance": "おう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:56:59", 
+            "turn-index": 15, 
+            "utterance": "おう"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:56:59", 
+            "turn-index": 16, 
+            "utterance": "りょーかい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:57:08", 
+            "turn-index": 17, 
+            "utterance": "何を？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:57:08", 
+            "turn-index": 18, 
+            "utterance": "なにが"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-14 14:57:19", 
+            "turn-index": 19, 
+            "utterance": "いやこっちが聞きたい"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-14 14:57:19", 
+            "turn-index": 20, 
+            "utterance": "本当にそうですね"
+        }
+    ]
+}

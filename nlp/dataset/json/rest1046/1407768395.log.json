@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407768395", 
+    "group-id": "subset_e", 
+    "speaker-id": "07_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:44:06", 
+            "turn-index": 0, 
+            "utterance": "海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:44:22", 
+            "turn-index": 1, 
+            "utterance": "全く行きたくないです．もう海の話は金輪際しないでください．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「してほしくない」ということを認識できていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:44:22", 
+            "turn-index": 2, 
+            "utterance": "朝から海に行きますか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:44:35", 
+            "turn-index": 3, 
+            "utterance": "いきません．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「海」に関する話題を嫌がっているにもかかわらず続けている", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:44:35", 
+            "turn-index": 4, 
+            "utterance": "沖縄で行きます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:44:53", 
+            "turn-index": 5, 
+            "utterance": "沖縄へ行くこと自体が海目的が多いじゃないですか．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:44:53", 
+            "turn-index": 6, 
+            "utterance": "修学旅行で行きます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:45:07", 
+            "turn-index": 7, 
+            "utterance": "よく，修学旅行で選択される土地ですよね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:45:07", 
+            "turn-index": 8, 
+            "utterance": "行くまでが楽しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:45:23", 
+            "turn-index": 9, 
+            "utterance": "飛行機にのっていきますからね．その点では，とても楽しいですね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「点」を主語として認識しているが関係ない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:45:23", 
+            "turn-index": 10, 
+            "utterance": "点はいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:45:40", 
+            "turn-index": 11, 
+            "utterance": "何の点の話ですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "覚悟がいるわけが分からない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:45:40", 
+            "turn-index": 12, 
+            "utterance": "点は覚悟が必要です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:46:02", 
+            "turn-index": 13, 
+            "utterance": "得点ってことですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "ユーザの発話に対する返答を行っていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:46:02", 
+            "turn-index": 14, 
+            "utterance": "点はいいらしいですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:46:10", 
+            "turn-index": 15, 
+            "utterance": "そりゃ，いいほうがいいですよ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:46:10", 
+            "turn-index": 16, 
+            "utterance": "点は確認が必要だそうですよ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:46:21", 
+            "turn-index": 17, 
+            "utterance": "確認してないと，負けちゃいますからね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "「正しい」が何を指しているのかが理解できない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:46:21", 
+            "turn-index": 18, 
+            "utterance": "点は正しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-11 23:46:33", 
+            "turn-index": 19, 
+            "utterance": "点が正義なんでしょうか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "05_B", 
+                    "breakdown": "X", 
+                    "comment": "以前の発話を考慮していない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "08_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-11 23:46:33", 
+            "turn-index": 20, 
+            "utterance": "点はおかしいらしいですよ"
+        }
+    ]
+}

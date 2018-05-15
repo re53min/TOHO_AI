@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409292945", 
+    "group-id": "subset_h", 
+    "speaker-id": "14_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:08:34", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！熱中症に気をつけて。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:09:08", 
+            "turn-index": 1, 
+            "utterance": "今日は涼しいので大丈夫ではないですか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "「気をつけか？？」の意味が分からない", 
+                    "ungrammatical-sentence": "X"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:09:08", 
+            "turn-index": 2, 
+            "utterance": "熱中症に気をつけか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:09:36", 
+            "turn-index": 3, 
+            "utterance": "特に暑い日は注意が必要ですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:09:36", 
+            "turn-index": 4, 
+            "utterance": "予防が重要ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:10:23", 
+            "turn-index": 5, 
+            "utterance": "水分補給が大事らしいです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:10:23", 
+            "turn-index": 6, 
+            "utterance": "予防が肝心ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:10:53", 
+            "turn-index": 7, 
+            "utterance": "何か有効な予防策をご存知ですか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "ユーザの質問に答えない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:10:53", 
+            "turn-index": 8, 
+            "utterance": "予防が肝心です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:11:59", 
+            "turn-index": 9, 
+            "utterance": "暑い日は外出を控えたほうがいいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "熱中症の話なのにマスク？", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:11:59", 
+            "turn-index": 10, 
+            "utterance": "マスクが必要です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:13:00", 
+            "turn-index": 11, 
+            "utterance": "暑い日にマスクは必要ですか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:13:00", 
+            "turn-index": 12, 
+            "utterance": "マスクは重要ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:13:41", 
+            "turn-index": 13, 
+            "utterance": "粉じんなんかには有効でしょうね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "意味が分からない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:13:41", 
+            "turn-index": 14, 
+            "utterance": "粉じんは粉塵ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:14:11", 
+            "turn-index": 15, 
+            "utterance": "ええ、そうですよ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:14:11", 
+            "turn-index": 16, 
+            "utterance": "粉じんはすごいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:15:07", 
+            "turn-index": 17, 
+            "utterance": "あまり吸い込まないように注意したいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:15:07", 
+            "turn-index": 18, 
+            "utterance": "粉じんが多いですよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-29 15:15:29", 
+            "turn-index": 19, 
+            "utterance": "最近多いですか。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-29 15:15:29", 
+            "turn-index": 20, 
+            "utterance": "粉じんが大量に発生するらしいです"
+        }
+    ]
+}

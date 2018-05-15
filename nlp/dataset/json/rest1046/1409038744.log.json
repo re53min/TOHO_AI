@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1409038744", 
+    "group-id": "subset_j", 
+    "speaker-id": "07_05", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:30:27", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:30:41", 
+            "turn-index": 1, 
+            "utterance": "スイカおいしいよねー"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:30:41", 
+            "turn-index": 2, 
+            "utterance": "スイカはうまいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:31:45", 
+            "turn-index": 3, 
+            "utterance": "夏休みはいつまでですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:31:45", 
+            "turn-index": 4, 
+            "utterance": "いつまでになってたいです？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:32:13", 
+            "turn-index": 5, 
+            "utterance": "そらもう永遠よ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:32:13", 
+            "turn-index": 6, 
+            "utterance": "いつまでを知ってたいですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:33:12", 
+            "turn-index": 7, 
+            "utterance": "いつまでを知るってどういうこと？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:33:12", 
+            "turn-index": 8, 
+            "utterance": "いつまでできそってますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:35:18", 
+            "turn-index": 9, 
+            "utterance": "何の話をしているの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:35:18", 
+            "turn-index": 10, 
+            "utterance": "日本時間のいつからいつまでが時間か？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:37:01", 
+            "turn-index": 11, 
+            "utterance": "スイカの話に戻ろう！"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:37:01", 
+            "turn-index": 12, 
+            "utterance": "スイカは実がなってるのですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:37:19", 
+            "turn-index": 13, 
+            "utterance": "そうだね．立派な実がなってるね．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:37:19", 
+            "turn-index": 14, 
+            "utterance": "スイカは好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:37:32", 
+            "turn-index": 15, 
+            "utterance": "僕もスイカは好きです．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:37:32", 
+            "turn-index": 16, 
+            "utterance": "スイカは食べるのがおいしいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:38:05", 
+            "turn-index": 17, 
+            "utterance": "食べる以外においしいのがあるんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:38:05", 
+            "turn-index": 18, 
+            "utterance": "実が大きとか"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:38:56", 
+            "turn-index": 19, 
+            "utterance": "実が大きとは，趣深いですねぇ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:38:56", 
+            "turn-index": 20, 
+            "utterance": "スイカは好きだそうです"
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+    "dialogue-id": "1408446870", 
+    "group-id": "subset_j", 
+    "speaker-id": "14_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:11:47", 
+            "turn-index": 0, 
+            "utterance": "こんばんは！声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:11:58", 
+            "turn-index": 1, 
+            "utterance": "待っててくれてありがとね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:11:58", 
+            "turn-index": 2, 
+            "utterance": "旅行に行くなら国内と海外どちらがいいですか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:12:11", 
+            "turn-index": 3, 
+            "utterance": "海外かな。あなたは？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:12:11", 
+            "turn-index": 4, 
+            "utterance": "旅行で太るのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:12:34", 
+            "turn-index": 5, 
+            "utterance": "グルメ旅行なんですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:12:34", 
+            "turn-index": 6, 
+            "utterance": "旅行で休んでるようです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:13:10", 
+            "turn-index": 7, 
+            "utterance": "良いバカンスが過ごせたらいいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:13:10", 
+            "turn-index": 8, 
+            "utterance": "旅行は欲しいらしい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:13:22", 
+            "turn-index": 9, 
+            "utterance": "何が欲しいの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:13:22", 
+            "turn-index": 10, 
+            "utterance": "旅行は少ないらしいです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:13:31", 
+            "turn-index": 11, 
+            "utterance": "意味がわからないよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:13:31", 
+            "turn-index": 12, 
+            "utterance": "ごめんなさい…もっと頑張ります"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:13:52", 
+            "turn-index": 13, 
+            "utterance": "いいんですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:13:52", 
+            "turn-index": 14, 
+            "utterance": "わぁい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:14:00", 
+            "turn-index": 15, 
+            "utterance": "優しいね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:14:00", 
+            "turn-index": 16, 
+            "utterance": "照れてしまいます。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:14:08", 
+            "turn-index": 17, 
+            "utterance": "結婚してください"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:14:08", 
+            "turn-index": 18, 
+            "utterance": "嬉しい、大好きです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-19 20:14:28", 
+            "turn-index": 19, 
+            "utterance": "ありがとう。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "06_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "14_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-19 20:14:28", 
+            "turn-index": 20, 
+            "utterance": "よかったね"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1408142109", 
+    "group-id": "subset_f", 
+    "speaker-id": "01_02", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:31:53", 
+            "turn-index": 0, 
+            "utterance": "おはよー。海へ行きたいね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:32:15", 
+            "turn-index": 1, 
+            "utterance": "私は最近海に行きました"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:32:15", 
+            "turn-index": 2, 
+            "utterance": "朝から海に行きますか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:32:31", 
+            "turn-index": 3, 
+            "utterance": "そうです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "ここでありがとうはおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:32:31", 
+            "turn-index": 4, 
+            "utterance": "ありがとうございます"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:32:55", 
+            "turn-index": 5, 
+            "utterance": "あなたは今年海へ行きましたか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:32:55", 
+            "turn-index": 6, 
+            "utterance": "海に行ったことないですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:33:13", 
+            "turn-index": 7, 
+            "utterance": "海は楽しいですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "X", 
+                    "comment": "06の発話と矛盾している", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:33:13", 
+            "turn-index": 8, 
+            "utterance": "海は一人で行ったなぁ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:33:27", 
+            "turn-index": 9, 
+            "utterance": "何をしたのですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:33:27", 
+            "turn-index": 10, 
+            "utterance": "何もしていません"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:33:45", 
+            "turn-index": 11, 
+            "utterance": "海で泳ぎましたか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:33:45", 
+            "turn-index": 12, 
+            "utterance": "海まで散歩に行ったなぁ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:34:10", 
+            "turn-index": 13, 
+            "utterance": "楽しかったですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "13の質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:34:10", 
+            "turn-index": 14, 
+            "utterance": "海まで散歩に行きますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:34:25", 
+            "turn-index": 15, 
+            "utterance": "行ったことないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "01で海に行ったと言っている。お誘いかもなので△", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:34:25", 
+            "turn-index": 16, 
+            "utterance": "海に行きませんか？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:34:43", 
+            "turn-index": 17, 
+            "utterance": "いいですね。いつ行きますか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "T", 
+                    "comment": "「いつ」の答えになっていない。お誘いらしいので場所相談はありとして△", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:34:43", 
+            "turn-index": 18, 
+            "utterance": "沖縄で行きます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-16 07:35:01", 
+            "turn-index": 19, 
+            "utterance": "沖縄には行ったことないです"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "09_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "10_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-16 07:35:01", 
+            "turn-index": 20, 
+            "utterance": "沖縄はいいですね"
+        }
+    ]
+}

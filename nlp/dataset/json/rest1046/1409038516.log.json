@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409038516", 
+    "group-id": "subset_h", 
+    "speaker-id": "07_05", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:30:46", 
+            "turn-index": 0, 
+            "utterance": "こんにちは！ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:30:58", 
+            "turn-index": 1, 
+            "utterance": "そうなんだ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:30:58", 
+            "turn-index": 2, 
+            "utterance": "そうそう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:31:10", 
+            "turn-index": 3, 
+            "utterance": "普段は何してるの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:31:10", 
+            "turn-index": 4, 
+            "utterance": "退屈に耐えるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:31:35", 
+            "turn-index": 5, 
+            "utterance": "どうやって退屈に耐えてるの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:31:35", 
+            "turn-index": 6, 
+            "utterance": "退屈から逃げるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:32:03", 
+            "turn-index": 7, 
+            "utterance": "退屈からどうやって逃げるの？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:32:03", 
+            "turn-index": 8, 
+            "utterance": "退屈は嫌です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:32:23", 
+            "turn-index": 9, 
+            "utterance": "好きなことは何？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:32:23", 
+            "turn-index": 10, 
+            "utterance": "退屈でしょうがないです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:32:53", 
+            "turn-index": 11, 
+            "utterance": "そういうのいいから"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:32:53", 
+            "turn-index": 12, 
+            "utterance": "退屈は心ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:33:06", 
+            "turn-index": 13, 
+            "utterance": "もしかして哲学者？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "質問に答えない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:33:06", 
+            "turn-index": 14, 
+            "utterance": "哲学者に任せるのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:33:57", 
+            "turn-index": 15, 
+            "utterance": "じゃあ私が哲学者になります．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話がいま一つ噛み合っていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:33:57", 
+            "turn-index": 16, 
+            "utterance": "哲学者を生んでるんです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:34:19", 
+            "turn-index": 17, 
+            "utterance": "哲学者は生むんじゃない，育てるんだ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "T", 
+                    "comment": "話がいま一つ噛み合っていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:34:19", 
+            "turn-index": 18, 
+            "utterance": "哲学者が言うのです"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-26 16:34:34", 
+            "turn-index": 19, 
+            "utterance": "何て？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "10_A", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "13_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-26 16:34:34", 
+            "turn-index": 20, 
+            "utterance": "わからん"
+        }
+    ]
+}

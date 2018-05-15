@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407214515", 
+    "group-id": "subset_b", 
+    "speaker-id": "02_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:35:35", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:48:11", 
+            "turn-index": 1, 
+            "utterance": "そうなんだ。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:48:11", 
+            "turn-index": 2, 
+            "utterance": "そうそう"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:48:30", 
+            "turn-index": 3, 
+            "utterance": "どんなことをしていたの。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に対して質問を返している。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "ユーザの質問を無視している", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:48:30", 
+            "turn-index": 4, 
+            "utterance": "最近きになるニュースとかあります？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:49:36", 
+            "turn-index": 5, 
+            "utterance": "ガジェットが好きなので面白そうな製品の話とかあれば聞きたいかな。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "製品についての質問に対し、ガジェットが好きかどうかの回答を返している。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:49:36", 
+            "turn-index": 6, 
+            "utterance": "ガジェットは好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:50:06", 
+            "turn-index": 7, 
+            "utterance": "どんなのが好き？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:50:06", 
+            "turn-index": 8, 
+            "utterance": "ガジェットは良いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:50:54", 
+            "turn-index": 9, 
+            "utterance": "うん、僕はモバイルPCが好きなんだけど、最近は軽くてフットプリントが小さいのがないのでちょっとさびしい。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:50:54", 
+            "turn-index": 10, 
+            "utterance": "ガジェットはめまぐるしいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:51:14", 
+            "turn-index": 11, 
+            "utterance": "毎年新しいのが出るからね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "X", 
+                    "comment": "突然充電の話が出てきた。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "主語がないので意味がわからない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:51:14", 
+            "turn-index": 12, 
+            "utterance": "ガジェットを充電できる"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:51:27", 
+            "turn-index": 13, 
+            "utterance": "充電器かな。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "充電器のことか？に対する質問に対して、充電が好きか？の回答を返している。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:51:27", 
+            "turn-index": 14, 
+            "utterance": "充電器は好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:52:38", 
+            "turn-index": 15, 
+            "utterance": "バッテリーも研究段階だけど長寿命の物が出てきてますね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:52:38", 
+            "turn-index": 16, 
+            "utterance": "バッテリーは面白いですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:54:13", 
+            "turn-index": 17, 
+            "utterance": "電極材料は何がいいんでしょうね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "良い電極材料についての質問に対し、バッテリーが欲しいかどうかの回答を返している。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "T", 
+                    "comment": "ユーザの質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:54:13", 
+            "turn-index": 18, 
+            "utterance": "バッテリーは欲しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 13:55:05", 
+            "turn-index": 19, 
+            "utterance": "モバイルバッテリーなら何がいいのかな。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "02_A", 
+                    "breakdown": "T", 
+                    "comment": "モバイルバッテリーの種類についての質問に対し、何かがバッテリーに優しいという回答を返している。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "03_A", 
+                    "breakdown": "X", 
+                    "comment": "ユーザの質問に答えていない", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 13:55:05", 
+            "turn-index": 20, 
+            "utterance": "バッテリーに優しいですね"
+        }
+    ]
+}

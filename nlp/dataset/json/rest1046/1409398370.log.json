@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1409398370", 
+    "group-id": "subset_a", 
+    "speaker-id": "08_03", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:10:59", 
+            "turn-index": 0, 
+            "utterance": "こんばんは。夏といえばスイカだね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:15:52", 
+            "turn-index": 1, 
+            "utterance": "そうですね。塩をふりかけて思いっきり齧り付きたいですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:15:52", 
+            "turn-index": 2, 
+            "utterance": "塩でたべます？？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:17:27", 
+            "turn-index": 3, 
+            "utterance": "塩をかけるが多いですね。後は何もつけずにそのまま食べることも多いです。残念ながら今年はスイカは食べられませんでしたが。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:17:27", 
+            "turn-index": 4, 
+            "utterance": "スイカは大好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:18:14", 
+            "turn-index": 5, 
+            "utterance": "私もです。後は梨などが好きで、夏場によく食べますよ。梨は好きですか？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:18:14", 
+            "turn-index": 6, 
+            "utterance": "梨は大好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:24:11", 
+            "turn-index": 7, 
+            "utterance": "暑いと食べたくなりますよね。最近、急に涼しくなってきたのでそろそろ旬も終わりかもしれません。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:24:11", 
+            "turn-index": 8, 
+            "utterance": "梨は幸水が好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:25:32", 
+            "turn-index": 9, 
+            "utterance": "梨に詳しいんですね。私は種類とかよく知らないです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:25:32", 
+            "turn-index": 10, 
+            "utterance": "梨は食べるのが好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:27:33", 
+            "turn-index": 11, 
+            "utterance": "食べ物ですからね。他の楽しみ方をするなら素直に他のもので楽しんだ方が良さそうです。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:27:33", 
+            "turn-index": 12, 
+            "utterance": "梨は美味しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:29:05", 
+            "turn-index": 13, 
+            "utterance": "瑞々しいので汗をかく夏場に最適です。水分は大切ですからね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:29:05", 
+            "turn-index": 14, 
+            "utterance": "水分はたっぷりですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:30:32", 
+            "turn-index": 15, 
+            "utterance": "まさに夏向けの果物ですね。他にはあえて辛いものなどを食べて暑さを忘れたりなども良いですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:30:32", 
+            "turn-index": 16, 
+            "utterance": "水分は多めがいいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:31:52", 
+            "turn-index": 17, 
+            "utterance": "担担麺みたいな辛いラーメンで水分も摂取しつつ辛さで暑さを忘れたりなんか最高かもしれないですね。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:31:52", 
+            "turn-index": 18, 
+            "utterance": "わかります。面倒ですよね。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-30 20:32:45", 
+            "turn-index": 19, 
+            "utterance": "まとめて摂取できたら楽ですもんね。作業が簡略化できるならそれに越したことはないと思います。"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "01_A", 
+                    "breakdown": "T", 
+                    "comment": "発話の意図がわからない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "02_B", 
+                    "breakdown": "X", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-30 20:32:45", 
+            "turn-index": 20, 
+            "utterance": "水分が足りますよねえ"
+        }
+    ]
+}

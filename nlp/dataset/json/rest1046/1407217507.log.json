@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407217507", 
+    "group-id": "subset_c", 
+    "speaker-id": "01_01", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:43:07", 
+            "turn-index": 0, 
+            "utterance": "こんにちはー。ちょうど退屈してたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:43:18", 
+            "turn-index": 1, 
+            "utterance": "いやー．一仕事終えたよ．"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "直前のUの発話に一切触れず、自分のさっきの発話「退屈」をテーマに話し始めたのに違和感を覚えた（Uの観点から言うと「無視された、失礼だ」と感じた）", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:43:18", 
+            "turn-index": 2, 
+            "utterance": "退屈を嫌いますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:43:32", 
+            "turn-index": 3, 
+            "utterance": "そうでもないけど．仕事は片づけて行かないとね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "00～03のどこからもつながらない話に聞こえる。多分、終えるのは仕事なのだろうけど、Uが「仕事は片づけて行かないと（＝まだ片付いていない）」と言っているのに対し、「無事に終えますよねー」と同意を求められる（「よね」があるので）と困る。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:43:32", 
+            "turn-index": 4, 
+            "utterance": "無事に終えますよねー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:43:36", 
+            "turn-index": 5, 
+            "utterance": "そうね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:43:36", 
+            "turn-index": 6, 
+            "utterance": "はい"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:43:53", 
+            "turn-index": 7, 
+            "utterance": "少し休んでから，次の仕事にとりかかります"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "「仕事は丁寧」というのは普遍的な事実でもないし、私（U）のことを知らないはずなのに「～丁寧ですね」と決め付けられた感じがした", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:43:53", 
+            "turn-index": 8, 
+            "utterance": "仕事は丁寧ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:44:01", 
+            "turn-index": 9, 
+            "utterance": "そうありたいけど"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「仕事は真面目」はかなり文脈に依存しないと意味が通らない。この場合の「仕事は」が対比の意味ならOK（「Aさんは飲み会ではふざけたことばかり言っているようだけど、仕事（のとき）は真面目」のように）だが、ここはそうではないので、どう解釈したらよいのかわからなくなる。", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:44:01", 
+            "turn-index": 10, 
+            "utterance": "仕事は真面目ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:44:13", 
+            "turn-index": 11, 
+            "utterance": "性格は真面目かな．あなたは？"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:44:13", 
+            "turn-index": 12, 
+            "utterance": "性格は不真面目です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:44:24", 
+            "turn-index": 13, 
+            "utterance": "面白い人ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:44:24", 
+            "turn-index": 14, 
+            "utterance": "性格は根暗です"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:44:34", 
+            "turn-index": 15, 
+            "utterance": "暗いのはよくないと思うよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "直前の「根暗」と「社交的」が矛盾しているので、どう返していいものかわからなくなる。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "１発話前に矛盾", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:44:34", 
+            "turn-index": 16, 
+            "utterance": "性格は社交的なんですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:44:49", 
+            "turn-index": 17, 
+            "utterance": "複雑な性格ですね．そんなものかもしれません"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "12では「性格は不真面目」だったはず、それと矛盾することを言われて返事に困る", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "複数の対話履歴に矛盾", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:44:49", 
+            "turn-index": 18, 
+            "utterance": "性格は真面目なんですよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-05 14:45:05", 
+            "turn-index": 19, 
+            "utterance": "まあ機嫌よくやってくださいよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「機嫌がなおる予定」が、あまりにもこなれない表現でおかしい", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "X", 
+                    "comment": "内容語のみ合っている", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-05 14:45:05", 
+            "turn-index": 20, 
+            "utterance": "機嫌がなおる予定です"
+        }
+    ]
+}

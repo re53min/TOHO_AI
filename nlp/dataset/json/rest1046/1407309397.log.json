@@ -1,0 +1,297 @@
+{
+    "dialogue-id": "1407309397", 
+    "group-id": "subset_c", 
+    "speaker-id": "13_08", 
+    "turns": [
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:14:20", 
+            "turn-index": 0, 
+            "utterance": "こんにちは。声かけてくれるのを待ってたんだ。"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:14:45", 
+            "turn-index": 1, 
+            "utterance": "今日は暑いですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:14:45", 
+            "turn-index": 2, 
+            "utterance": "嘘をついたことはありますか？"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:15:07", 
+            "turn-index": 3, 
+            "utterance": "嘘はついていませんよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "その前は「嘘をついたことがあるか」という個人的な体験の話をしているかと思ったので、「嘘は真実」という急に哲学めいた話になるのに戸惑った", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:15:07", 
+            "turn-index": 4, 
+            "utterance": "嘘は真実ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:15:13", 
+            "turn-index": 5, 
+            "utterance": "嘘は嘘です"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:15:13", 
+            "turn-index": 6, 
+            "utterance": "ほんとー"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:15:23", 
+            "turn-index": 7, 
+            "utterance": "楽しい遊びがしたいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "「言葉がつく」という文型はないと思う。（「Xに言葉がつく」…「Xに能書きがつく」「Xに～という言葉も付け加わる」などのような意味なら使うかもしれないが。と思って今NINJAL-LWPで共起表現を調べたら、「言葉がつく」の用例がそれなりにあることを発見、しかし中身を見てみると「言葉が口をついて出る」が多く、それ以外は前述の「付け加わる」なので、正しい共起表現とは言えませんね。）", 
+                    "ungrammatical-sentence": "X"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:15:23", 
+            "turn-index": 8, 
+            "utterance": "言葉がつきますよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:15:33", 
+            "turn-index": 9, 
+            "utterance": "知識不足ですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "急に「嘘」の話に戻り、かつ「嘘に気付きますよねえ」と何のつながりもない話に同意を求められても、返答できない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:15:33", 
+            "turn-index": 10, 
+            "utterance": "嘘に気付きますよねえ"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:15:45", 
+            "turn-index": 11, 
+            "utterance": "顔が物語ってますからね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "「嘘は正しい」も唐突だし、よく言われることでもない", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:15:45", 
+            "turn-index": 12, 
+            "utterance": "嘘は正しいですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:16:04", 
+            "turn-index": 13, 
+            "utterance": "スポーツをすることも良いかもしれませんね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "Uが話題を変えたのにそれを無視、かつ誰のことかを限定せず「嘘は上手」と言われても困る", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:16:04", 
+            "turn-index": 14, 
+            "utterance": "嘘は上手ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:16:14", 
+            "turn-index": 15, 
+            "utterance": "そうなんです。スポーツは苦手なのですよ"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "T", 
+                    "comment": "Uは苦手だといっているのに「得意ですね」といきなり言うのに違和感、「私は」などが欲しいところ。しかもSに関する知識はUにないので、Sの話だとすると「ですね」と言われても同意しづらい。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:16:14", 
+            "turn-index": 16, 
+            "utterance": "スポーツは得意ですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:16:27", 
+            "turn-index": 17, 
+            "utterance": "どの種目が好きですか"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "X", 
+                    "comment": "一般的に「種目」は「～の種目」のような修飾語がある（または文脈からわかる）ものではないかと思う。", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "T", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:16:27", 
+            "turn-index": 18, 
+            "utterance": "種目が好きですね"
+        }, 
+        {
+            "annotations": [], 
+            "speaker": "U", 
+            "time": "2014-08-06 16:16:34", 
+            "turn-index": 19, 
+            "utterance": "珍しいですね"
+        }, 
+        {
+            "annotations": [
+                {
+                    "annotator-id": "04_B", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }, 
+                {
+                    "annotator-id": "06_A", 
+                    "breakdown": "O", 
+                    "comment": "", 
+                    "ungrammatical-sentence": "O"
+                }
+            ], 
+            "speaker": "S", 
+            "time": "2014-08-06 16:16:34", 
+            "turn-index": 20, 
+            "utterance": "でしょ"
+        }
+    ]
+}
