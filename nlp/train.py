@@ -21,9 +21,9 @@ tmp_vocab = {}
 train_x = []
 train_y = []
 
-with open('./json/speaker.pickle', 'rb') as f:
+with open('./dataset/json/speaker.pickle', 'rb') as f:
     x = pickle.load(f)
-with open('./json/response.pickle', 'rb') as f:
+with open('./dataset/json/response.pickle', 'rb') as f:
     y = pickle.load(f)
 
 # train_set, vocab = make_vocab(x+y)
