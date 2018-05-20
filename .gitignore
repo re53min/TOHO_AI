@@ -148,14 +148,12 @@ ENV/
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
-/nlp/attention_seq2seq.model
 .idea/
 TOHO_AI.iml
 nlp/__init__.py
-nlp/attention_seq2seq.model
 nlp/dataset/__init__.py
 nlp/dataset/bobsled.txt
 nlp/dataset/corpus.txt
 nlp/dataset/getTweets.py
 nlp/dataset/ss/
-vision/
+/nlp/seq2seq/attention_seq2seq.model

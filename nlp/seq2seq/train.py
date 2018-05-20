@@ -6,7 +6,7 @@ import numpy as np
 import time
 import pickle
 
-from nlp.seq2seq import Seq2Seq
+from nlp.seq2seq.seq2seq import Seq2Seq
 from nlp.utils import make_vocab, mecab_wakati
 from util.visualizer import plot_loss
 

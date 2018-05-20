@@ -50,8 +50,8 @@ def get_ss(file):
     :return:
     """
 
-    ss_body = []
-    for ss in get_ss_info(json.load(file)):
+    ss_body = {}
+    for ss_n, ss in enumerate(get_ss_info(json.load(file))):
         try:
             with request.urlopen(ss['link']) as res:  # URLオープン
                 soup = BeautifulSoup(res.read(), 'lxml')
@@ -59,12 +59,15 @@ def get_ss(file):
                     br.replace_with("\n")
                 ss_text = soup.find('div', {'id': 'contentBody'}).text  # ss本文の取得
                 ss_text = re.findall(r"「.*」", ss_text)
-                ss_text = [clean_text(tmp) for tmp in ss_text]
-                print(ss_text)
-                # ss_body += ss_text
+
+                for n, tmp in enumerate(ss_text):
+                    ss_body[n] = clean_text(tmp)
+                print(ss_body)
+
                 # ssの本文データを保存
-                # with codecs.open('ss\\'+ss['title']+'.txt', 'w', 'utf-8') as raw_data:
-                # raw_data.write(ss_text)
+                with codecs.open('ss\\{id}_{title}.json'.format(id=ss_n, title=ss['title']), 'w', 'utf-8') as ss_json:
+                    json.dump(ss_body, ss_json, ensure_ascii=False, indent=4)
+
         except AttributeError:
             continue
         except OSError:
