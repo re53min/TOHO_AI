@@ -9,51 +9,37 @@ http://www.anlp.jp/proceedings/annual_meeting/2015/html/paper/WS_PNN23_dial.pdf
 """
 
 
-p = Path("./json/rest1046/")
-speaker = []
-response = []
+p = Path("./ss/")
+merry = []
+renko = []
 prev = None
 
-for f in list(p.glob("*.json")):
-    with open(f, 'r', encoding='utf-8') as data_file:
-        json_data = json.load(data_file)
+for name in list(p.glob("*.json")):
+    with open(name, 'r', encoding='utf-8') as f:
+        try:
+            json_data = json.load(f)
+            [merry.append(tmp) for tmp in list(json_data.values())[0::2]]
+            [renko.append(tmp) for tmp in list(json_data.values())[1::2]]
+        except Exception as e:
+            print(e)
+            pass
 
-        for turn in json_data["turns"]:
-            # 無言処理
-            if turn["utterance"] == "":
-                turn["utterance"] = "無言"
+print(len(merry))
+print(len(renko))
 
-            if prev == turn["speaker"]:
-                continue
-            elif turn["speaker"] == "S":
-                speaker.append(turn["utterance"])
-                s = turn["speaker"] + ":" + turn["utterance"]
-                print(s)
-            elif turn["speaker"] == "U":
-                response.append(turn["utterance"])
-                s = turn["speaker"] + ":" + turn["utterance"]
-                print(s)
-            prev = turn["speaker"]
-            # s = turn["speaker"] + ":" + turn["utterance"]
-            # print(s)
+with open('./ss/merry.pickle', 'wb') as f:
+    pickle.dump(merry, f)
 
-print(len(speaker))
-print(len(response))
-
-with open('./json/speaker.pickle', 'wb') as f:
-    pickle.dump(speaker, f)
-
-with open('./json/response.pickle', 'wb') as f:
-    pickle.dump(response, f)
+with open('./ss/renko.pickle', 'wb') as f:
+    pickle.dump(renko, f)
 
 
-with open('./json/speaker.pickle', 'rb') as f:
+with open('./ss/merry.pickle', 'rb') as f:
     x = pickle.load(f)
 
-with open('./json/response.pickle', 'rb') as f:
+with open('./ss/renko.pickle', 'rb') as f:
     y = pickle.load(f)
 
-
-for i, tmp in enumerate(x):
-    if tmp == "":
-        print("{}: {}".format(i, tmp))
+for tmp_x, tmp_y in zip(x, y):
+    print("メリー: {}".format(tmp_x))
+    print("蓮子: {}".format(tmp_y))

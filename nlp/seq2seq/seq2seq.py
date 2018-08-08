@@ -4,8 +4,7 @@
 import chainer
 import chainer.links as L
 import chainer.functions as F
-from chainer import Chain, Variable
-import numpy as np
+from chainer import Chain
 
 """
 https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
@@ -56,7 +55,7 @@ class Seq2Seq(Chain):
         """
 
         batch_size = len(x)
-        eos = np.array([EOS], dtype='int32')
+        eos = self.xp.array([EOS], dtype='int32')
 
         # EOS信号の埋め込み
         y_in = [F.concat((eos, tmp), axis=0) for tmp in y]
@@ -72,25 +71,48 @@ class Seq2Seq(Chain):
 
         # Output Layerの計算
         loss = 0
+        accuracy = 0
         for dec_h, t, attention in zip(dec_hs, y_out, a):
-            # o = self.y(output)
+            # o = self.y(dec_h)
             o = self.global_attention_layer(dec_h, attention)  # Attention Layerの計算
             loss += F.softmax_cross_entropy(o, t)  # 誤差計算
+            accuracy += F.accuracy(o, t)  # 精度計算
         loss /= batch_size
+        accuracy /= batch_size
 
-        return loss
+        return loss, accuracy
+
+    def generate_one_step(self, one_hot, h, c, a):
+
+        """
+        1ステップごとにDecoderを出力を得るメソッド
+        :param one_hot: word index
+        :param h: hidden state
+        :param c: cell state
+        :param a: attention
+        :return: word probabilities, hidden state, cell state
+        """
+
+        y = self.xp.array(one_hot, dtype='int32')
+        emb_y = [self.y_embed(y)]  # 初めはEOS信号を次からはDecoderの出力をEmbedding
+        h, c, dec_h = self.decoder(h, c, emb_y)  # h => hidden, c => cell, a => output
+        # o = self.y(dec_h[0])
+        o = self.global_attention_layer(dec_h[0], a[0])  # Attention Layerの計算
+        prob = F.softmax(o)
+
+        return prob[0], h, c
 
     def predict(self, x, max_length=50):
         """
         テスト用の予測メソッド
         :param x: 入力文
         :param max_length: 出力文の制御
-        :return: 出力分のindex
+        :return: 出力文のindex
         """
         with chainer.no_backprop_mode(), chainer.using_config('train', False):
 
             result = []
-            y = np.array([EOS], dtype='int32')
+            y = [EOS]
 
             # Embedding Layer
             x = x[::-1]  # 入力を反転したほうが精度が上がる
@@ -101,19 +123,69 @@ class Seq2Seq(Chain):
 
             # Decoder, Output Layerの計算
             for i in range(max_length):
-                emb_y = [self.y_embed(y)]  # 初めはEOS信号を次からはDecoderの出力をEmbedding
-                h, c, output = self.decoder(h, c, emb_y)  # h => hidden, c => cell, a => output
-                o = self.global_attention_layer(output[0], a[0])  # Attention Layerの計算
-
-                # Softmax関数による各単語の生成確率を求める
-                prob = F.softmax(o)
-                y = np.argmax(prob.data)  # argmaxによってindexを得る
+                prob, h, c = self.generate_one_step(y, h, c, a)  # decoderの計算
+                y = self.xp.argmax(prob.data)
 
                 # 出力がEOS信号かcheck。もしそうならbreak
                 if y == EOS:
                     break
                 result.append(y)
                 # 次の入力へのVariable化
-                y = Variable(np.array([y], dtype=np.int32))
+                y = self.xp.array([y], dtype=self.xp.int32)
+
+            return result
+
+    def beam_search_predict(self, x, max_length=10, beam_width=3):
+        """
+        ビームサーチを用いたpredict
+        :param x: 入力文
+        :param max_length: 出力文の制御
+        :param beam_width: ビーム幅
+        :return: 出力文のindex
+        """
+        # import heapq
+
+        with chainer.no_backprop_mode(), chainer.using_config('train', False):
+
+            result = []
+            y = [EOS]
+
+            # Embedding Layer
+            x = x[::-1]  # 入力を反転したほうが精度が上がる
+            emb_x = [self.x_embed(x)]
+
+            # Encoder
+            h, c, a = self.encoder(None, None, emb_x)
+
+            # beam search
+            heaps = [[] for _ in range(max_length + 1)]
+            heaps[0].append((0, y, h, c))  # socre, word, hidden state, cell state
+            result_score = 1e8
+
+            # Decoder, Output Layerの計算
+            for i in range(max_length):
+                heaps[i] = sorted(heaps[i], key=lambda t: t[0])[:beam_width]
+
+                for score, y, h, c in heaps[i]:
+                    prob, h, c = self.generate_one_step(y, h, c, a)  # decoderの計算
+
+                    for next_index in self.xp.argsort(prob.data)[::-1]:
+
+                        if prob.data[next_index] < 1e-6:
+                            break
+                        next_score = score - self.xp.log(prob.data[next_index])
+
+                        if next_score > result_score:
+                            break
+                        next_word = y + [next_index]
+                        next_item = (next_score, next_word, h, c)
+
+                        if next_index == EOS:
+                            if next_score < result_score:
+                                result = y[1:]  # EOS信号の削除
+                                print("result: {}".format(result))
+                                result_score = next_score
+                        else:
+                            heaps[i+1].append(next_item)
 
             return result

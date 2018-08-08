@@ -3,7 +3,7 @@ import chainer.links as L
 import chainer.functions as F
 import math
 import numpy as np
-from chainer.initializers import GlorotUniform
+from chainer.initializers.uniform import GlorotUniform
 from sklearn.metrics.pairwise import cosine_similarity
 
 UNK = 0

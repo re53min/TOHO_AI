@@ -6,13 +6,21 @@ import json
 import sys
 import re
 
-from urllib import request
+import urllib
 
 import requests
 from bs4 import BeautifulSoup
 
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+proxies = {
+    'http': 'http://172.18.11.180:8080',
+    'https': 'http://172.18.11.180:8080',
+}
+proxy = urllib.request.ProxyHandler({'http': 'http://172.18.11.180:8080'})
+opener = urllib.request.build_opener(proxy)
+urllib.request.install_opener(opener)
 
 
 def get_ss_info(dic):
@@ -26,7 +34,8 @@ def get_ss_info(dic):
 
     # ss探すよAPIを叩く
     url = dic['url']+"tag={}&num={}&ord={}"
-    info = requests.get(url.format(dic["tag"], dic["num"], dic["ord"])).json()
+    info = requests.get(url.format(dic["tag"], dic["num"], dic["ord"],), proxies=proxies).json()
+    print(len(info))
 
     # jsonデータの出力
     with codecs.open('ss_info.json', 'w', 'utf-8') as ss_info:
@@ -50,23 +59,23 @@ def get_ss(file):
     :return:
     """
 
-    ss_body = {}
     for ss_n, ss in enumerate(get_ss_info(json.load(file))):
+        print(ss)
+        ss_body = dict()
         try:
-            with request.urlopen(ss['link']) as res:  # URLオープン
+            with urllib.request.urlopen(ss['link']) as res:  # URLオープン
                 soup = BeautifulSoup(res.read(), 'lxml')
                 for br in soup.find_all("br"):
                     br.replace_with("\n")
                 ss_text = soup.find('div', {'id': 'contentBody'}).text  # ss本文の取得
-                ss_text = re.findall(r"「.*」", ss_text)
+                # ss_text = re.findall(r"「.*」", ss_text)
 
                 for n, tmp in enumerate(ss_text):
                     ss_body[n] = clean_text(tmp)
-                print(ss_body)
 
                 # ssの本文データを保存
-                with codecs.open('ss\\{id}_{title}.json'.format(id=ss_n, title=ss['title']), 'w', 'utf-8') as ss_json:
-                    json.dump(ss_body, ss_json, ensure_ascii=False, indent=4)
+                with codecs.open('ss.txt', 'a', encoding='utf-8') as ss_json:
+                    ss_json.write(ss_text)  # , ensure_ascii=False, indent=4)
 
         except AttributeError:
             continue

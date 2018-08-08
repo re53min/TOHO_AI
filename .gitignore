@@ -151,9 +151,11 @@ ENV/
 .idea/
 TOHO_AI.iml
 nlp/__init__.py
-nlp/dataset/__init__.py
-nlp/dataset/bobsled.txt
-nlp/dataset/corpus.txt
-nlp/dataset/getTweets.py
-nlp/dataset/ss/
-/nlp/seq2seq/attention_seq2seq.model
+nlp/dataset/*
+*.model
+*.npz
+*.dict
+*.pdf
+*.png
+*.pickle
+*.json
